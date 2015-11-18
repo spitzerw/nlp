@@ -23,7 +23,7 @@ class EPParser():
         else:
             os.makedirs('resources')
             print 'Saved resource file for ' + filename + ' not found.\nCreating new files'
-            f = open(filename, 'r')
+            f = open('samples/' + filename, 'r')
             sentences = []
             allEPtags = []
             for line in f:
@@ -52,8 +52,8 @@ class EPParser():
         
     def shuffle(self):
         random.shuffle(self.sentences)
-        self.trainSentences = self.sentences[:int(math.floor(len(self.sentences) * .8))]
-        self.testSentences = self.sentences[int(math.floor(len(self.sentences) * .8)):]
+        self.trainSentences = self.sentences[:int(math.floor(len(self.sentences) * .85))]
+        self.testSentences = self.sentences[int(math.floor(len(self.sentences) * .85)):]
         
     #https://github.com/sloria/textblob-aptagger/blob/master/textblob_aptagger/taggers.py
     def _get_features(self, i, word, context, EPtag, EPtag2, postag0, postag1, postag2):
@@ -68,26 +68,27 @@ class EPParser():
         features = defaultdict(int)
         # It's useful to have a constant feature, which acts sort of like a prior
         add('bias')
-        add('i suffix', word[-3:])
-        add('i pref1', word[0])
+        #add('i suffix', word[-3:])
+        #add('i pref1', word[0])
         add('i-1 EPtag', EPtag)
         add('i-2 EPtag', EPtag2)
         add('i-1 EPtag+i-2 EPtag', EPtag, EPtag2)
         add('i word', context[i])
         add('i-1 EPtag+i word', EPtag, context[i])
+        add('i postag', postag0)
         add('i-1 postag', postag1)
         add('i-2 postag', postag2)
-        add('i postag+i-2 postag', postag1, postag2)
+        add('i postag+i-1 postag', postag0, postag1)
+        #add('i postag+i-2 postag', postag1, postag2)
         add('i word', context[i])
-        add('i-1 postag+i word', postag1, context[i])
-        add('i postag', postag0)
+        #add('i-1 postag+i word', postag1, context[i])
         add('i postag+i word', postag0, context[i])
         add('i postag+i-1 EPtag', postag0, EPtag)
         add('i-1 word', context[i-1])
-        add('i-1 suffix', context[i-1][-3:])
+        #add('i-1 suffix', context[i-1][-3:])
         add('i-2 word', context[i-2])
         add('i+1 word', context[i+1])
-        add('i+1 suffix', context[i+1][-3:])
+        #add('i+1 suffix', context[i+1][-3:])
         add('i+2 word', context[i+2])
         return features
 
@@ -164,9 +165,9 @@ class EPParser():
 
     def train(self, n = 10):
         print 'Training'
+        sentences = self.trainSentences
         for it in range(n):
-            self.shuffle()
-            sentences = self.trainSentences
+            random.shuffle(sentences)            
             alltags = []
             for i in sentences:
                 for j in i[2:-2]:
