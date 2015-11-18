@@ -1,0 +1,18 @@
+﻿Li2S_PR particles_PR were_A purchased_A from_N Alfa_E Aesar_E ._N
+Sample_N without_N further_N modification_N is_N denoted_N as_N “pristine”_N ._N
+Ball-milled_PR Li2S_PR particles_PR were_A prepared_A by_N mixing_P pristine_I Li2S_I and_N Al2O3_I (Sigma_N Aldrich)_N with_N a_N weight_P ratio_P of_P 95:5_P and_N ball_A milled_A for_N 6_P h_P (SPEX_E 8000D_E miller)_E ._N
+Lithium_PR nitrate_PR was_A also_N purchased_A from_N Sigma_E Aldrich_E ._N
+Polysulfide_PR solution_PR was_A prepared_A by_N stirring_P pristine_I Li2S_I and_N sulfur_I in_N 1,3-_I dioxolane_I overnight_P at_N 60_P °C_P ._N The_N as-synthesized_N solution_N has_N a_N nominal_N molecular_N formula_N of_N Li2S8_N, and_N the_N concentration_N of_N sulfur_N is_N 0.2_N M_N ._N
+To_N form_N electrodes_PR for_N electrochemical_N testing_N, Li2S_I particles_I ,_N Super_I P_I carbon_I black_I ,_N and_N polyvinylidene_I fluoride_I (Kynar)_N were_A ground_A together_N at_N a_N weight_P ratio_P of_P 40:45:15_P in_N a_N mortar_E for_N 10_P min_P and_N then_N stirred_A in_N N-methyl-2-pyrrolidone_I (NMP)_I for_N 12_P h_P so_N that_N the_N content_N of_N Li2S_N in_N pristine_N and_N ball-milled_N samples_N is_N 40%_N and_N 38%_N in_N weight_N ,_N respectively_N.
+Next_N ,_N the_N slurry_R was_A drop_A cast_A onto_N carbon_I paper_I (AvCarb P50T)_I and_N heated_A at_N 110_P °C_P for_N 1_P h_P inside_N a_N glovebox_E ._N
+The_N mass_N loading_N of_N the_N electrode_I is_N 1−1.5_P mg_P Li2S/cm2_P ._N 2032-type_E coin_E cells_E (MTI Corp.)_N were_A used_A for_N two-electrode_E testing_E with_N lithium_I metal_I as_N the_N counter_N electrode_N ._N
+Cyclic_E voltammetry_E and_N impedance_E measurements_E were_A performed_A under_N a_N three-electrode_E configuration_E in_N pouch_E cells_E ._N 
+A_N small_N piece_N of_N lithium_I was_A used_A as_N reference_N electrode_N and_N placed_N between_N Li2S_I and_N lithium_I electrodes-I ._N 
+All_N electrodes_N are_A separated_A by_N polymer_I separators_I ._N
+Electrolyte_R is_A 1.0_P M_P lithium_I bis(trifluoromethanesulfonyl)imide_I (LiTFSI_I ,_N Sigma_N Aldrich)_N in_N 1,3-dioxolane_I and_N 1,2-dimethoxyethane_I (v:v_P =_P 1:1)_P ._N
+Electrode_E preparation_E and_N cell_E assembly_E were_A done_A in_N a_N glovebox_E with_N O2_P and_P H2O_P less_P than_P 2_P and_P 0.1_P ppm_P ,_N respectively_N ._N 
+All_ C_E rates_E are_A based_A on_N the_N theoretical_P capacity_P of_P Li2S_P (1C_P =_P 1166_P mA/g)_P ._N
+The_N frequency_P range_P for_N the_N impedance_E measurement_E is_A from_P 200_P kHz_P to_P 0.01_P Hz_P ._N
+In-situ_E synchrotron_E diffraction_E was_A performed_A at_N Stanford_P Synchrotron_P Radiation_P Lightsource_P beamline_P 11-3_P with_P an_P X-ray_P energy_P of_P 12.74_P keV_P ._N
+Experimental_N details_N were_N described_N in_N our_N previous_N work_N ._N
+COMSOL_E 3.4_E was_A used_A for_N simulation_N ._N
