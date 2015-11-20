@@ -7,6 +7,7 @@ import pickle
 import random
 import math
 import codecs
+import json
 
 class EPParser():
     
@@ -176,6 +177,7 @@ class EPParser():
     def evaluate(self):
         print 'Evaluating'
         correct = 0
+        misclassify = 0
         fp = 0
         fn = 0
         counter = 0
@@ -191,7 +193,7 @@ class EPParser():
                 prev = "None"
                 prev2 = "None"
                 context = self.START + wordlist + self.END
-                print 'New Sentence:'
+                #print 'New Sentence:'
                 for i in range(len(wordlist)):
                     tags = []
                     for j in range(3):
@@ -213,13 +215,13 @@ class EPParser():
                     prev = label
                     output.append([wordlist[i], label, postags[i]])
 
-                    if label != 'N' or EPtags[i] != 'N':
-                        print 'Word: ' + wordlist[i] + '-' + 'Predicted/Expected: ' + label + '/' + EPtags[i]
+                    #if label != 'N' or EPtags[i] != 'N':
+                    #    print 'Word: ' + wordlist[i] + '-' + 'Predicted/Expected: ' + label + '/' + EPtags[i]
                     if label == EPtags[i] and EPtags[i] != 'N':
                         correct = correct + 1
-                    elif label == 'N':
+                    elif label == 'N' and EPtags[i] != 'N':
                         fn = fn + 1
-                    elif EPtags[i] == 'N':
+                    elif label != 'N' and label != EPtags[i]:
                         fp = fp + 1
                     counter = counter + 1
                 outputSentences.append(output)
@@ -232,12 +234,13 @@ class EPParser():
         print 'Precision: ' + str(precision)
         print 'Recall: ' + str(recall)
         print 'F1: ' + str(2.0/((1.0/recall) + (1.0/precision)))
-        return outputSentences
+        return outputDoc
         #TODO implement Viterbi
 
     def train(self, n = 10):
         print 'Training'
         alldocs = self.trainDocs
+        copydocs = self.trainDocs
         for it in range(n):
             random.shuffle(alldocs)
             for doc in alldocs:
@@ -260,7 +263,8 @@ class EPParser():
                                 maxval = pred[l]
                                 label = l
                         self.model.update(alltags[i], label, feat)
-
+        self.trainDocs = copydocs
+        
 class EPModel():
     def __init__(self, labels):
         self.weights = {}
@@ -455,6 +459,8 @@ class EPDependencyParser():
         i = 0
         stack = [-1]
         parse = DependencyParser(n)
+        #print words
+        #print truemoves
         while truemoves:
             features = self._get_features(words, tags, i, n, stack, parse)
             scores = self.model.predict(features)
@@ -468,13 +474,16 @@ class EPDependencyParser():
                 self.model.update(true, guess, features)
             #print true, i, stack
             i = self.transition(true, i, stack, parse)
+        return parse.heads
 
     def train(self, sentencelist, moveslist):
+        headslist = []
         for s in range(len(sentencelist)):
             wordlist = sentencelist[s]
             moves = moveslist[s]
             words, EPtags, postags = self.getWordsTags(wordlist)
-            self.train_single(words, EPtags, moves)
+            headslist.append(self.train_single(words, EPtags, moves))
+        return headslist
 
     def evaluate(self, sentencelist, headslist = None):
         totalheads = 0
@@ -491,15 +500,15 @@ class EPDependencyParser():
             i = 0
             stack = [-1]
             parse = DependencyParser(n)
-            print words
+            #print words
             while stack and (i + 1) <= n:
                 features = self._get_features(words, EPtags, i, n, stack, parse)
                 scores = self.model.predict(features)
                 valid_moves = self.get_valid_moves(i, n, len(stack))
                 guess = max(valid_moves, key=lambda move: scores[move])
-                print guess, i, stack
+                #print guess, i, stack
                 i = self.transition(guess, i, stack, parse)
-            print parse.heads
+            #print parse.heads
             if headslist is not None:
                 for j in range(len(parse.heads)):
                     if parse.heads[j] == heads[j]:
@@ -538,13 +547,18 @@ def groupWords(s):
         if w == ',':
             if idx + 1 < len(s):
                 w1, EPt1, post1 = s[idx + 1]
-                if EPt1 == previoustag:
+                if EPt1 == previoustag and EPt1 != 'N':
                     currentGroup = currentGroup + ' (+)'
                 elif post1 == 'RB':
                     if EPt != 'N' and EPt != 'None':
                         currentOutput.append([currentGroup, previoustag])
                     previoustag = 'N'
-                    currentGroup = ''                    
+                    currentGroup = ''
+                else:
+                    if previoustag != 'N':
+                        currentOutput.append([currentGroup, previoustag])
+                        currentGroup = '' 
+                        previoustag = 'N'
             continue
         
         if EPt != 'N' and EPt != 'None':
@@ -552,10 +566,12 @@ def groupWords(s):
                 if containsA:
                     if previoustag != 'A':
                         if previoustag != 'N':
-                            currentOutput.append([currentGroup, previoustag])
-                        output.append(currentOutput)
-                        currentOutput = []
-                        containsA = False
+                            output.append(currentOutput)
+                            currentOutput = [[currentGroup, previoustag]]
+                        else:
+                            output.append(currentOutput)
+                            currentOutput = []
+                        containsA = True
                         currentGroup = w
                         previoustag = 'A'
                         continue
@@ -583,6 +599,8 @@ def groupWords(s):
                 currentOutput.append([currentGroup, previoustag])
                 currentGroup = '' 
                 previoustag = 'N'
+    if currentGroup != '':
+        currentOutput.append([currentGroup, previoustag])
     output.append(currentOutput)
     return output, containsA     
 
@@ -599,40 +617,47 @@ class Recipe():
                 for g in gs:
                     groupDoc.append(g)
             self.groupedDocs.append(groupDoc)
-        for gd in self.groupedDocs:
-            print '----------NEW DOC------------'
-            for s in gd:
-                print s
+##        for gd in self.groupedDocs:
+##            print '----------NEW DOC------------'
+##            for s in gd:
+##                print s
         self.originalmoves = []
         for fn in self.parser.trainFilenames:
             self.originalmoves.append(self.getMoves(fn))
         self.parser.shuffle()
         self.parser.train(10)
-        self.taggedSentences = self.parser.evaluate()
+        self.taggedDocs = self.parser.evaluate()
         self.DPparser = EPDependencyParser()
-        #self.DPparser.train(self.groupedDocs, self.originalmoves)
-        #self.createRecipe()
+        for idx in range(len(self.groupedDocs)):
+            self.DPparser.train(self.groupedDocs[idx], self.originalmoves[idx])
+        self.createRecipe()
         
     def createRecipe(self):
-        steps = []
-        for s in self.taggedSentences:
-            words = [w[0] for w in s]
-            groups, containsA = groupWords(s)
-            #self.DPparser.evaluate(g)
-            for group in groups:
-                if containsA:
-                    steps.append(group)
+        for doc in self.taggedDocs:
+            steps = []
+            for s in doc: 
+                words = [w[0] for w in s]
+                groups, containsA = groupWords(s)
+                #self.DPparser.evaluate(g)
+                for group in groups:
+                    if containsA:
+                        steps.append(group)
 
-        heads = self.DPparser.evaluate(steps)
+            heads = self.DPparser.evaluate(steps)
 
-        print 'Recipe: '
-        #print recipe
-        print heads
+            print 'Recipe: '
+            #print recipe
+            recipe = []
+            for i in range(len(heads)):
+                recipe.append(self.convertHeadsToRecipe(steps[i], heads[i]))
+            print recipe
+            for i in range(len(recipe)):
+                print 'Step ' + str(i+1) + ':'
+                print recipe[i]
 
     def getGroups(self):
         s1 = self.parser.trainDocs
-        s2 = self.parser.testDocs
-        return s1 + s2
+        return s1
     
     def getMoves(self, filename):
         f = open('resources/Moves' + filename, 'r')
@@ -642,4 +667,68 @@ class Recipe():
             for move in moves:
                 moveslist.append(move.split())
         return moveslist
-                
+
+    def convertHeadsToRecipe(self, words, heads):
+        if -1 in heads:
+            top = heads.index(-1)
+        else:
+            top = heads.index(None)
+        w, EPt = words[top]
+        nextlevel = [i for i in range(len(heads)) if heads[i] == top]
+        leveldict = {}
+        for i in nextlevel:
+            w1, EPt1 = words[i]
+            bottomlevel = [j for j in range(len(heads)) if heads[j] == i]
+            bottomdict = {}
+            for j in bottomlevel:
+                w2, EPt2 = words[j]
+                if EPt2 in bottomdict:
+                    bottomdict[EPt2].append(w2)
+                else:
+                    bottomdict[EPt2] = [w2]
+            if EPt1 in leveldict:
+                leveldict[EPt1].append((w1, bottomdict))
+            else:
+                leveldict[EPt1] = [(w1, bottomdict)]
+        outputdict = {EPt: [(w, leveldict)]}
+        return outputdict
+
+    def createTrueRecipes(self):
+        f = self.parser.trainFilenames + self.parser.testFilenames
+        s = []
+        for fn in f:
+            if os.path.exists('resources/Saved' + fn):
+                with open('resources/Saved' + fn, 'r') as f1:
+                    sentences = pickle.load(f1)
+                with open('resources/EP' + fn, 'r') as f1:
+                    allEPtags = pickle.load(f1)
+            s.append(sentences)
+        groupedDocs = []
+        for doc in s:
+            groupDoc = []
+            for ss in doc:
+                gs, a = groupWords(ss)
+                for g in gs:
+                    groupDoc.append(g)
+            groupedDocs.append(groupDoc)
+        allmoves = []
+        for fn in f:
+            allmoves.append(self.getMoves(fn))
+        
+        for idx in range(len(groupedDocs)):
+            wordslist = groupedDocs[idx]
+            headslist = self.DPparser.train(wordslist, allmoves[idx])
+            recipe = []
+            for i in range(len(wordslist)):
+                if headslist[i]:
+                    recipe.append(self.convertHeadsToRecipe(wordslist[i], headslist[i]))
+            fn = f[idx]
+            f1 = open('resources/Recipe' + fn, 'w')
+            f1.write(json.dumps(recipe, ensure_ascii=False))
+            f1.write('\n')
+            for i in range(len(recipe)):
+                f1.write('Step ' + str(i + 1) + ': ')
+                f1.write('\n')
+                f1.write(json.dumps(recipe[i], ensure_ascii=False))
+                f1.write('\n')
+            f1.close()

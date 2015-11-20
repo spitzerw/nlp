@@ -1,0 +1,57 @@
+[{"A": [["were obtained", {"PR": [["NMC442/graphite wound pouch cells", {"P": ["Machine made 220 and 240 mAh", "balanced for 4.7 V operation"]}]], "E": [["LiFUN Technologies", {}]]}]]}, {"A": [["heating", {"P": [["80C (+) 14 hours (+) vacuum", {}]]}]]}, {"A": [["moved", {"E": [["argon-filled glove box", {}]]}]]}, {"A": [["were filled", {"PR": [["control electrolyte", {"P": ["ratio of 3:7 (by weight)"]}]], "P": [["0.90 g (+) 1M", {"I": ["LiPF6 (+) ethylene carbonate (EC): ethylmethyl carbonate (EMC)"]}]], "R": [["pouch cells", {}]]}]]}, {"A": [["were added", {"I": [["VC", {"P": ["99.97%)"]}], ["PES", {"P": ["98.20%)"]}], ["dioxathiolane-2,2-dioxide", {"P": ["98%)"]}], ["MMDS", {"P": ["98.70%)"]}], ["triallyl phosphate", {"P": [">94.0%)"]}], ["18 (+) TTSPi", {"P": [">95%)"]}]], "P": [["concentrations of 1 or 2% by weight", {}]], "R": [["control electrolyte", {}]]}]]}, {"A": [["were vacuum sealed", {"I": [["compact vacuum sealer", {}]], "R": [["Cells", {}]]}]]}, {"A": [["did", {"R": [["cells", {}]], "E": [["formation cycle", {"P": ["40. plus/minus 0.1C", "24 hour hold at 1.5 V", "C/20 charge to 3.5 V"]}]]}]]}, {"A": [["were transferred", {"R": [["cells", {}]], "E": [["argon-filled glove box", {}]]}]]}, {"A": [["cut open", {"P": [["heat seal", {}]]}]]}, {"A": [["vacuum sealed", {}]]}, {"A": [["were charged", {"P": [["4.5 V (+) C/20", {}]], "R": [["cells", {}]]}]]}, {"A": [["discharge", {"P": [["C/20", {}], ["3.8 V", {}]]}]]}, {"A": [["were placed", {"R": [["cells", {}]], "E": [["temperature box", {"P": ["40. plus/minus 0.1C"]}]]}]]}, {"E": [["Maccor series 4000", {}]]}, {"E": [["Neware", {}]]}, {"A": [["was controlled", {"R": [["relay switching", {}], ["cells", {"P": ["connect"]}]], "E": [["Neware charger", {}], ["Gamry FRA cards", {}]]}]]}, {"A": [["underwent", {"R": [["Cells", {}]], "E": [["charge-discharge cycling", {}]]}]]}, {"A": [["were cycled", {"P": [["undergoing method 1", {}], ["between 2.8 and 4.4 V (+) C/5 (+) 40. plus/minus 0.1C", {}]]}]]}, {"A": [["underwent", {"P": [["Every 12 cycles", {}]], "R": [["cells", {}]], "E": [["FRA cycle", {"P": ["charge (+) discharge (+) C/20 between 2.8 (+) 4.4 V"]}]]}]]}, {"A": [["measured", {"P": [["every 0.1 V between 3.6 and 4.4 V", {}]], "R": [["cell", {}]], "E": [["FRA", {}], ["impedance", {}]]}]]}, {"A": [["were cycled", {"P": [["between 2.8 and 4.4 V (+) C/5 (+) 11 cycles", {}]], "R": [["cells", {}]]}]]}, {"A": [["was repeated", {"R": [["protocol", {}]]}]]}, {"A": [["was increased", {"PR": [["upper cutoff voltage", {}]], "P": [["4.5 V", {}], ["11", {}]], "E": [["cycling (+) impedance measurements", {}]]}]]}, {"A": [["continued", {"E": [["cycle-FRA-cycle protocol", {}]]}]]}, {"A": [["were cycled", {"P": [["between 2.8 and 4.4 V (+) C/5 (+) 40. plus/minus 0.1C", {}], ["20 or 24 hr hold at 4.4 V", {}]], "R": [["Cells", {"P": ["undergoing method 2"]}]]}]]}, {"A": [["underwent", {"P": [["Every 4 cycles", {}]], "R": [["cells", {}]], "E": [["FRA cycle", {}]]}]]}, {"A": [["were cycled", {"P": [["2.8 and 4.4 V (+) C/5 (+) 3 cycles", {}], ["20 or 24 h hold at 4.4 V", {}]], "R": [["cells", {}]]}]]}, {"A": [["was repeated", {"E": [["protocol", {}]]}]]}]
+Step 1: 
+{"A": [["were obtained", {"PR": [["NMC442/graphite wound pouch cells", {"P": ["Machine made 220 and 240 mAh", "balanced for 4.7 V operation"]}]], "E": [["LiFUN Technologies", {}]]}]]}
+Step 2: 
+{"A": [["heating", {"P": [["80C (+) 14 hours (+) vacuum", {}]]}]]}
+Step 3: 
+{"A": [["moved", {"E": [["argon-filled glove box", {}]]}]]}
+Step 4: 
+{"A": [["were filled", {"PR": [["control electrolyte", {"P": ["ratio of 3:7 (by weight)"]}]], "P": [["0.90 g (+) 1M", {"I": ["LiPF6 (+) ethylene carbonate (EC): ethylmethyl carbonate (EMC)"]}]], "R": [["pouch cells", {}]]}]]}
+Step 5: 
+{"A": [["were added", {"I": [["VC", {"P": ["99.97%)"]}], ["PES", {"P": ["98.20%)"]}], ["dioxathiolane-2,2-dioxide", {"P": ["98%)"]}], ["MMDS", {"P": ["98.70%)"]}], ["triallyl phosphate", {"P": [">94.0%)"]}], ["18 (+) TTSPi", {"P": [">95%)"]}]], "P": [["concentrations of 1 or 2% by weight", {}]], "R": [["control electrolyte", {}]]}]]}
+Step 6: 
+{"A": [["were vacuum sealed", {"I": [["compact vacuum sealer", {}]], "R": [["Cells", {}]]}]]}
+Step 7: 
+{"A": [["did", {"R": [["cells", {}]], "E": [["formation cycle", {"P": ["40. plus/minus 0.1C", "24 hour hold at 1.5 V", "C/20 charge to 3.5 V"]}]]}]]}
+Step 8: 
+{"A": [["were transferred", {"R": [["cells", {}]], "E": [["argon-filled glove box", {}]]}]]}
+Step 9: 
+{"A": [["cut open", {"P": [["heat seal", {}]]}]]}
+Step 10: 
+{"A": [["vacuum sealed", {}]]}
+Step 11: 
+{"A": [["were charged", {"P": [["4.5 V (+) C/20", {}]], "R": [["cells", {}]]}]]}
+Step 12: 
+{"A": [["discharge", {"P": [["C/20", {}], ["3.8 V", {}]]}]]}
+Step 13: 
+{"A": [["were placed", {"R": [["cells", {}]], "E": [["temperature box", {"P": ["40. plus/minus 0.1C"]}]]}]]}
+Step 14: 
+{"E": [["Maccor series 4000", {}]]}
+Step 15: 
+{"E": [["Neware", {}]]}
+Step 16: 
+{"A": [["was controlled", {"R": [["relay switching", {}], ["cells", {"P": ["connect"]}]], "E": [["Neware charger", {}], ["Gamry FRA cards", {}]]}]]}
+Step 17: 
+{"A": [["underwent", {"R": [["Cells", {}]], "E": [["charge-discharge cycling", {}]]}]]}
+Step 18: 
+{"A": [["were cycled", {"P": [["undergoing method 1", {}], ["between 2.8 and 4.4 V (+) C/5 (+) 40. plus/minus 0.1C", {}]]}]]}
+Step 19: 
+{"A": [["underwent", {"P": [["Every 12 cycles", {}]], "R": [["cells", {}]], "E": [["FRA cycle", {"P": ["charge (+) discharge (+) C/20 between 2.8 (+) 4.4 V"]}]]}]]}
+Step 20: 
+{"A": [["measured", {"P": [["every 0.1 V between 3.6 and 4.4 V", {}]], "R": [["cell", {}]], "E": [["FRA", {}], ["impedance", {}]]}]]}
+Step 21: 
+{"A": [["were cycled", {"P": [["between 2.8 and 4.4 V (+) C/5 (+) 11 cycles", {}]], "R": [["cells", {}]]}]]}
+Step 22: 
+{"A": [["was repeated", {"R": [["protocol", {}]]}]]}
+Step 23: 
+{"A": [["was increased", {"PR": [["upper cutoff voltage", {}]], "P": [["4.5 V", {}], ["11", {}]], "E": [["cycling (+) impedance measurements", {}]]}]]}
+Step 24: 
+{"A": [["continued", {"E": [["cycle-FRA-cycle protocol", {}]]}]]}
+Step 25: 
+{"A": [["were cycled", {"P": [["between 2.8 and 4.4 V (+) C/5 (+) 40. plus/minus 0.1C", {}], ["20 or 24 hr hold at 4.4 V", {}]], "R": [["Cells", {"P": ["undergoing method 2"]}]]}]]}
+Step 26: 
+{"A": [["underwent", {"P": [["Every 4 cycles", {}]], "R": [["cells", {}]], "E": [["FRA cycle", {}]]}]]}
+Step 27: 
+{"A": [["were cycled", {"P": [["2.8 and 4.4 V (+) C/5 (+) 3 cycles", {}], ["20 or 24 h hold at 4.4 V", {}]], "R": [["cells", {}]]}]]}
+Step 28: 
+{"A": [["was repeated", {"E": [["protocol", {}]]}]]}

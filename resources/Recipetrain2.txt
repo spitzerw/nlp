@@ -1,0 +1,49 @@
+[{"A": [["is prepared", {"PR": [["FePO4 electrode", {}]], "E": [["slurry coating", {}]]}]]}, {"A": [["is mixed", {"I": [["carbon black", {"P": ["10 wt%"]}], ["polyvinylidene fluoride (PVDF) (+) 1-methyl-2-pyrrolidinone (NMP) solvent", {"P": ["8 wt%"]}]], "PR": [["viscous paste", {}]], "R": [["material", {}]]}]]}, {"A": [["is (+) mixed", {"P": [["30 min", {}]], "E": [["planetary ball milling machine", {}]]}]]}, {"A": [["is (+) coated", {"I": [["aluminium foil", {}]], "R": [["slurry", {}]]}]]}, {"P": [["100 overnight", {"A": [["dried (+) a", {}]], "E": [["vacuum oven", {}]]}]]}, {"A": [["are used", {"I": [["FePO4", {}], ["Na foil", {}], ["Celgard 3501 microporous film separators", {}], ["NaClO4 (+) ethylene carbonate (EC) (+) dimethyl carbonate (DMC)", {"P": ["1.0 M", "(1 : 1 by volume)"]}]], "E": [["Coin cells", {}]]}]]}, {"A": [["are (+) prepared", {"I": [["FePO4", {}], ["Li foil", {}], ["LiPF6 (+) EC:diethyl carbonate (DEC)", {"P": ["1.0 M"]}]], "E": [["coin cells", {}]]}]]}, {"A": [["is performed", {"E": [["Galvanostatic chargedischarge", {}], ["Arbin test station", {}]]}]]}, {"A": [["is discharged", {"P": [["2.0 V", {}]], "R": [["Na/FePO4 cell", {}]]}]]}, {"A": [["is discharged", {"P": [["2.5 V", {}], ["constant current of 0.01 C", {}]], "R": [["Li/FePO4 cell", {}]]}]]}, {"A": [["are calculated", {"PR": [["C-rates", {}]], "P": [["154 mA h g 1 for NaFePO4 (+) 170 mA h g 1 for LiFePO4", {}]]}]]}, {"A": [["are cycled", {"I": [["NaFePO4 cells", {"P": ["between 2.0 and 4.0 V"]}], ["LiFePO4 cells", {"P": ["between and 4.0 V"]}]], "R": [["cells", {}]]}]]}, {"A": [["is relaxed", {"P": [["5 min", {}]], "R": [["cell", {}]]}]]}, {"A": [["are pre-cycled", {"P": [["5 times (+) a current of 0.1 C", {}]], "R": [["cells", {}]]}]]}, {"A": [["is obtained", {"PR": [["equilibrium (open-circuit) potential", {}]], "P": [["series of current pulses at 0.025 C (for the NaFePO4 cell) (+) 0.05 C (for the LiFePO4 cell) for 1 h", {}]], "E": [["galvanostatic intermittent titration technique (GITT)", {}]]}]]}, {"A": [["followed", {"P": [["15 h relaxation process", {}]]}]]}, {"A": [["are performed", {"I": [["NaFePO4 cell", {"P": ["from 2.0 V to 3.8 V"]}], ["LiFePO4 cell", {"P": ["2.5 V to 4.0 V"]}]], "P": [["various scan rates", {}]], "E": [["Cyclic voltammetry (CV) tests", {}]]}]]}, {"A": [["is galvanostatically discharged", {"I": [["NaFePO4 cell", {}], ["LiFePO4 cell)", {}]], "P": [["2.0 V (2.5 V", {}], ["current of 0.05 C", {}]]}]]}, {"A": [["are performed", {"I": [["NaFePO4 (+) LiFePO4 cells", {}]], "E": [["Electrochemical impedance spectroscopy (EIS) tests", {"P": ["frequency ranging from 10 6 Hz to 10 3 Hz"]}]]}]]}, {"A": [["are", {"PR": [["loading amounts", {}]], "I": [["NaFePO4 cell", {"P": ["1.7 mg"]}]], "E": [["EIS tests", {}]]}]]}, {"A": [["is chargeddischarged", {"I": [["NaFePO4 cell", {}]], "P": [["20 cycles", {}]]}]]}, {"A": [["discharged", {"I": [["LiFePO4 cell)", {}]], "P": [["2 V (2.5 V", {}]]}]]}, {"A": [["followed", {"P": [["2 h relaxation .", {}]]}]]}, {"A": [["are recorded", {"E": [["CV (+) EIS tests", {}], ["Solatron 1260/1287 Electrochemical Interface (Solatron Metrology (+) UK) .", {}]]}]]}]
+Step 1: 
+{"A": [["is prepared", {"PR": [["FePO4 electrode", {}]], "E": [["slurry coating", {}]]}]]}
+Step 2: 
+{"A": [["is mixed", {"I": [["carbon black", {"P": ["10 wt%"]}], ["polyvinylidene fluoride (PVDF) (+) 1-methyl-2-pyrrolidinone (NMP) solvent", {"P": ["8 wt%"]}]], "PR": [["viscous paste", {}]], "R": [["material", {}]]}]]}
+Step 3: 
+{"A": [["is (+) mixed", {"P": [["30 min", {}]], "E": [["planetary ball milling machine", {}]]}]]}
+Step 4: 
+{"A": [["is (+) coated", {"I": [["aluminium foil", {}]], "R": [["slurry", {}]]}]]}
+Step 5: 
+{"P": [["100 overnight", {"A": [["dried (+) a", {}]], "E": [["vacuum oven", {}]]}]]}
+Step 6: 
+{"A": [["are used", {"I": [["FePO4", {}], ["Na foil", {}], ["Celgard 3501 microporous film separators", {}], ["NaClO4 (+) ethylene carbonate (EC) (+) dimethyl carbonate (DMC)", {"P": ["1.0 M", "(1 : 1 by volume)"]}]], "E": [["Coin cells", {}]]}]]}
+Step 7: 
+{"A": [["are (+) prepared", {"I": [["FePO4", {}], ["Li foil", {}], ["LiPF6 (+) EC:diethyl carbonate (DEC)", {"P": ["1.0 M"]}]], "E": [["coin cells", {}]]}]]}
+Step 8: 
+{"A": [["is performed", {"E": [["Galvanostatic chargedischarge", {}], ["Arbin test station", {}]]}]]}
+Step 9: 
+{"A": [["is discharged", {"P": [["2.0 V", {}]], "R": [["Na/FePO4 cell", {}]]}]]}
+Step 10: 
+{"A": [["is discharged", {"P": [["2.5 V", {}], ["constant current of 0.01 C", {}]], "R": [["Li/FePO4 cell", {}]]}]]}
+Step 11: 
+{"A": [["are calculated", {"PR": [["C-rates", {}]], "P": [["154 mA h g 1 for NaFePO4 (+) 170 mA h g 1 for LiFePO4", {}]]}]]}
+Step 12: 
+{"A": [["are cycled", {"I": [["NaFePO4 cells", {"P": ["between 2.0 and 4.0 V"]}], ["LiFePO4 cells", {"P": ["between and 4.0 V"]}]], "R": [["cells", {}]]}]]}
+Step 13: 
+{"A": [["is relaxed", {"P": [["5 min", {}]], "R": [["cell", {}]]}]]}
+Step 14: 
+{"A": [["are pre-cycled", {"P": [["5 times (+) a current of 0.1 C", {}]], "R": [["cells", {}]]}]]}
+Step 15: 
+{"A": [["is obtained", {"PR": [["equilibrium (open-circuit) potential", {}]], "P": [["series of current pulses at 0.025 C (for the NaFePO4 cell) (+) 0.05 C (for the LiFePO4 cell) for 1 h", {}]], "E": [["galvanostatic intermittent titration technique (GITT)", {}]]}]]}
+Step 16: 
+{"A": [["followed", {"P": [["15 h relaxation process", {}]]}]]}
+Step 17: 
+{"A": [["are performed", {"I": [["NaFePO4 cell", {"P": ["from 2.0 V to 3.8 V"]}], ["LiFePO4 cell", {"P": ["2.5 V to 4.0 V"]}]], "P": [["various scan rates", {}]], "E": [["Cyclic voltammetry (CV) tests", {}]]}]]}
+Step 18: 
+{"A": [["is galvanostatically discharged", {"I": [["NaFePO4 cell", {}], ["LiFePO4 cell)", {}]], "P": [["2.0 V (2.5 V", {}], ["current of 0.05 C", {}]]}]]}
+Step 19: 
+{"A": [["are performed", {"I": [["NaFePO4 (+) LiFePO4 cells", {}]], "E": [["Electrochemical impedance spectroscopy (EIS) tests", {"P": ["frequency ranging from 10 6 Hz to 10 3 Hz"]}]]}]]}
+Step 20: 
+{"A": [["are", {"PR": [["loading amounts", {}]], "I": [["NaFePO4 cell", {"P": ["1.7 mg"]}]], "E": [["EIS tests", {}]]}]]}
+Step 21: 
+{"A": [["is chargeddischarged", {"I": [["NaFePO4 cell", {}]], "P": [["20 cycles", {}]]}]]}
+Step 22: 
+{"A": [["discharged", {"I": [["LiFePO4 cell)", {}]], "P": [["2 V (2.5 V", {}]]}]]}
+Step 23: 
+{"A": [["followed", {"P": [["2 h relaxation .", {}]]}]]}
+Step 24: 
+{"A": [["are recorded", {"E": [["CV (+) EIS tests", {}], ["Solatron 1260/1287 Electrochemical Interface (Solatron Metrology (+) UK) .", {}]]}]]}

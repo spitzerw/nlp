@@ -1,0 +1,29 @@
+[{"A": [["was prepared", {"PR": [["working electrode (WE)", {}]], "I": [["active material", {"P": ["80%"]}], ["carbon black (CB)", {"P": ["10%"]}], ["polyvinylidene fluoride (PVDF)", {"P": ["10%"]}]]}]]}, {"A": [["was made", {"PR": [["Slurry", {}]], "I": [["N-methyl-2-pyrrolidinone (NMP)", {}]]}]]}, {"A": [["was (+) uniformly coated", {"I": [["aluminum foil", {}]], "R": [["slurry", {}]], "E": [["applicator", {"P": ["120 um thickness"]}]]}]]}, {"A": [["drying", {"P": [["24 h", {}]], "E": [["fume hood", {}]]}]]}, {"A": [["was cut", {"PR": [["the working electrodes", {}]], "P": [["0.5 in. diameter circles", {}]], "R": [["coated foil", {}]]}]]}, {"A": [["were placed", {"I": [["lithium foil", {}]], "R": [["electrodes", {}]], "E": [["two-electrode coin cell", {}]]}]]}, {"A": [["was placed", {"I": [["micro-porous separator (Celgard3501)", {}]], "P": [["between the working and counter electrodes", {}]]}]]}, {"A": [["annealed", {"I": [["NaFePO4", {}]], "P": [["Ar (+) 600 C", {}]]}]]}, {"A": [["been used", {"P": [["test", {}]]}]]}, {"A": [["were performed", {"P": [["between 2 V and 4 V", {}]], "E": [["battery cycle tests", {}], ["Solartron (+) Arbin battery test stations", {}]]}]]}, {"A": [["was performed", {"E": [["Cyclic voltammetry", {"P": ["0.1 mV/s"]}], ["Solartron unit", {}]]}]]}, {"A": [["were used", {"P": [["5 mA (+) 20 mA", {}], ["charge/discharge", {}]], "R": [["cells", {}]]}]]}, {"A": [["were performed", {"E": [["electrochemical impedance spectroscopy (EIS) measurements", {}]]}]]}, {"A": [["were taken", {"P": [["1000 kHz to 1 MHz", {}]], "E": [["measurements", {}], ["Solartron analyzer", {"P": ["10 mV"]}]]}]]}]
+Step 1: 
+{"A": [["was prepared", {"PR": [["working electrode (WE)", {}]], "I": [["active material", {"P": ["80%"]}], ["carbon black (CB)", {"P": ["10%"]}], ["polyvinylidene fluoride (PVDF)", {"P": ["10%"]}]]}]]}
+Step 2: 
+{"A": [["was made", {"PR": [["Slurry", {}]], "I": [["N-methyl-2-pyrrolidinone (NMP)", {}]]}]]}
+Step 3: 
+{"A": [["was (+) uniformly coated", {"I": [["aluminum foil", {}]], "R": [["slurry", {}]], "E": [["applicator", {"P": ["120 um thickness"]}]]}]]}
+Step 4: 
+{"A": [["drying", {"P": [["24 h", {}]], "E": [["fume hood", {}]]}]]}
+Step 5: 
+{"A": [["was cut", {"PR": [["the working electrodes", {}]], "P": [["0.5 in. diameter circles", {}]], "R": [["coated foil", {}]]}]]}
+Step 6: 
+{"A": [["were placed", {"I": [["lithium foil", {}]], "R": [["electrodes", {}]], "E": [["two-electrode coin cell", {}]]}]]}
+Step 7: 
+{"A": [["was placed", {"I": [["micro-porous separator (Celgard3501)", {}]], "P": [["between the working and counter electrodes", {}]]}]]}
+Step 8: 
+{"A": [["annealed", {"I": [["NaFePO4", {}]], "P": [["Ar (+) 600 C", {}]]}]]}
+Step 9: 
+{"A": [["been used", {"P": [["test", {}]]}]]}
+Step 10: 
+{"A": [["were performed", {"P": [["between 2 V and 4 V", {}]], "E": [["battery cycle tests", {}], ["Solartron (+) Arbin battery test stations", {}]]}]]}
+Step 11: 
+{"A": [["was performed", {"E": [["Cyclic voltammetry", {"P": ["0.1 mV/s"]}], ["Solartron unit", {}]]}]]}
+Step 12: 
+{"A": [["were used", {"P": [["5 mA (+) 20 mA", {}], ["charge/discharge", {}]], "R": [["cells", {}]]}]]}
+Step 13: 
+{"A": [["were performed", {"E": [["electrochemical impedance spectroscopy (EIS) measurements", {}]]}]]}
+Step 14: 
+{"A": [["were taken", {"P": [["1000 kHz to 1 MHz", {}]], "E": [["measurements", {}], ["Solartron analyzer", {"P": ["10 mV"]}]]}]]}

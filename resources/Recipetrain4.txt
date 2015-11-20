@@ -1,0 +1,27 @@
+[{"A": [["were pulverized", {"PR": [["S/C composites", {}]], "I": [["stainless steel sieve", {"P": ["25 m opening"]}]], "E": [["ball mill (+) sieved", {}]]}]]}, {"A": [["were prepared", {"PR": [["Slurries", {}]], "I": [["fluoride) (PVDF) (+) anhydrous N-methyl-2-pyrolidinone (NMP)", {"P": ["1 wt %"]}]], "R": [["S/C composites", {}]], "P": [["ratio of 1:5", {}]]}]]}, {"A": [["were applied", {"I": [["aluminum", {"P": ["10 mm diameter"]}]], "R": [["slurries", {}]]}]]}, {"A": [["dried", {"P": [["120 C (+) 4 h", {}]]}]]}, {"A": [["were (+) prepared", {"I": [["mesoporous carbon (MPC)", {}], ["sulfur", {"P": ["24.1 wt %"]}], ["WVA-1500", {}], ["sulfur", {"P": ["25.2 wt %"]}]], "E": [["identical procedure", {}]]}]]}, {"A": [["were assembled", {"PR": [["batteries", {}]], "I": [["lithium foil", {"P": ["(10 mm diameter (+) 7 mm thickness)"]}], ["Celgard 3225 separator", {"P": ["(7 mm thickness (+) 10 mm diameter)"]}]], "R": [["S/C composite coated aluminum foil", {}], ["organic electrolyte", {"P": ["(10.3 mm diameter)"]}]], "E": [["Swagelok cells", {}]]}]]}, {"PR": [["organic electrolytes", {}]]}, {"A": [["were pressed", {"I": [["spring", {}]], "R": [["cathode (+) separator", {}], ["anode", {}]]}]]}, {"A": [["were tested", {"R": [["batteries", {}]], "E": [["Maccor 4000 series battery tester", {}]]}]]}, {"A": [["were cycled", {"P": [["between 1.0 to 3.6 V", {}]], "R": [["batteries", {}]]}]]}, {"A": [["were tested", {"P": [["current of 0.5 mA", {}]], "R": [["batteries", {}]]}]]}, {"A": [["was used", {"P": [["current density of 2.5 A/g", {}]], "R": [["cells", {}]]}]]}, {"A": [["was set", {"PR": [["cutoff current", {}]], "P": [["0.05 mA", {}]], "E": [["charge cycle", {}]]}]]}]
+Step 1: 
+{"A": [["were pulverized", {"PR": [["S/C composites", {}]], "I": [["stainless steel sieve", {"P": ["25 m opening"]}]], "E": [["ball mill (+) sieved", {}]]}]]}
+Step 2: 
+{"A": [["were prepared", {"PR": [["Slurries", {}]], "I": [["fluoride) (PVDF) (+) anhydrous N-methyl-2-pyrolidinone (NMP)", {"P": ["1 wt %"]}]], "R": [["S/C composites", {}]], "P": [["ratio of 1:5", {}]]}]]}
+Step 3: 
+{"A": [["were applied", {"I": [["aluminum", {"P": ["10 mm diameter"]}]], "R": [["slurries", {}]]}]]}
+Step 4: 
+{"A": [["dried", {"P": [["120 C (+) 4 h", {}]]}]]}
+Step 5: 
+{"A": [["were (+) prepared", {"I": [["mesoporous carbon (MPC)", {}], ["sulfur", {"P": ["24.1 wt %"]}], ["WVA-1500", {}], ["sulfur", {"P": ["25.2 wt %"]}]], "E": [["identical procedure", {}]]}]]}
+Step 6: 
+{"A": [["were assembled", {"PR": [["batteries", {}]], "I": [["lithium foil", {"P": ["(10 mm diameter (+) 7 mm thickness)"]}], ["Celgard 3225 separator", {"P": ["(7 mm thickness (+) 10 mm diameter)"]}]], "R": [["S/C composite coated aluminum foil", {}], ["organic electrolyte", {"P": ["(10.3 mm diameter)"]}]], "E": [["Swagelok cells", {}]]}]]}
+Step 7: 
+{"PR": [["organic electrolytes", {}]]}
+Step 8: 
+{"A": [["were pressed", {"I": [["spring", {}]], "R": [["cathode (+) separator", {}], ["anode", {}]]}]]}
+Step 9: 
+{"A": [["were tested", {"R": [["batteries", {}]], "E": [["Maccor 4000 series battery tester", {}]]}]]}
+Step 10: 
+{"A": [["were cycled", {"P": [["between 1.0 to 3.6 V", {}]], "R": [["batteries", {}]]}]]}
+Step 11: 
+{"A": [["were tested", {"P": [["current of 0.5 mA", {}]], "R": [["batteries", {}]]}]]}
+Step 12: 
+{"A": [["was used", {"P": [["current density of 2.5 A/g", {}]], "R": [["cells", {}]]}]]}
+Step 13: 
+{"A": [["was set", {"PR": [["cutoff current", {}]], "P": [["0.05 mA", {}]], "E": [["charge cycle", {}]]}]]}
