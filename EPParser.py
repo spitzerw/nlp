@@ -328,9 +328,9 @@ class EPDependencyParser():
         moves = []
         if loc < n:
             moves.append(self.SHIFT)
-        if stack_depth > 2:
+        if stack_depth >= 2:
             moves.append(self.RIGHT)
-        if stack_depth > 2:
+        if stack_depth >= 2:
             moves.append(self.LEFT)
         return moves
 
@@ -491,6 +491,7 @@ class EPDependencyParser():
         outputHeads = []
         for s in range(len(sentencelist)):
             wordlist = sentencelist[s]
+            movelist = []
             if headslist is not None:
                 heads = headslist[s]
             words, EPtags, postags = self.getWordsTags(wordlist)
@@ -500,7 +501,7 @@ class EPDependencyParser():
             i = 0
             stack = [-1]
             parse = DependencyParser(n)
-            #print words
+            print words
             while stack and (i + 1) <= n:
                 features = self._get_features(words, EPtags, i, n, stack, parse)
                 scores = self.model.predict(features)
@@ -508,7 +509,10 @@ class EPDependencyParser():
                 guess = max(valid_moves, key=lambda move: scores[move])
                 #print guess, i, stack
                 i = self.transition(guess, i, stack, parse)
-            #print parse.heads
+                movelist.append(guess)
+            print parse.heads
+            movelist.pop()
+            print movelist
             if headslist is not None:
                 for j in range(len(parse.heads)):
                     if parse.heads[j] == heads[j]:
