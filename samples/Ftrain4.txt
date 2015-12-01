@@ -1,0 +1,17 @@
+﻿The_N S/C_PR composites_PR were_A pulverized_A using_N a_N ball_E mill_E and_N sieved_E through_N a_N 25_P μm_P opening_P stainless_I steel_I sieve_I ._N
+Slurries_PR were_A prepared_A using_N the_N S/C_R composites_R and_N a_N solution_N of_N 1_P wt_P %_P poly(vinylidene_N fluoride)_I (PVDF)_I in_N anhydrous_I N-methyl-2-pyrolidinone_I (NMP)_I with_N a_N ratio_P of_P 1:5_P ._N
+The_N slurries_R were_A applied_A to_N 10_P mm_P diameter_P aluminum_I current_N collectors_N and_N dried_A at_N 120_P C_P for_N 4_P h_P ._N
+For_N the_N purpose_N of_N comparison_N ,_N the_N original_N mesoporous_I carbon_I (MPC)_I with_N 24.1_P wt_P %_P sulfur_I loading_N and_N WVA-1500_I (MeadWestvaco_N Corporation)_N with_N sulfur_I loading_N of_N 25.2_P wt_P %_P were_A also_N prepared_A as_N cathodes_N by_N applying_N an_N identical_E procedure_E that_N was_N used_N for_N the_N preparation_N of_N S/C_N composite_N cathodes_N ._N
+The_N batteries_PR were_A assembled_A as_N Swagelok_E cells_E by_N using_N the_N S/C_R composite_R coated_R aluminum_R foil_R (10_P mm_P diameter_P ,_N 7_P mm_P thickness)_P as_N the_N cathode_N ,_N and_N a_N lithium_I foil_I (7_P mm_P thickness_P and_N 10_P mm_P diameter)_P as_N the_N anode_N ,_N a_N Celgard_I 3225_I separator_I (10.3_P mm_P diameter)_P ,_N and_N an_N organic_R electrolyte_R ._N
+The_N organic_PR electrolytes_PR were_A solutions_N of_N Bis-_I (trifluoromethane)sulfonimide_I lithium_I (LiTFSI)_I (99.95%_P trace_P metals_P basis)_P in_N a_N mixed_N solvent_N of_N 1,3-dioxolane_I (DOL)_I and_N dimethoxyethane_I (DME)_I with_N volume_P ratio_P of_P 55:40_P ._N
+The_N organic_N electrolyte_N filled_N the_N pores_N of_N the_N cathode_N and_N separator_N ._N
+The_N cathode_R ,_N separator_R ,_N and_N anode_R were_A pressed_A by_N a_N spring_I to_N ensure_N tight_N contact_N ._N
+A_N typical_N cell_N contained_N about_N 0.2_N mg_N of_N sulfur_N ._N
+No_N excess_N of_N electrolyte_N was_N left_N in_N the_N assembled_N cell_N ._N
+The_N batteries_R were_A tested_A in_N a_N Maccor_E 4000_E series_E battery_E tester_E ._N
+The_N batteries_R were_A cycled_A between_P 1.0_P to_P 3.6_P V_P ._N
+Each_N cycle_N was_N started_N with_N the_N discharge_N half-cycle_N ._N
+Unless_N specified_N ,_N all_N batteries_R were_A tested_A at_N the_N same_N current_P of_P 0.5_P mA_P for_N both_N charging_N and_N discharging_N ._N
+An_N average_N current_P density_P of_P 2.5_P A/g_P was_A used_A for_N all_N cells_R ._N
+The_N cutoff_PR current_PR for_N the_N charge_E cycle_E was_A set_A to_N 0.05_P mA_P ._N
+The_N calculation_N of_N specific_N discharge_N capacities_N is_N based_N on_N the_N mass_N of_N elemental_N sulfur_N ._N

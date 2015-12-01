@@ -3,6 +3,9 @@ import os
 import codecs
 from os import listdir
 import pickle
+import nltk
+
+labels = ['N', 'I', 'E', 'A', 'P', 'PR', 'R']
 
 def groupWords(s):
     previoustag = 'N'
@@ -87,11 +90,11 @@ def main(filename):
                 for w in words:
                     if '_' in w:
                         ws = w.split('_')
-                        if ws[1] not in self.labels:
-                            for i in self.labels:
+                        if ws[1] not in labels:
+                            for i in labels:
                                 if i in ws[1]:
                                     ws[1] = i
-                            if ws[1] not in self.labels:
+                            if ws[1] not in labels:
                                 ws[1] = 'N'
                         wordlist.append(ws[0].encode('ascii', 'ignore'))
                         EPtags.append(ws[1].encode('ascii', 'ignore'))
