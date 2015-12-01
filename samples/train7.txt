@@ -1,0 +1,47 @@
+﻿Titanate_PR nanowires_PR were_A synthesized_A by_N adding_P anatase_I TiO2_I to_N a_N
+15_P M_P aqueous_I solution_I of_I NaOH_I ._N 
+After_N stirring_A for_N 1_P h_P the_N resulting_R
+suspension_R was_A transferred_A to_N a_N Teflon-lined_E autoclave_E and_N heated_A to_N
+170_P °C_P for_N 72_P h_P ._N 
+The_N product_R was_A acid-washed_A ,_N which_N involved_N stirring_P
+the_N sample_N in_N 0.05_P M_P HCl_I solution_I for_N 2_P h_P ._N 
+The_N material_R was_A then_N filtered_A ,_N
+washed_A with_N distilled_I water_I ,_N and_N dried_A at_N 80_P °C_P for_N 15_P h_P ._N
+
+TiO2(B)_PR nanowires_PR were_A prepared_A by_N heating_P the_N acid-washed_P titanate_R
+nanowires_R at_N 400_P °C_P for_N 4_P h_P in_N air_P ._N
+
+The_N GPE_PR was_A formed_A by_N trapping_P LiPF6_I dissolved_N in_N a_N mixture_N of_N
+EC_I and_N PC_I (20:40:40_P by_P weight)_P in_N a_N PVdF_I matrix_I ,_N following_N a_N procedure_N
+described_N in_N detail_N elsewhere_N ._N
+
+LiFePO4_PR was_A generously_N provided_A by_N Dr._N Margret_N WohlfahrtMehrens_N
+of_N ZSW_N in_N Ulm_N ,_N Germany_N ._N 
+The_N nickel_PR manganese_PR spinel_PR ,_N
+LiNi0.5Mn1.5O4_PR ,_N was_A obtained_A by_N a_E wet-chemistry_E route_E starting_N from_N
+LiNO3_I ,_N Ni(NO3)2·H2O_I and_I Mn(NO3)2·H2O_I ._N 
+The_N synthesis_N procedures_N
+and_N characterization_N of_N both_N cathode_N materials_N have_N been_N described_N
+previously_N ._N
+
+Composite_PR electrodes_PR were_A fabricated_A in_N the_N form_P of_P films_P by_N
+dispersing_P the_N active_R materials_R (i.e._N ,_N TiO2(B)_I ,_N LiFePO4_I ,_N or_N LiNi0.5-_I
+Mn1.5O4)_I in_N N-methylpyrrolidinone_I (NMP)_I with_N 8_P or_P 10_P wt%_P of_N
+Super_I P_I (M.M.M._N Carbon_N Belgium)_N and_N 10_P wt%_P PVdF_I (Solvay_N Solef_N
+UHMW_N 6020)_N ._N 
+This_N slurry_R was_A then_N cast_A onto_N aluminum_I (LiFePO4_R or_N
+LiNi0.5Mn1.5O4)_R or_N copper_I (TiO2(B))_R foils_N ._N 
+Disks_PR of_N 10_P mm_P diameter_P
+were_A cut_A and_N vacuum-dried_A for_N 5_P h_P at_N 110_P °C_P to_N completely_N eliminate_N
+traces_N of_N moisture_N and_N NMP_N ._N 
+The_N complete_N lithium-ion_PR cell_PR was_A assembled_A
+by_N sandwiching_P a_N GPE_I membrane_I between_N a_N TiO2(B)_R electrode_R and_N either_N a_N LiFePO4_R or_N LiNi0.5Mn1.5O4_R disk_R ._N 
+The_N batteries_R
+were_A anode_P limited_P and_N the_N specific_P capacity_P and_N rate_P of_P the_P batteries_P
+referred_N to_N the_N mass_P of_P the_N negative_N TiO2(B)_R electrode_R ._N 
+All_N manipulations_N
+were_N carried_N out_N in_N a_N MBraun_N drybox_N with_N moisture_N and_N oxygen_N
+levels_N below_N 1_N ppm_N ._N The_N galvanostatic_E cycling_E tests_E were_A performed_A
+using_N a_N Maccor_E automated_E battery_E cycler_E ._N 
+All_N measurements_E were_A performed_A
+at_N room_P temperature_P ._N

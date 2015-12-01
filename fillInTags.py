@@ -34,7 +34,7 @@ def fillInTags(filename):
                 strSent = strSent + ' '
             else:
                 strSent = strSent + '\n'
-        print strSent
+        ##print strSent
         ff.write(strSent)
     ff.close()
 
@@ -51,7 +51,7 @@ if __name__ == "__main__":
         if args.file == 'all':
             doAll()
         else:
-            main(args.file)
+            fillInTags(args.file)
         
     else:
         doAll()
