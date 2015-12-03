@@ -1,0 +1,25 @@
+﻿Tubular_I CSZ_I (ZR-11_N ,_N Nikkato)_N was_A used_A as_N the_N electrolyte_PR ._N 
+Platinum_I
+paste_I (TR-7902_N ,_N Tanaka_N Kikinzoku)_N was_A painted_A on_N the_N inside_P and_P
+outside_P of_N the_N CSZ_R tube_P as_N the_N anode_N and_N cathode_N ,_N followed_A by_N
+calcination_P at_N 1273_P K_P for_N 30_P min_P (electrode_P surface_P area:_P 13_P cm2)_P ._N
+
+Lithium_I foil_I (20_P mg)_P was_A inserted_A in_N a_N small_N MgO_E tube_E (MG-12G_N ,_N
+Nikkato)_N ,_N which_N was_A placed_A and_A fixed_A in_N the_N CSZ_R electrolyte_R tube_R ._N
+
+The_N CSZ_R tube_R was_A sealed_A by_N epoxy_I resin_I in_N an_N argon-filled_E glove_E
+box_E ._N 
+After_N the_N anodic_E chamber_E was_A filled_A with_N Ar_I and_N Li_I ,_N the_N entire_R
+cell_R was_A heated_A to_N 1073_P K_P ._N 
+Discharge_E measurements_E were_A performed_A
+at_N 0.077_P mA_P cm2_P in_N constant-current_P mode_N ,_N with_N the_N two_E
+probes_E method_E ._N 
+Air_I was_A fed_A into_N the_N cathode_P side_P at_N a_N flow_P rate_P of_P
+100_P mLmin1_P
+._N 
+Impedance_E analysis_E was_A undertaken_A under_N open-circuit_P conditions_P with_N a_N frequency_P range_P of_P 0.1–100_P 000_P Hz_P and_N
+10_P mV_P alternating_P current_P (ac)_P amplitude_P with_N a_N Sorlartron_E 1260/_E
+1287_E impedance_E analyzer_E ._N 
+Morphology_E and_E elementary_E analysis_E
+studies_E of_N Li_I powder_I were_A performed_A by_N using_N a_N SEM-EDX_E instrument_E
+(VE-7800_N ,_N KEYENCE,_N EDAX_N type_N 7980)_E ._N

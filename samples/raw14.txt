@@ -1,0 +1,45 @@
+﻿Silicon/carbon (Si/C)
+composite was synthesized by mechanical milling followed by
+pyrolysis.The synthetic procedures can be briefly described as
+follows: (1) mixing raw materials of 1.00 g nano-Si (>99.9%,
+∼30 nm, Shuitian Materials Technology Co., Ltd., Shanghai,
+China), 4.00 g graphite (>99%, ∼0.5 𝜇m, Qingdao Tianhe
+Graphite Co., Ltd., Shandong, China), and 3.85 g phenolic
+resin by magnetic stirring and ultrasonic treatment, using
+alcohol as dispersing agent; (2) ball milling for 10 h and drying
+in the oven at 90∘
+C overnight (denoted as the precursor); (3)
+pyrolysis at 750∘
+C for 2 h under argon atmosphere.
+pan) using Cu K𝛼 radiation
+was employed to identify the crystalline phase of the
+synthesized materials. Thermal analysis of the as-prepared
+samples was performed on a SDT Q600 TG-DTA (TE, USA)
+apparatus between room temperature and 1 000∘
+C at a heating
+rate of 10∘
+C min−1 in argon atmosphere. The morphology of
+the samples was observed by scanning electron microscope
+(SEM, JEOL, JSM-5612LV) with an accelerating voltage of
+20 kV, and the microstructure of the composite was investigated
+by transmission electron microscope (TEM, Tecnai
+G12, 200 kV).
+The electrochemical performance was evaluated via a
+standard Li//LiPF6 (EC : EMC : DMC = 1 : 1 : 1; v/v/v)//Si/C
+CR2025 coin cell. To fabricate the working electrode,
+80 wt.% active materials, 10 wt.% acetylene black, and 10 wt.%
+poly(vinylidene fluoride) were firstly blended in N-methyl
+pyrrolidinone to obtain homogeneous slurry, and then the
+slurry was spread uniformly on a copper foil and dried at
+120∘
+C for 12 h in the air; the desirable working electrode
+can be obtained after being cut into round pieces with an
+area of 1.54 cm2
+. The whole assembling processes of the cell
+were carried out in a dry argon-filled glove box. The chargedischarge
+tests of the cell were performed on a Neware battery
+tester (Neware, Shenzhen) with cut-off voltage of 0.01–
+2.00 V at room temperature. The electrochemical impedance
+measurement was performed on a CHI660A electrochemical
+workstation (Chenhua, Shanghai), in which the impedance
+spectra were recorded w

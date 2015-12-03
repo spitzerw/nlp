@@ -1,0 +1,31 @@
+﻿Powder LTAP was prepared using a wet-chemical process with
+a stoichiometric mixture of lithium chloride (LiCl), titanium butoxide (Ti(OCH2(CH2)2CH3)4), aluminum nitrate (Al(NO3)3·9H2O), and ammonium
+dihydrogen phosphate (NH4H2PO4). The precursors were
+dissolved in distilled water, and titanium butoxide solution was
+added dropwise to the prepared solution with constant stirring.
+The resultant solution was ball-milled for 24 h. The mixture was
+dried at 80 8C, and the obtained powder was heated to 10008C for
+4 h in air.
+A PVdF polymer was used as a binder. The PVdF solution was prepared
+in dimethylacetamide (DMAc)/acetone (1:2 volume ratio) solvent.
+The prepared LTAP powder was added to the polymer solution
+and mixed to prepare the slurry. The prepared slurry was cast
+onto a glass plate using a doctor blade with a flow of distilled
+water to the sample. Then, the LTPA-based composite solid membrane
+floated to the distilled water layer. The composite mem
+brane was pressed with a 2-tonne press and dried in a vacuum
+oven (808C, 24 h). The LTAP-based composite solid electrolyte was
+prepared by soaking the solid membrane for 20 min in a solution
+of 1m LiPF6
+in EC/DMC. The ionic conductivity was calculated by
+s=l/(RÕ A) equation, where R is total resistance (ohm), l is thickness
+of sample (cm), and A is area of sample (cm2).
+To prepare the electrode, the active material powder (cathode: LiMn2O4, anode: graphite), super-p carbon black, and poly(tetrafluoroethylene)
+(PTFE) binder were mixed in a ratio of 70:10:20 by
+weight. The complete mixture was rolled and pressed into thin
+sheets. The flexible solid cell was stacked as follows: prepared
+cathode sheet/LTAP-based composite solid electrolyte/anode
+sheet. The electrochemical cell test was performed using an automatic
+galvanostatic charge–discharge unit (WonATech. Co.) with
+a 2032 coin-type cell between 0.1 and 1.5 V with a 0.1 mA current
+density.

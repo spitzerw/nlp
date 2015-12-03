@@ -1,13 +1,13 @@
-﻿Electrochemical_N analysis_N was_N conducted_N on_N the_N electrodes_N fabricated_N as_N follows_N ._N
-The_N working_PR electrode_PR (WE)_PR was_A prepared_A using_N 80%_P of_N the_N active_I material_I ,_N 10%_P carbon_I black_I (CB)_I ,_N and_N 10%_P polyvinylidene_I fluoride_I (PVDF)_I binder_N ._N
+﻿Electrochemical_E analysis_E was_A conducted_A on_N the_N electrodes_R fabricated_N as_N follows_N ._N
+The_N working_PR electrode_PR (WE)_PR was_A prepared_A using_N 80%_P of_N the_N active_I material_I ,_N 10%_P carbon_I black_I (CB)_I ,_N and_N 10%_P polyvinylidene_I fluoride_I (PVDF)_I binder_I ._N
 Slurry_PR was_A made_A in_N N-methyl-2-pyrrolidinone_I (NMP)_I solvent_N ._N
 This_N slurry_R was_A then_N uniformly_A coated_A onto_N a_N aluminum_I foil_I current_N collector_N using_N an_N applicator_E to_N generate_N a_N coating_N of_N 120_P um_P thickness_P ._N
 After_N drying_A in_N the_N fume_E hood_E for_N 24_P h_P ,_N the_N coated_R foil_R was_A cut_A into_N 0.5_P in._P diameter_P circles_P ,_N creating_N the_PR working_PR electrodes_PR ._N
-These_N electrodes_R were_A placed_A in_N a_N two-electrode_E coin_E cell_E using_N lithium_I foil_I as_N the_N counter_N electrode_N (CE)_N and_N 1_P M_P LiPF6_I salt_I in_I ethylene_I carbonate/diethyl_I carbonate_I (1:1_I by_I volume_I EC:DEC)_I solution_I as_N the_N electrolyte_N ._N
+These_N electrodes_R were_A placed_A in_N a_N two-electrode_E coin_E cell_E using_N lithium_I foil_I as_N the_N counter_N electrode_N (CE)_N and_N 1_P M_P LiPF6_I salt_I in_N ethylene_I carbonate/diethyl_I carbonate_I (1:1_I by_I volume_I EC:DEC)_I solution_N as_N the_N electrolyte_N ._N
 A_N micro-porous_I separator_I (Celgard®3501)_I was_A placed_A between_P the_P working_P and_P counter_P electrodes_P ._N
-NaFePO4_I annealed_A in_N Ar_P at_N 600_P ◦C_P have_N been_A used_A to_N test_P the_N electrochemical_N properties_N ._N
+NaFePO4_I annealed_A in_N Ar_P at_N 600_P ◦C_P have_A been_A used_A to_N test_P the_N electrochemical_PR properties_PR ._N
 The_N battery_E cycle_E tests_E were_A performed_A between_P 2_P V_P and_P 4_P V_P using_N the_N Solartron_E and_N Arbin_E battery_E test_E stations_E ._N
-Cyclic_E voltammetry_E at_N a_N rate_N of_N 0.1_P mV/s_P was_A performed_A using_N the_N Solartron_E unit_E ._N
+Cyclic_E voltammetry_E at_N a_N rate_P of_P 0.1_P mV/s_P was_A performed_A using_N the_N Solartron_E unit_E ._N
 Two_N separate_N current_N rates_N 5_P mA_P and_N 20_P mA_P were_A used_A to_N charge/discharge_P the_N cells_R ._N
-The_N electrochemical_E impedance_E spectroscopy_E (EIS)_E measurements_E were_A performed_A after_N the_N electrode_N reached_N the_N end_N of_N each_N charge_N and_N discharge_N states_N ._N
-The_N measurements_E were_A taken_A over_N a_N range_N of_N 1000_P kHz_P to_P 1_P MHz_P with_N AC_N amplitude_N of_N 10_P mV_P using_N a_N Solartron_E analyzer_E ._N
+The_N electrochemical_E impedance_E spectroscopy_E (EIS)_E measurements_E were_A performed_A after_N the_N electrode_N reached_N the_N end_P of_P each_P charge_P and_P discharge_P states_P ._N
+The_N measurements_E were_A taken_A over_N a_N range_N of_N 1000_P kHz_P to_P 1_P MHz_P with_N AC_P amplitude_P of_P 10_P mV_P using_N a_N Solartron_E analyzer_E ._N
