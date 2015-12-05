@@ -6,7 +6,7 @@ Polysulfide_PR solution_PR was_A prepared_A by_N stirring_P pristine_I Li2S_I an
 The_N as-synthesized_N solution_N has_N a_N nominal_N molecular_N formula_N of_N Li2S8_N ,_N and_N the_N concentration_N of_N sulfur_N is_N 0.2_N M_N ._N
 To_N form_N electrode_PR for_N electrochemical_N testing_N ,_N Li2S_I particles_I ,_N Super_I P_I carbon_I black_I ,_N and_N polyvinylidene_I fluoride_I (Kynar)_N were_A ground_A together_N at_N a_N weight_P ratio_P of_P 40:45:15_P in_N a_N mortar_E for_N 10_P min_P and_N then_N stirred_A in_N N-methyl-2-pyrrolidone_I (NMP)_I for_N 12_P h_P so_N that_N the_N content_N of_N Li2S_N in_N pristine_N and_N ball-milled_N samples_N is_N 40%_N and_N 38%_N in_N weight_N ,_N respectively_N ._N
 Next_N ,_N the_N slurry_R was_A drop_A cast_A onto_N carbon_I paper_I (AvCarb_N P50T)_N and_N heated_A at_N 110_P °C_P for_N 1_P h_P inside_N a_N glovebox_N ._N
-The_N mass_N loading_N of_N the_N electrode_R is_N 1−1.5_P mg_P Li2S/cm2_P ._N
+The_N mass_N loading_N of_N the_N electrode_R is_A 1−1.5_P mg_P Li2S/cm2_P ._N
 2032-type_E coin_E cells_E (MTI_N Corp.)_N were_A used_A for_N two-electrode_E testing_E with_N lithium_I metal_I as_N the_N counter_N electrode_N ._N
 Cyclic_E voltammetry_E and_N impedance_E measurements_E were_A performed_A under_N a_N three-electrode_E configuration_E in_N pouch_E cells_E ._N 
 A_N small_N piece_N of_N lithium_I was_A used_A as_N reference_N electrode_N and_N placed_N between_N Li2S_I and_N lithium_I electrodes_I ._N 
