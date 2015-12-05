@@ -16,8 +16,10 @@ class EPParser():
         self.END = ['***END***', '***END2***']
         self.labels = ['N', 'I', 'E', 'A', 'P', 'PR', 'R']
         self.model = EPModel(self.labels)
-        self.samplefiles = [filename for filename in listdir('samples') if 'Ftrain' in filename]
-
+        self.totalfiles = [filename for filename in listdir('samples') if 'Ftrain' in filename]
+        self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,len(self.totalfiles) + 1)]
+        
+        self.split = .5
         self.trainSentences = []
         self.testSentences = []
         self.Docs = []
@@ -69,10 +71,10 @@ class EPParser():
                 with open('resources/EP' + filename, 'w') as f:
                      pickle.dump(allEPtags, f)
             self.Docs.append(sentences)
-        self.trainDocs = self.Docs[:int(math.floor(len(self.Docs) * .85))]
-        self.testDocs = self.Docs[int(math.floor(len(self.Docs) * .85)):]
-        self.trainFilenames = self.samplefiles[:int(math.floor(len(self.Docs) * .85))]
-        self.testFilenames = self.samplefiles[int(math.floor(len(self.Docs) * .85)):]
+        self.trainDocs = self.Docs[:int(math.floor(len(self.Docs) * self.split))]
+        self.testDocs = self.Docs[int(math.floor(len(self.Docs) * self.split)):]
+        self.trainFilenames = self.samplefiles[:int(math.floor(len(self.Docs) * self.split))]
+        self.testFilenames = self.samplefiles[int(math.floor(len(self.Docs) * self.split)):]
         
     def shuffle(self):
         print 'Shuffling data sets'
@@ -482,6 +484,8 @@ class EPDependencyParser():
             wordlist = sentencelist[s]
             moves = moveslist[s]
             words, EPtags, postags = self.getWordsTags(wordlist)
+            print words
+            print moves
             headslist.append(self.train_single(words, EPtags, moves))
         return headslist
 
@@ -636,8 +640,10 @@ class Recipe():
 
     def __init__(self):
         self.parser = EPParser()
-        self.originalDocs = self.getTrain() + self.getTest()
+        self.originalDocs = self.getTrain()
+        #self.originalDocs = self.getTrain() + self.getTest()
         self.groupedDocs = []
+        self.orderedDocs = []
         for doc in self.originalDocs:
             groupDoc = []
             orderDoc = []
@@ -646,8 +652,9 @@ class Recipe():
                 for g in range(len(gs)):
                     groupDoc.append(gs[g])
                     orderDoc.append(order[g])
-            print orderDoc
-            self.groupedDocs.append([groupDoc, orderDoc])
+            #print orderDoc
+            self.groupedDocs.append(groupDoc)
+            self.orderedDocs.append(orderDoc)
 ##        for gd in self.groupedDocs:
 ##            print '----------NEW DOC------------'
 ##            for s in gd:
@@ -657,16 +664,16 @@ class Recipe():
             self.originalmoves.append(self.getMoves(fn))
         self.ordermoves = []
         for fn in self.parser.trainFilenames:
-            self.ordermoves.append(self.getMoves(fn))
+            self.ordermoves.append(self.getOrderMoves(fn))
         self.parser.shuffle()
         self.parser.train(10)
         self.taggedDocs = self.parser.evaluate()
         self.DPparser = EPDependencyParser()
         for idx in range(len(self.groupedDocs)):
-            self.DPparser.train(self.groupedDocs[idx][0], self.originalmoves[idx])
+            self.DPparser.train(self.groupedDocs[idx], self.originalmoves[idx])
         self.Oparser = EPDependencyParser()
         for idx in range(len(self.groupedDocs)):
-            self.Oparser.train(self.groupedDocs[idx][1], self.ordermoves[idx])
+            self.Oparser.train(self.orderedDocs[idx], self.ordermoves[idx])
 
         self.createRecipe()
         
@@ -713,13 +720,16 @@ class Recipe():
         return moveslist
 
     def getOrderMoves(self, filename):
-        f = open('resources/OrderMoves' + filename, 'r')
-        moveslist = []
-        for line in f:
-            moves = line.split('|')
-            for move in moves:
-                moveslist.append(move.split())
-        return moveslist
+        try:
+            f = open('resources/OrderMoves' + filename, 'r')
+            moveslist = []
+            for line in f:
+                moves = line.split('|')
+                for move in moves:
+                    moveslist.append(move.split())
+            return moveslist
+        except:
+            return []
 
     def convertHeadsToRecipe(self, words, heads):
         if -1 in heads:
@@ -747,7 +757,8 @@ class Recipe():
         return outputdict
 
     def createTrueRecipes(self):
-        f = self.parser.trainFilenames + self.parser.testFilenames
+        #f = self.parser.trainFilenames + self.parser.testFilenames
+        f = self.parser.trainFilenames
         s = []
         for fn in f:
             if os.path.exists('resources/Saved' + fn):
