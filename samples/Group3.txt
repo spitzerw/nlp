@@ -1,0 +1,17 @@
+Groups for Ftrain3.txt
+Saved resource file for Ftrain3.txt found.
+[['Electrochemical analysis', 'E'], ['was conducted', 'A'], ['electrodes', 'R']]
+[['working electrode (WE)', 'PR'], ['was prepared', 'A'], ['80%', 'P'], ['active material', 'I'], ['10%', 'P'], ['carbon black (CB)', 'I'], ['10%', 'P'], ['polyvinylidene fluoride (PVDF) binder', 'I']]
+[['Slurry', 'PR'], ['was made', 'A'], ['N-methyl-2-pyrrolidinone (NMP)', 'I']]
+[['slurry', 'R'], ['was (+) uniformly coated', 'A'], ['aluminum foil', 'I'], ['applicator', 'E'], ['120 um thickness', 'P']]
+[['drying', 'A'], ['fume hood', 'E'], ['24 h', 'P'], ['coated foil', 'R']]
+[['was cut', 'A'], ['0.5 in. diameter circles', 'P'], ['the working electrodes', 'PR']]
+[['electrodes', 'R'], ['were placed', 'A'], ['two-electrode coin cell', 'E'], ['lithium foil', 'I'], ['1 M', 'P'], ['LiPF6 salt (+) ethylene carbonate/diethyl carbonate (1:1 by volume EC:DEC)', 'I']]
+[['micro-porous separator (Celgard3501)', 'I'], ['was placed', 'A'], ['between the working and counter electrodes', 'P']]
+[['NaFePO4', 'I'], ['annealed', 'A'], ['Ar (+) 600 C', 'P']]
+[['have been used', 'A'], ['test', 'P'], ['electrochemical properties', 'PR']]
+[['battery cycle tests', 'E'], ['were performed', 'A'], ['between 2 V and 4 V', 'P'], ['Solartron (+) Arbin battery test stations', 'E']]
+[['Cyclic voltammetry', 'E'], ['rate of 0.1 mV/s', 'P'], ['was performed', 'A'], ['Solartron unit', 'E']]
+[['5 mA (+) 20 mA', 'P'], ['were used', 'A'], ['charge/discharge', 'P'], ['cells', 'R']]
+[['electrochemical impedance spectroscopy (EIS) measurements', 'E'], ['were performed', 'A'], ['end of each charge and discharge states', 'P']]
+[['measurements', 'E'], ['were taken', 'A'], ['1000 kHz to 1 MHz (+) AC amplitude of 10 mV', 'P'], ['Solartron analyzer', 'E']]

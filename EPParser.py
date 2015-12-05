@@ -16,8 +16,10 @@ class EPParser():
         self.END = ['***END***', '***END2***']
         self.labels = ['N', 'I', 'E', 'A', 'P', 'PR', 'R']
         self.model = EPModel(self.labels)
-        self.samplefiles = [filename for filename in listdir('samples') if 'train' in filename]
-
+        self.totalfiles = [filename for filename in listdir('samples') if 'Ftrain' in filename]
+        self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,len(self.totalfiles) + 1)]
+        
+        self.split = .5
         self.trainSentences = []
         self.testSentences = []
         self.Docs = []
@@ -69,10 +71,10 @@ class EPParser():
                 with open('resources/EP' + filename, 'w') as f:
                      pickle.dump(allEPtags, f)
             self.Docs.append(sentences)
-        self.trainDocs = self.Docs[:int(math.floor(len(self.Docs) * .85))]
-        self.testDocs = self.Docs[int(math.floor(len(self.Docs) * .85)):]
-        self.trainFilenames = self.samplefiles[:int(math.floor(len(self.Docs) * .85))]
-        self.testFilenames = self.samplefiles[int(math.floor(len(self.Docs) * .85)):]
+        self.trainDocs = self.Docs[:int(math.floor(len(self.Docs) * self.split))]
+        self.testDocs = self.Docs[int(math.floor(len(self.Docs) * self.split)):]
+        self.trainFilenames = self.samplefiles[:int(math.floor(len(self.Docs) * self.split))]
+        self.testFilenames = self.samplefiles[int(math.floor(len(self.Docs) * self.split)):]
         
     def shuffle(self):
         print 'Shuffling data sets'
@@ -482,6 +484,8 @@ class EPDependencyParser():
             wordlist = sentencelist[s]
             moves = moveslist[s]
             words, EPtags, postags = self.getWordsTags(wordlist)
+            print words
+            print moves
             headslist.append(self.train_single(words, EPtags, moves))
         return headslist
 
@@ -522,7 +526,6 @@ class EPDependencyParser():
         if headslist is not None:
             print 'Score: ' + str(float(correct)/totalheads)
         return outputHeads
-            
         
 class DependencyParser():
     def __init__(self, n):
@@ -542,12 +545,29 @@ class DependencyParser():
     
 def groupWords(s):
     previoustag = 'N'
+    storedOrderWord = None
     currentGroup = ''
     output = []
+    orderOutput = []
     containsA = False
     currentOutput = []
+    currentOrderOutput = []
+    orderWords = ['first', 'second', 'third', 'fourth', 'fifth', 'next', 'then', 'after', 'before', 'last', 'lastly', 'finally']
     for idx in range(len(s)):
         w, EPt, post = s[idx]
+        w = w.lower()
+        if w in orderWords:
+            if idx + 1 < len(s):
+                w1, EPt1, post1 = s[idx + 1]
+                if EPt1 != 'A':            
+                    currentOrderOutput.append(w)
+                else:
+                    if EPt1 == previoustag:
+                        currentOrderOutput.append(w)
+                    else:
+                        storedOrderWord = w
+            else:
+                currentOrderOutput.append(w)
         if w == ',':
             if idx + 1 < len(s):
                 w1, EPt1, post1 = s[idx + 1]
@@ -572,9 +592,16 @@ def groupWords(s):
                         if previoustag != 'N':
                             output.append(currentOutput)
                             currentOutput = [[currentGroup, previoustag]]
+                            orderOutput.append(currentOrderOutput)
                         else:
                             output.append(currentOutput)
                             currentOutput = []
+                            orderOutput.append(currentOrderOutput)
+                        if storedOrderWord is not None:
+                            currentOrderOutput = [storedOrderWord]
+                            storedOrderWord = None
+                        else:
+                            currentOrderOutput = []
                         containsA = True
                         currentGroup = w
                         previoustag = 'A'
@@ -606,21 +633,28 @@ def groupWords(s):
     if currentGroup != '':
         currentOutput.append([currentGroup, previoustag])
     output.append(currentOutput)
-    return output, containsA     
+    orderOutput.append(currentOrderOutput)
+    return output, containsA, orderOutput     
 
 class Recipe():
 
     def __init__(self):
         self.parser = EPParser()
-        self.originalDocs = self.getGroups()
+        self.originalDocs = self.getTrain()
+        #self.originalDocs = self.getTrain() + self.getTest()
         self.groupedDocs = []
+        self.orderedDocs = []
         for doc in self.originalDocs:
             groupDoc = []
+            orderDoc = []
             for s in doc:
-                gs, a = groupWords(s)
-                for g in gs:
-                    groupDoc.append(g)
+                gs, a, order = groupWords(s)
+                for g in range(len(gs)):
+                    groupDoc.append(gs[g])
+                    orderDoc.append(order[g])
+            #print orderDoc
             self.groupedDocs.append(groupDoc)
+            self.orderedDocs.append(orderDoc)
 ##        for gd in self.groupedDocs:
 ##            print '----------NEW DOC------------'
 ##            for s in gd:
@@ -628,24 +662,33 @@ class Recipe():
         self.originalmoves = []
         for fn in self.parser.trainFilenames:
             self.originalmoves.append(self.getMoves(fn))
+        self.ordermoves = []
+        for fn in self.parser.trainFilenames:
+            self.ordermoves.append(self.getOrderMoves(fn))
         self.parser.shuffle()
         self.parser.train(10)
         self.taggedDocs = self.parser.evaluate()
         self.DPparser = EPDependencyParser()
         for idx in range(len(self.groupedDocs)):
             self.DPparser.train(self.groupedDocs[idx], self.originalmoves[idx])
+        self.Oparser = EPDependencyParser()
+        for idx in range(len(self.groupedDocs)):
+            self.Oparser.train(self.orderedDocs[idx], self.ordermoves[idx])
+
         self.createRecipe()
         
     def createRecipe(self):
         for doc in self.taggedDocs:
             steps = []
+            orderSteps = []
             for s in doc: 
                 words = [w[0] for w in s]
-                groups, containsA = groupWords(s)
+                groups, containsA, order = groupWords(s)
                 #self.DPparser.evaluate(g)
-                for group in groups:
+                for g in range(len(groups)):
                     if containsA:
-                        steps.append(group)
+                        steps.append(groups[g])
+                        orderSteps.append(order[g])
 
             heads = self.DPparser.evaluate(steps)
 
@@ -659,8 +702,12 @@ class Recipe():
                 print 'Step ' + str(i+1) + ':'
                 print recipe[i]
 
-    def getGroups(self):
+    def getTrain(self):
         s1 = self.parser.trainDocs
+        return s1
+
+    def getTest(self):
+        s1 = self.parser.testDocs
         return s1
     
     def getMoves(self, filename):
@@ -671,6 +718,18 @@ class Recipe():
             for move in moves:
                 moveslist.append(move.split())
         return moveslist
+
+    def getOrderMoves(self, filename):
+        try:
+            f = open('resources/OrderMoves' + filename, 'r')
+            moveslist = []
+            for line in f:
+                moves = line.split('|')
+                for move in moves:
+                    moveslist.append(move.split())
+            return moveslist
+        except:
+            return []
 
     def convertHeadsToRecipe(self, words, heads):
         if -1 in heads:
@@ -698,7 +757,8 @@ class Recipe():
         return outputdict
 
     def createTrueRecipes(self):
-        f = self.parser.trainFilenames + self.parser.testFilenames
+        #f = self.parser.trainFilenames + self.parser.testFilenames
+        f = self.parser.trainFilenames
         s = []
         for fn in f:
             if os.path.exists('resources/Saved' + fn):
