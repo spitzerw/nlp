@@ -19,5 +19,5 @@ The_N full_R cells_R were_A charged_A to_N 4.2_P V_P at_N constant_P current_P (
 Discharges_E were_A done_A at_N CC_P to_N a_N cut-off_P potential_P of_P 2.75_P V_P ._N
 The_N capacities_P of_N full_R cells_R were_A normalized_A by_N the_N weight_P of_P NCA_P cathode_N ._N
 The_N half_R cells_R were_A cycled_A between_P 0.05_P and_P 1.0_P VLi+/Li_P (Si/graphene)_R and_P 2.75–4.20_P VLi+/Li_P (NCA)_R ._N
-Electrochemical_E Impedance_E Spectroscopy_E (EIS)_E of_N full_R cells_R was_A conducted_A using_N a_N potentiostat_E in_N a_N frequency_P range_P of_P 1_P MHz_P ∼_P 0.01_P Hz_P with_N an_N amplitude_P of_P 5_P mV_P at_N full_P state_P of_P charge_P (SOC)_P of_P 4.09–4.12_P V_P ._N
+Electrochemical_E Impedance_E Spectroscopy_E (EIS)_E of_N full_R cells_R was_A conducted_A using_N a_N potentiostat_E in_N a_N frequency_P range_P of_P 1_P MHz_P pm_P 0.01_P Hz_P with_N an_N amplitude_P of_P 5_P mV_P at_N full_P state_P of_P charge_P (SOC)_P of_P 4.09–4.12_P V_P ._N
 The_N values_PR for_PR resistances_PR of_N individual_P components_P were_A determined_A with_N a_N fitting_E program_E ._N
