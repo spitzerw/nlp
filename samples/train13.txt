@@ -1,0 +1,16 @@
+﻿Powder_PR LTAP_PR was_A prepared_A using_N a_N wet-chemical_E process_E with_N a_N stoichiometric_P mixture_P of_N lithium_I chloride_I (LiCl)_I ,_N titanium_I butoxide_I (Ti(OCH2(CH2)2CH3)4)_I ,_N aluminum_I nitrate_I (Al(NO3)3·9H2O)_I ,_N and_N ammonium_I dihydrogen_I phosphate_I (NH4H2PO4)_I ._N 
+The_N precursors_I were_A dissolved_A in_N distilled_I water_I ,_N and_N titanium_I butoxide_I solution_I was_A added_A dropwise_P to_N the_N prepared_R solution_R with_N constant_P stirring_P ._N
+The_N resultant_R solution_R was_A ball-milled_A for_N 24_P h_P ._N 
+The_N mixture_R was_A dried_A at_N 80_P 8C_P ,_N and_N the_R obtained_R powder_R was_A heated_A to_N 10008C_P for_N 4_P h_P in_N air_P ._N
+A_N PVdF_I polymer_I was_A used_A as_N a_N binder_N ._N 
+The_N PVdF_I solution_PR was_A prepared_A in_N dimethylacetamide_I (DMAc)/acetone_I (1:2_P volume_N ratio)_P solvent_N ._N
+The_N prepared_R LTAP_R powder_R was_A added_A to_N the_N polymer_R solution_R and_N mixed_A to_N prepare_P the_N slurry_PR ._N 
+The_N prepared_R slurry_R was_A cast_A onto_N a_N glass_I plate_I using_N a_N doctor_E blade_E with_N a_N flow_P of_P distilled_P water_P to_N the_N sample_N ._N 
+Then,_N the_N LTPA-based_R composite_R solid_R membrane_R floated_A to_N the_P distilled_P water_P layer_P ._N 
+The_N composite_I membrane_I was_A pressed_A with_N a_N 2-tonne_E press_E and_N dried_A in_N a_N vacuum_E oven_E (808C_P ,_N 24_P h)_P ._N 
+The_N LTAP-based_R composite_R solid_R electrolyte_R was_A prepared_A by_N soaking_P the_N solid_I membrane_I for_N 20_P min_P in_N a_N solution_N of_N 1m_P LiPF6_I in_N EC/DMC_I ._N 
+The_N ionic_PR conductivity_PR was_A calculated_A by_N s=l/(RÕ_N A)_E equation_E ,_N where_N R_N is_N total_N resistance_N (ohm),_N l_N is_N thickness_N of_N sample_N (cm),_N and_N A_N is_N area_N of_N sample_N (cm2)_N ._N
+To_N prepare_N the_N electrode_PR ,_N the_N active_I material_I powder_I (cathode:_P LiMn2O4_P ,_N anode:_P graphite_P ),_N super-p_I carbon_I black_I ,_N and_N poly(tetrafluoroethylene)_I (PTFE)_I binder_N were_A mixed_A in_N a_N ratio_R of_R 70:10:20_R by_R weight_R ._N 
+The_N complete_R mixture_R was_A rolled_A and_N pressed_A into_N thin_P sheets_P ._N 
+The_N flexible_PR solid_PR cell_PR was_A stacked_A as_N follows:_N prepared_P cathode_P sheet/LTAP-based_P composite_P solid_P electrolyte/anode_P sheet_P ._N 
+The_N electrochemical_E cell_E test_E was_A performed_A using_N an_N automatic_E galvanostatic_E charge–discharge_E unit_E (WonATech._N Co.)_N with_N a_N 2032_E coin-type_E cell_E between_N 0.1_P and_P 1.5_P V_P with_N a_N 0.1_P mA_P current_P density_P ._N

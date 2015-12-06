@@ -1,0 +1,20 @@
+﻿The_N pristine_PR Ni0.8Co0.15Al0.05(OH)2_PR precursor_PR was_A obtained_A by_N commercial_N supply_N ._N
+The_N in_E situ_E oxidizing-coating_E process_E was_A implemented_A as_N below_N ._N
+KMnO4_I powder_I was_A dissolved_A in_N deionized_I water_I to_N form_N a_N 0.1_P mol_P L−1_P solution_PR ._N
+Subsequently,_N 10_P g_P Ni0.8Co0.15Al0.05(OH)2_R precursor_R was_A dispersed_A in_N deionized_I water_I ,_N followed_N by_N dripping_A 20_P mL_P the_N as-prepared_R KMnO4_R solution_R with_N magnetic_P stirring_P ._N
+On_N the_N surface_N of_N the_N precursor,_N Ni2+_N was_N immediately_N oxidized_N into_N Ni3+,_N accompanied_N by_N the_N precipitation_N of_N MnO2_N ._N
+As_N a_N result,_N the_N dark_N green_N solid_N powder_N was_N changed_N into_N dark_N brown,_N and_N the_N dripped_N violet_N liquid_N immediately_N became_N clear_N ._N
+But_N the_N violet_N could_N no_N longer_N fade_N within_N 1_N h_N when_N about_N 15_N mL_N KMnO4_N solution_N was_N dripped_N in_N ._N
+Then_N excess_N 5_N mL_N was_N added_N with_N stirring_N for_N 0.5_N h_N ._N
+After_N reaction,_N the_N dark_PR brown_PR powder_PR was_A recovered_A by_N filtration_E ,_N washed_A three_P times_P with_N deionized_I water_I and_N dried_A at_N 110_P °C_P overnight_P ._N
+Finally,_N the_N MnO2-coated_R Ni0.8Co0.15Al0.05(OH)2_R and_N LiOH·H2O_I were_A thoroughly_A mixed_A with_A a_N molar_N ratio_P of_P 1:1.05_P before_N being_N sintered_A at_N 750_P °C_P for_N 15_P h_P under_N flowing_P oxygen_P ._N
+For_N comparison_N ,_N a_N pristine_PR sample_PR was_A obtained_A by_N annealing_P pristine_I Ni0.8Co0.15Al0.05(OH)2_I and_N LiOH·H2O_I with_N the_N same_P molar_P ratio_P and_N sintering_P process_P ._N
+For_N convenience_N ,_N the_N KMnO4_N treated_N Ni0.8Co0.25Al0.05(OH)2_N precursor_N and_N the_N pristine_N one_N are_N labeled_N as_N T-precursor_N and_N U-precursor;_N and_N the_N materials_N synthesized_N from_N them_N are_N labeled_N as_N T-NCA_N and_N U-NCA_N respectively_N ._N
+X-ray_PR diffraction_PR (XRD)_PR patterns_PR were_A measured_A using_N a_N Rigaku_E Rint-2000_E diffractometer_E with_N Cu-Kα_P radiation_P (1.54056_P Å)_P ._N
+The_N morphologies_PR of_N the_N as-prepared_R samples_R were_A observed_A by_N a_N scanning_E electron_E microscope_E (SEM_E ,_N JEOL_N ,_N JSM-5612LV)_E ._N
+The_N amount_PR of_PR Mn_PR attached_PR onto_N the_N material_R particles_R is_A detected_A by_N an_N inductively_E coupled_E plasma_E optical_E emission_E spectrometer_E (ICP-OES_E ,_N IRIS_N Intrepid_N II_N XSP)_N ._N
+Moreover,_N X-ray_E photoelectron_E spectroscopy_E (XPS_E ,_N PHI_N 5600,_N Perkin–Elmer)_N measurements_E were_A performed_A to_N get_N information_PR on_PR the_PR surface_PR of_N the_N materials_R ._N
+CR_E 2025_E coin-type_E cells_PR were_A assembled_A with_N metallic_N lithium_I anodes_I for_N electrochemistry_E studies_E ._N
+The_N positive_PR electrodes_PR were_A fabricated_A by_N casting_P a_N slurry_P consisting_N of_N as-prepared_R sample_R (80_P wt%)_P ,_N Super_I P_I carbon_I black_I (10_P wt%)_P and_N poly(vinylidene_I fluoride)_I (PVDF)_I (10_P wt%)_P dispersed_N in_N N-methyl-2-pyrrolidone_I (NMP)_I onto_N an_N aluminum_I foil_I with_N a_N doctor_E blade_E ,_N followed_A by_N drying_P at_N 120_P °C_P under_N vacuum_P for_N 12_P h_P ._N
+1_P M_P LiPF6_I in_N 1:1:1_P ethylene_I carbonate/ethyl_I methyl_I carbonate/dimethyl_I carbonate_I was_A used_A as_N electrolyte_N ._N
+The_N cells_R were_A assembled_A in_N an_N Ar-filled_E glove_E box_E (Mikrouna)_N with_N O2_P and_P H2O_P lower_P than_P 0.5_P ppm_P ,_N and_N cycled_A galvanostatically_P between_P 2.8_P and_P 4.3_P V_P (vs._P Li/Li+)_P (or_N between_P 2.8_P and_P 4.5_P V_P for_N overcharge_N behaviors_N study)_N at_N a_N desired_P current_P density_P ._N

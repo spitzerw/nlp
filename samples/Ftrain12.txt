@@ -1,0 +1,25 @@
+﻿α-MnO2_PR catalyst_PR was_A synthesized_A by_N a_N hydrothermal_E route_E ._N
+Aqueous_P solutions_P of_N KMnO4_I and_N MnSO4_I (molecular_P ratio_P =_P 2:1)_P were_A mixed_A and_N stirred_A vigorously_N for_N 30_P min_P until_N a_N dark_PR purple_PR solution_PR was_N formed_N ._N
+Afterwards_N ,_N the_N solution_R was_A loaded_A to_N a_N Teflon-lined_E stainless_E steel_E vessel_E and_N heated_A at_N 180_P °C_P for_N 12_P h_P ._N
+After_N the_N reaction_N had_N run_N to_N completion_N ,_N the_N brownish_R black_R precipitates_R were_A cooled_A down_N to_N room_P temperature_P ;_N then_N the_N precipitate_R was_A separated_A by_N vacuum_E filtration_E ;_N and_N last,_N washed_A to_N remove_N the_N unreacted_N material_N and_N soluble_N products_N ._N
+After_N being_N dried_A under_N vacuum_P at_N 100_P °C_P for_N 6_P h_P ,_N the_N precipitate_R was_A dispersed_A by_N ball_E milling_E and_N dried_A under_N vacuum_P at_N 80_P °C_P for_N 6_P h_P to_N obtain_N the_N final_PR products_PR ._N
+Phase_PR identification_PR of_N the_N prepared_R α-MnO2_R was_A conducted_A by_N XRD_E analysis_E (DX2700_E ,_N Dandong_N FangYuan_N Instrument_N Co.,_N Ltd.)_N ._N
+The_N morphology_PR of_N the_N resulting_R α-MnO2_R particles_R was_A observed_A using_N a_N scanning_E electron_E microscope_E (SEM_E ,_N Nova_N 430,_N FEI_N Company_N in_N Netherlands)_N ._N
+The_N surface_PR area_PR of_N the_N synthesized_R materials_R was_A studied_A using_N BET_E measurements_E (3H-2000PS1_E ,_N BeiShiDe_N Instrument_N Technology_N (Beijing)_N Co.,_N Ltd.)_N ._N
+The_N air_PR cathode_PR was_A prepared_A on_N the_N nickel_I foam_I ._N
+An_N N-methyl-2-pyrrolidone_I (NMP)_I slurry_I of_N PVDF_P was_A mixed_A with_N previously_N prepared_R α-MnO2_R ,_N graphite_R (Tianjin_N BoDi_N CO.,_N Ltd.)_N and_N Super_R P_R (Taiyuan_N city_N power_N battery_N material_N Co.,_N Ltd.)_N in_N a_N weight_P ratio_P of_P 5:9:12:6_P ,_N respectively_N ._N
+And_N the_N slurry_R was_A deposited_A over_N the_N nickel_I foam_I by_N using_N a_N doctor_E blade_E ._N
+Then_N the_N coated_R nickel_R foam_R was_A dried_A at_N 120_P °C_P for_N 2_P h_P in_N a_N vacuum_E oven_E ._N
+According_N to_N the_N method_E described_E above_E ,_N α-MnO2_I ,_N graphite_I and_N PVDF_I were_A combined_A at_N a_N weight_P ratio_P of_P 9:18:5_P ,_N and_N α-MnO2_I ,_N Super_I P_I and_N PVDF_I in_N the_N weight_P ratio_P of_P 9:27:6.6_P ,_N respectively,_N to_N prepare_N a_N series_N of_N cathode_N sheets_N composed_N of_N different_N active_N materials_N ._N
+Electrochemical_E characterizations_E were_A carried_A out_A using_N a_N coin_E type_E cell_E assembled_N in_N an_N Ar-filled_E dry_E glove_E box_E ._N
+A_N lithium_I foil_I was_A used_A as_N the_N anode_N electrode_N ,_N celgard_I 2300_I as_N the_N separator,_N and_N 1_P M_P LiPF6_I +_I EC_I +_I DMC_I (volume_P ratio_P of_P l:l:1)_P as_N the_N electrolyte_N ._N
+The_N cell_N was_N gas_N tight_N except_N for_N the_N stainless_N steel_N mesh_N window_N which_N was_N exposed_N at_N the_N porous_N cathode_N to_N ambient_N atmosphere_N ._N
+Finally,_N the_N cells_PR with_N waterproof_P membranes_P made_N in-house_N were_A sealed_A in_N a_N bag_E for_N 12_P h_P (Fig._N 1)_N ._N
+All_N electrochemical_E investigation_E and_N characterization_E of_N the_N cell_R were_A conducted_A under_N ambient_P atmosphere_P ._N
+Linear_E scanning_E voltammetry_E tests_E were_A carried_A out_A by_N a_N three_E electrodes_E system_E on_N an_N electrochemistry_E workstation_E (CHI660_E ,_N Shanghai_N ChenHua_N Co.)_N ._N
+The_N working_N electrode_N was_A the_N as-prepared_R electrode_R (0.5_P cm_P ×_P 0.5_P cm)_P ,_N Pt_I film_I electrode,_N a_N saturated_P calomel_I electrode_I was_A as_N the_N reference_N electrode_N ,_N 0.1_P mol/L_P NaOH_I solution_I as_N the_N electrolyte_N ._N
+The_N potential_P of_P the_P scan_P range_P was_A from_N φocp_P to−1.0_P V_P ,_N and_N the_N scan_P rate_P is_A 10_P mV/s_P ._N
+Charge_E and_E discharge_E performance_E was_A conducted_A on_N a_N cell_E test_E system_E (CT2001A_E ,_N Wuhan_N Jinnuo_N Electronics_N Co.,_N Ltd.)_N at_N the_N voltage_P range_P of_P 2.0–4.2_P V_P ._N
+A_N CHI660_E electrochemistry_E workstation_E was_A employed_A to_N collect_P the_N cyclic_PR voltammetry_PR results_PR of_N the_N cell_R at_N 2.0–4.2_P V_P at_N a_N scanning_P rate_P of_P 0.1_P mV/s_P ._N
+The_N conductivity_PR was_A measured_A by_N AC_E impedance_E method_E using_N a_N frequency_E impedance_E analyzer_E (IM6e_E ,_N Germany_N Zahner_N Co._N LTD)_N in_N the_N range_P of_P 0.01–100_P kHz_P ._N
+The_N amplitude_P of_P the_P AC_P potential_P signal_P was_A fixed_A at_N 5_P mV_P for_N all_N measurements_N ._N

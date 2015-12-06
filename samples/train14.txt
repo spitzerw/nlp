@@ -1,0 +1,19 @@
+﻿Two_N Li4Ti5O12_I powders_I (Sachtleben_N Pigments)_N were_A used_A as_N active_PR materials_PR ._N 
+Samples_N are_N labeled_A hereafter_N as_N LTO-SP_PR and_N LTO-LP_PR according_N to_N the_N primary_N particle_N size_N (SP_N for_N smaller_N primary_N particle_N size_N and_N LP_N for_N larger_N primary_N particle_N size)_N ._N 
+These_N materials_R have_A been_A synthesized_A using_N the_N same_N pilot_E scale_E method_E and_N the_N difference_N in_N the_N particle_N size_P results_P from_P different_P milling_P processes_P ._N 
+Morphology_PR of_N the_N particles_R was_A observed_A by_N scanning_E electron_E microscopy_E (SEM_E ,_N JEOL_N JSM-7500FA)_N ._N 
+Particle_PR sizes_PR were_A calculated_A from_N the_N SEM_E images_E measuring_E 212_P LTO-SP_R and_N 455_P LTO-LP_R particles_R ._N 
+BET_E measurements_E were_A done_A using_N Nova_E 3200_E surface_E area_E analyzer_E (Quantachrome_N Instruments)_N ._N
+Electrode_PR slurries_PR were_A prepared_A by_N mixing_P LTO_R ,_N carbon_I black_I (C65_I ,_N Timcal)_N ,_N and_N PVDF_I (polyvinylidene_I fluoride)_I in_N N-methyl-2-pyrrolidone_I (Ashland)_N in_N weight_P ratios_P 92:3:5_P for_N carbon_PR containing_PR electrodes_PR and_N 95:0:5_P for_N carbon_PR free_PR electrodes_PR ._N 
+Electrode_R slurries_R were_A then_N coated_A on_N an_N aluminum_I foil_I and_N dried_A at_N 80_P °C_P overnight_P ._N 
+14_P mm_P electrodes_PR were_A cut_A from_N the_N dried_R electrode_R foils_R and_N calendered_A with_N a_N pressure_P of_P 3300_P kg_P cm−2_P ._N
+Electrodes_R were_A dried_A overnight_P at_N 110_P °C_P under_N vacuum_P before_N assembling_A 2016_E coin_E cells_E in_N an_N argon_E filled_E glove_E box_E (oxygen_P and_P water_P vapor_P levels_P below_P 1_P ppm)_P ._N 
+Lithium_I metal_I foil_I (0.38_P mm_P in_P thickness_P ,_N Aldrich)_N was_A used_A as_N a_N counter_N electrode,_N and_N 1_P M_P LiPF6_I in_N ethylene_I carbonate:dimethyl_I carbonate_I 1:1_P w/w_P (LP30,_N Merck)_N as_N an_N electrolyte_N ._N 
+260_P μm_P thick_P glass_E microfiber_E filter_E (GF/A_E ,_N Whatman)_N was_A used_A as_N a_N separator_N ._N
+Charging/discharging_E experiments_E were_A conducted_A using_N a_N Neware_E battery_E cycler_E ._N 
+Galvanostatic_E charging_E and_E discharging_E was_A done_A between_N 1.1_P and_P 2.5_P V_P vs._P Li/Li+_P using_N C-rates_P from_P 0.1C_P to_P 10C_P ._N 
+C-rates_PR were_A calculated_A using_N the_N theoretical_P capacity_P of_P Li4Ti5O12_I (175_P mAh_P g−1)_P and_N 1C_N corresponds_N to_N complete_N charging_N or_N discharging_N in_N 1_N h_N ._N 
+Low_E temperature_E measurements_E were_A done_A at_N 0_P °C_P and_N −20_P °C_P in_N temperature_E chamber_E (Vötsch)_N ._N 
+Temperature_P was_A let_A to_N stabilize_P for_N 1_P h_P before_N the_N measurements_N ._N
+Electrochemical_E impedance_E spectroscopy_E (EIS)_E was_A conducted_A with_N an_N Autolab_E potentiostat_E (PGSTAT302N)_E using_N 3-electrode_E set_E up_E (Hohsen_N HS-3E_N test_N cell)_N with_N a_N lithium_I metal_I foil_N counter_N and_N reference_I electrode_I ._N 
+Frequency_P range_P of_P 100_P kHz–0.01_P Hz_P and_N voltage_P amplitude_P of_P 10_P mV_P were_A used_A ._N
