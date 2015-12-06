@@ -1,0 +1,31 @@
+[{"A": [["was conducted", {"R": [["electrodes", {}]], "E": [["electrochemical analysis", {}]]}]]}, {"A": [["was prepared", {"PR": [["working electrode (we)", {}]], "I": [["active material", {"P": ["80%"]}], ["carbon black (cb)", {"P": ["10%"]}], ["polyvinylidene fluoride (pvdf) binder", {"P": ["10%"]}]]}]]}, {"A": [["was made", {"PR": [["slurry", {}]], "I": [["n-methyl-2-pyrrolidinone (nmp)", {}]]}]]}, {"A": [["was (+) uniformly coated", {"I": [["aluminum foil", {}]], "P": [["120 um thickness", {}]], "R": [["slurry", {}]], "E": [["applicator", {}]]}]]}, {"A": [["drying", {"P": [["24 h", {}]], "E": [["fume hood", {}]]}]]}, {"A": [["was cut", {"PR": [["the working electrodes", {}]], "P": [["0.5 in. diameter circles", {}]], "R": [["coated foil", {}]]}]]}, {"A": [["were placed", {"I": [["lithium foil", {}], ["lipf6 salt (+) ethylene carbonate/diethyl carbonate (1:1 by volume ec:dec)", {"P": ["1 m"]}]], "R": [["electrodes", {}]], "E": [["two-electrode coin cell", {}]]}]]}, {"A": [["was placed", {"I": [["micro-porous separator (celgard3501)", {}]], "P": [["between the working and counter electrodes", {}]]}]]}, {"A": [["annealed", {"I": [["nafepo4", {}]]}]]}, {"A": [["have been used", {"PR": [["electrochemical properties", {}]], "P": [["ar (+) 600 c", {}], ["test", {}]]}]]}, {"A": [["were performed", {"P": [["between 2 v and 4 v", {}]], "E": [["battery cycle tests", {}], ["solartron (+) arbin battery test stations", {}]]}]]}, {"A": [["was performed", {"E": [["cyclic voltammetry", {"P": ["rate of 0.1 mv/s"]}], ["solartron unit", {}]]}]]}, {"A": [["were used", {"P": [["5 ma (+) 20 ma", {}], ["charge/discharge", {}]], "R": [["cells", {}]]}]]}, {"A": [["were performed", {"P": [["end of each charge and discharge states", {}]], "E": [["electrochemical impedance spectroscopy (eis) measurements", {}]]}]]}, {"A": [["were taken", {"P": [["1000 khz to 1 mhz (+) ac amplitude of 10 mv", {}]], "E": [["measurements", {}], ["solartron analyzer", {}]]}]]}]
+Step 1: 
+{"A": [["was conducted", {"R": [["electrodes", {}]], "E": [["electrochemical analysis", {}]]}]]}
+Step 2: 
+{"A": [["was prepared", {"PR": [["working electrode (we)", {}]], "I": [["active material", {"P": ["80%"]}], ["carbon black (cb)", {"P": ["10%"]}], ["polyvinylidene fluoride (pvdf) binder", {"P": ["10%"]}]]}]]}
+Step 3: 
+{"A": [["was made", {"PR": [["slurry", {}]], "I": [["n-methyl-2-pyrrolidinone (nmp)", {}]]}]]}
+Step 4: 
+{"A": [["was (+) uniformly coated", {"I": [["aluminum foil", {}]], "P": [["120 um thickness", {}]], "R": [["slurry", {}]], "E": [["applicator", {}]]}]]}
+Step 5: 
+{"A": [["drying", {"P": [["24 h", {}]], "E": [["fume hood", {}]]}]]}
+Step 6: 
+{"A": [["was cut", {"PR": [["the working electrodes", {}]], "P": [["0.5 in. diameter circles", {}]], "R": [["coated foil", {}]]}]]}
+Step 7: 
+{"A": [["were placed", {"I": [["lithium foil", {}], ["lipf6 salt (+) ethylene carbonate/diethyl carbonate (1:1 by volume ec:dec)", {"P": ["1 m"]}]], "R": [["electrodes", {}]], "E": [["two-electrode coin cell", {}]]}]]}
+Step 8: 
+{"A": [["was placed", {"I": [["micro-porous separator (celgard3501)", {}]], "P": [["between the working and counter electrodes", {}]]}]]}
+Step 9: 
+{"A": [["annealed", {"I": [["nafepo4", {}]]}]]}
+Step 10: 
+{"A": [["have been used", {"PR": [["electrochemical properties", {}]], "P": [["ar (+) 600 c", {}], ["test", {}]]}]]}
+Step 11: 
+{"A": [["were performed", {"P": [["between 2 v and 4 v", {}]], "E": [["battery cycle tests", {}], ["solartron (+) arbin battery test stations", {}]]}]]}
+Step 12: 
+{"A": [["was performed", {"E": [["cyclic voltammetry", {"P": ["rate of 0.1 mv/s"]}], ["solartron unit", {}]]}]]}
+Step 13: 
+{"A": [["were used", {"P": [["5 ma (+) 20 ma", {}], ["charge/discharge", {}]], "R": [["cells", {}]]}]]}
+Step 14: 
+{"A": [["were performed", {"P": [["end of each charge and discharge states", {}]], "E": [["electrochemical impedance spectroscopy (eis) measurements", {}]]}]]}
+Step 15: 
+{"A": [["were taken", {"P": [["1000 khz to 1 mhz (+) ac amplitude of 10 mv", {}]], "E": [["measurements", {}], ["solartron analyzer", {}]]}]]}

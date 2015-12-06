@@ -1,0 +1,37 @@
+[{"A": [["were synthesized", {"PR": [["titanate nanowires", {}]], "P": [["adding", {}]], "I": [["anatase tio2", {}], ["aqueous solution of naoh", {"P": ["15 m"]}]]}]]}, {"A": [["stirring", {"P": [["1 h", {}]]}]]}, {"A": [["was transferred", {"R": [["resulting suspension", {}]], "E": [["teflon-lined autoclave", {}]]}]]}, {"A": [["heated", {"P": [["170 c (+) 72 h", {}]]}]]}, {"A": [["was acid-washed", {"I": [["hcl solution", {"P": ["0.05 m"]}]], "P": [["stirring", {}], ["2 h", {}]], "R": [["product", {}]]}]]}, {"A": [["was (+) filtered (+) washed", {"I": [["distilled water", {}]], "R": [["material", {}]]}]]}, {"A": [["dried", {"P": [["80 c (+) 15 h", {}]]}]]}, {"A": [["were prepared", {"PR": [["tio2(b) nanowires", {}]], "P": [["heating (+) acid-washed", {}], ["400 c (+) 4 h (+) air", {}]], "R": [["titanate nanowires", {}]]}]]}, {"A": [["was formed", {"PR": [["gpe", {}]], "P": [["trapping", {}]], "I": [["lipf6", {}], ["ec (+) pc", {}], ["pvdf matrix", {"P": ["(20:40:40 by weight)"]}]]}]]}, {"A": [["was (+) provided", {"PR": [["lifepo4", {}]]}]]}, {"A": [["was obtained", {"PR": [["nickel manganese spinel (+) lini0.5mn1.5o4", {}]], "I": [["lino3 (+) ni(no3)2h2o and mn(no3)2h2o", {}]], "E": [["a wet-chemistry route", {}]]}]]}, {"A": [["were fabricated", {"PR": [["composite electrodes", {}]], "P": [["form of films (+) dispersing", {}], ["8 or 10 wt%", {"I": ["lini0.5- mn1.5o4) (+) n-methylpyrrolidinone (nmp)"]}], ["10 wt%", {"I": ["super p"]}]], "R": [["active materials", {}]], "I": [["tio2(b) (+) lifepo4", {}]]}]]}, {"A": [["was (+) cast", {"I": [["aluminum", {}], ["copper", {}]], "R": [["slurry", {}], ["(lifepo4 (+) lini0.5mn1.5o4)", {}], ["(tio2(b))", {}]]}]]}, {"A": [["were cut (+) vacuum-dried", {"PR": [["disks", {"P": ["10 mm diameter"]}]], "P": [["5 h (+) 110 c", {}]]}]]}, {"A": [["was assembled", {"PR": [["lithium-ion cell", {}]], "P": [["sandwiching", {}]], "R": [["tio2(b) electrode", {}], ["lifepo4 (+) lini0.5mn1.5o4 disk", {}]], "I": [["gpe membrane", {}]]}]]}, {"A": [["were", {"P": [["anode limited", {}], ["specific capacity (+) rate of the batteries", {"P": ["mass of"], "R": ["tio2(b) electrode"]}]], "R": [["batteries", {}]]}]]}, {"A": [["were performed", {"E": [["galvanostatic cycling tests", {}], ["maccor automated battery cycler", {}]]}]]}, {"A": [["were performed", {"P": [["room temperature", {}]], "E": [["measurements", {}]]}]]}]
+Step 1: 
+{"A": [["were synthesized", {"PR": [["titanate nanowires", {}]], "P": [["adding", {}]], "I": [["anatase tio2", {}], ["aqueous solution of naoh", {"P": ["15 m"]}]]}]]}
+Step 2: 
+{"A": [["stirring", {"P": [["1 h", {}]]}]]}
+Step 3: 
+{"A": [["was transferred", {"R": [["resulting suspension", {}]], "E": [["teflon-lined autoclave", {}]]}]]}
+Step 4: 
+{"A": [["heated", {"P": [["170 c (+) 72 h", {}]]}]]}
+Step 5: 
+{"A": [["was acid-washed", {"I": [["hcl solution", {"P": ["0.05 m"]}]], "P": [["stirring", {}], ["2 h", {}]], "R": [["product", {}]]}]]}
+Step 6: 
+{"A": [["was (+) filtered (+) washed", {"I": [["distilled water", {}]], "R": [["material", {}]]}]]}
+Step 7: 
+{"A": [["dried", {"P": [["80 c (+) 15 h", {}]]}]]}
+Step 8: 
+{"A": [["were prepared", {"PR": [["tio2(b) nanowires", {}]], "P": [["heating (+) acid-washed", {}], ["400 c (+) 4 h (+) air", {}]], "R": [["titanate nanowires", {}]]}]]}
+Step 9: 
+{"A": [["was formed", {"PR": [["gpe", {}]], "P": [["trapping", {}]], "I": [["lipf6", {}], ["ec (+) pc", {}], ["pvdf matrix", {"P": ["(20:40:40 by weight)"]}]]}]]}
+Step 10: 
+{"A": [["was (+) provided", {"PR": [["lifepo4", {}]]}]]}
+Step 11: 
+{"A": [["was obtained", {"PR": [["nickel manganese spinel (+) lini0.5mn1.5o4", {}]], "I": [["lino3 (+) ni(no3)2h2o and mn(no3)2h2o", {}]], "E": [["a wet-chemistry route", {}]]}]]}
+Step 12: 
+{"A": [["were fabricated", {"PR": [["composite electrodes", {}]], "P": [["form of films (+) dispersing", {}], ["8 or 10 wt%", {"I": ["lini0.5- mn1.5o4) (+) n-methylpyrrolidinone (nmp)"]}], ["10 wt%", {"I": ["super p"]}]], "R": [["active materials", {}]], "I": [["tio2(b) (+) lifepo4", {}]]}]]}
+Step 13: 
+{"A": [["was (+) cast", {"I": [["aluminum", {}], ["copper", {}]], "R": [["slurry", {}], ["(lifepo4 (+) lini0.5mn1.5o4)", {}], ["(tio2(b))", {}]]}]]}
+Step 14: 
+{"A": [["were cut (+) vacuum-dried", {"PR": [["disks", {"P": ["10 mm diameter"]}]], "P": [["5 h (+) 110 c", {}]]}]]}
+Step 15: 
+{"A": [["was assembled", {"PR": [["lithium-ion cell", {}]], "P": [["sandwiching", {}]], "R": [["tio2(b) electrode", {}], ["lifepo4 (+) lini0.5mn1.5o4 disk", {}]], "I": [["gpe membrane", {}]]}]]}
+Step 16: 
+{"A": [["were", {"P": [["anode limited", {}], ["specific capacity (+) rate of the batteries", {"P": ["mass of"], "R": ["tio2(b) electrode"]}]], "R": [["batteries", {}]]}]]}
+Step 17: 
+{"A": [["were performed", {"E": [["galvanostatic cycling tests", {}], ["maccor automated battery cycler", {}]]}]]}
+Step 18: 
+{"A": [["were performed", {"P": [["room temperature", {}]], "E": [["measurements", {}]]}]]}

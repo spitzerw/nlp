@@ -1,0 +1,41 @@
+[{"A": [["were purchased", {"PR": [["li2s particles", {}]], "E": [["alfa aesar", {}]]}]]}, {"A": [["were prepared", {"PR": [["ball-milled li2s particles", {}]], "P": [["mixing", {}]], "I": [["pristine li2s (+) al2o3", {"P": ["weight ratio of 95:5"]}]]}]]}, {"A": [["ball milled", {"P": [["6 h", {}]], "E": [["(spex 8000d miller)", {}]]}]]}, {"A": [["was (+) purchased", {"PR": [["lithium nitrate", {}]], "E": [["sigma aldrich", {}]]}]]}, {"A": [["was prepared", {"PR": [["polysulfide solution", {}]], "P": [["stirring", {}], ["overnight (+) 60 c", {}]], "I": [["pristine li2s (+) sulfur (+) 1,3- dioxolane", {}]]}]]}, {"I": [["polyvinylidene fluoride", {"PR": [["electrode", {}]], "I": [["li2s particles (+) super p carbon black", {}]], "A": [["were ground", {}]], "E": [["mortar", {}]], "P": [["weight ratio of 40:45:15", {}]]}]]}, {"A": [["stirred", {"I": [["n-methyl-2-pyrrolidone (nmp)", {}]], "P": [["12 h", {}]]}]]}, {"A": [["was drop cast", {"I": [["carbon paper", {}]], "R": [["slurry", {}]]}]]}, {"A": [["heated", {"P": [["110 c (+) 1 h", {}]]}]]}, {"A": [["is", {"P": [["11.5 mg li2s/cm2", {}]], "R": [["electrode", {}]]}]]}, {"A": [["were used", {"I": [["lithium metal", {}]], "E": [["2032-type coin cells", {}], ["two-electrode testing", {}]]}]]}, {"A": [["were performed", {"E": [["cyclic voltammetry (+) impedance measurements", {}], ["three-electrode configuration (+) pouch cells", {}]]}]]}, {"A": [["was used", {"I": [["lithium", {}], ["li2s (+) lithium electrodes", {}]]}]]}, {"A": [["are separated", {"I": [["polymer separators", {}]], "R": [["electrodes", {}]]}]]}, {"A": [["is", {"I": [["lithium bis(trifluoromethanesulfonyl)imide (litfsi", {"P": ["1.0 m"]}]], "P": [["(v:v = 1:1)", {"I": ["1,3-dioxolane (+) 1,2-dimethoxyethane"]}]], "R": [["electrolyte", {}]]}]]}, {"A": [["were done", {"E": [["electrode preparation (+) cell assembly", {}], ["glovebox", {}]]}]]}, {"A": [["are based", {"P": [["theoretical capacity of li2s (1c = 1166 ma/g)", {}]], "E": [["c rates", {}]]}]]}, {"A": [["is", {"P": [["from 200 khz to 0.01 hz", {}]], "E": [["impedance measurement", {"P": ["frequency range"]}]]}]]}, {"A": [["was performed", {"E": [["in-situ synchrotron diffraction", {}], ["stanford synchrotron radiation lightsource beamline 11-3", {"P": ["an x-ray energy of 12.74 kev"]}]]}]]}, {"A": [["was used", {"E": [["comsol 3.4", {}]]}]]}]
+Step 1: 
+{"A": [["were purchased", {"PR": [["li2s particles", {}]], "E": [["alfa aesar", {}]]}]]}
+Step 2: 
+{"A": [["were prepared", {"PR": [["ball-milled li2s particles", {}]], "P": [["mixing", {}]], "I": [["pristine li2s (+) al2o3", {"P": ["weight ratio of 95:5"]}]]}]]}
+Step 3: 
+{"A": [["ball milled", {"P": [["6 h", {}]], "E": [["(spex 8000d miller)", {}]]}]]}
+Step 4: 
+{"A": [["was (+) purchased", {"PR": [["lithium nitrate", {}]], "E": [["sigma aldrich", {}]]}]]}
+Step 5: 
+{"A": [["was prepared", {"PR": [["polysulfide solution", {}]], "P": [["stirring", {}], ["overnight (+) 60 c", {}]], "I": [["pristine li2s (+) sulfur (+) 1,3- dioxolane", {}]]}]]}
+Step 6: 
+{"I": [["polyvinylidene fluoride", {"PR": [["electrode", {}]], "I": [["li2s particles (+) super p carbon black", {}]], "A": [["were ground", {}]], "E": [["mortar", {}]], "P": [["weight ratio of 40:45:15", {}]]}]]}
+Step 7: 
+{"A": [["stirred", {"I": [["n-methyl-2-pyrrolidone (nmp)", {}]], "P": [["12 h", {}]]}]]}
+Step 8: 
+{"A": [["was drop cast", {"I": [["carbon paper", {}]], "R": [["slurry", {}]]}]]}
+Step 9: 
+{"A": [["heated", {"P": [["110 c (+) 1 h", {}]]}]]}
+Step 10: 
+{"A": [["is", {"P": [["11.5 mg li2s/cm2", {}]], "R": [["electrode", {}]]}]]}
+Step 11: 
+{"A": [["were used", {"I": [["lithium metal", {}]], "E": [["2032-type coin cells", {}], ["two-electrode testing", {}]]}]]}
+Step 12: 
+{"A": [["were performed", {"E": [["cyclic voltammetry (+) impedance measurements", {}], ["three-electrode configuration (+) pouch cells", {}]]}]]}
+Step 13: 
+{"A": [["was used", {"I": [["lithium", {}], ["li2s (+) lithium electrodes", {}]]}]]}
+Step 14: 
+{"A": [["are separated", {"I": [["polymer separators", {}]], "R": [["electrodes", {}]]}]]}
+Step 15: 
+{"A": [["is", {"I": [["lithium bis(trifluoromethanesulfonyl)imide (litfsi", {"P": ["1.0 m"]}]], "P": [["(v:v = 1:1)", {"I": ["1,3-dioxolane (+) 1,2-dimethoxyethane"]}]], "R": [["electrolyte", {}]]}]]}
+Step 16: 
+{"A": [["were done", {"E": [["electrode preparation (+) cell assembly", {}], ["glovebox", {}]]}]]}
+Step 17: 
+{"A": [["are based", {"P": [["theoretical capacity of li2s (1c = 1166 ma/g)", {}]], "E": [["c rates", {}]]}]]}
+Step 18: 
+{"A": [["is", {"P": [["from 200 khz to 0.01 hz", {}]], "E": [["impedance measurement", {"P": ["frequency range"]}]]}]]}
+Step 19: 
+{"A": [["was performed", {"E": [["in-situ synchrotron diffraction", {}], ["stanford synchrotron radiation lightsource beamline 11-3", {"P": ["an x-ray energy of 12.74 kev"]}]]}]]}
+Step 20: 
+{"A": [["was used", {"E": [["comsol 3.4", {}]]}]]}

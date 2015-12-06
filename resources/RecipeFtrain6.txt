@@ -1,0 +1,23 @@
+[{"A": [["was purchased", {"PR": [["lto", {}]], "E": [["btr energy materials co., ltd", {}]]}]]}, {"A": [["was prepared", {"PR": [["lnmo", {}]], "E": [["radiated polymer gel (rpg) method", {}]]}]]}, {"A": [["were made", {"PR": [["composite electrodes", {}]], "I": [["acetylene black", {"P": ["(10 wt.%)"]}], ["poly(vinylidene fluoride) (pvdf)", {"P": ["(10 wt.%)"]}]], "R": [["lto (+) lnmo", {"P": ["(80 wt.%)"]}]], "E": [["tape-casting process", {}]]}]]}, {"A": [["were", {"PR": [["electrolytes", {}]], "I": [["lipf6", {"P": ["1 m"]}], ["ethylene carbonate (ec) (+) pc (+) dimethyl carbonate (dmc) (+) diethyl carbonate (dec)", {}]]}]]}, {"A": [["were assembled", {"PR": [["cr2032 coin cells", {}]], "E": [["argon-filled glove box", {}]]}]]}, {"A": [["galvanostatically cycled", {"E": [["multi-channel battery cycler", {}]]}]]}, {"A": [["were designed (+) carried out", {"PR": [["cycle lifetime", {}]], "P": [["evaluate", {}]], "E": [["accelerated cycle tests", {}]]}]]}, {"A": [["were cycled", {"P": [["constant voltage (+) 3.5 v (charge)", {}]], "R": [["cells", {}]]}]]}, {"A": [["was carried out", {"PR": [["high voltage retention", {}]], "P": [["examine", {}]], "R": [["cell systems", {}]], "E": [["cyclic voltammetry (cv)", {}], ["chi 604 electrochemical workstation", {}]]}]]}, {"A": [["was (+) measured", {"P": [["frequency range (+) voltage amplitude", {}]], "E": [["ac impedance", {}], ["electrochemical workstation", {}]]}]]}, {"A": [["were", {"PR": [["limited capacity", {}], ["excess capacity", {}]], "R": [["lnmo/lto full-cells", {}]]}]]}]
+Step 1: 
+{"A": [["was purchased", {"PR": [["lto", {}]], "E": [["btr energy materials co., ltd", {}]]}]]}
+Step 2: 
+{"A": [["was prepared", {"PR": [["lnmo", {}]], "E": [["radiated polymer gel (rpg) method", {}]]}]]}
+Step 3: 
+{"A": [["were made", {"PR": [["composite electrodes", {}]], "I": [["acetylene black", {"P": ["(10 wt.%)"]}], ["poly(vinylidene fluoride) (pvdf)", {"P": ["(10 wt.%)"]}]], "R": [["lto (+) lnmo", {"P": ["(80 wt.%)"]}]], "E": [["tape-casting process", {}]]}]]}
+Step 4: 
+{"A": [["were", {"PR": [["electrolytes", {}]], "I": [["lipf6", {"P": ["1 m"]}], ["ethylene carbonate (ec) (+) pc (+) dimethyl carbonate (dmc) (+) diethyl carbonate (dec)", {}]]}]]}
+Step 5: 
+{"A": [["were assembled", {"PR": [["cr2032 coin cells", {}]], "E": [["argon-filled glove box", {}]]}]]}
+Step 6: 
+{"A": [["galvanostatically cycled", {"E": [["multi-channel battery cycler", {}]]}]]}
+Step 7: 
+{"A": [["were designed (+) carried out", {"PR": [["cycle lifetime", {}]], "P": [["evaluate", {}]], "E": [["accelerated cycle tests", {}]]}]]}
+Step 8: 
+{"A": [["were cycled", {"P": [["constant voltage (+) 3.5 v (charge)", {}]], "R": [["cells", {}]]}]]}
+Step 9: 
+{"A": [["was carried out", {"PR": [["high voltage retention", {}]], "P": [["examine", {}]], "R": [["cell systems", {}]], "E": [["cyclic voltammetry (cv)", {}], ["chi 604 electrochemical workstation", {}]]}]]}
+Step 10: 
+{"A": [["was (+) measured", {"P": [["frequency range (+) voltage amplitude", {}]], "E": [["ac impedance", {}], ["electrochemical workstation", {}]]}]]}
+Step 11: 
+{"A": [["were", {"PR": [["limited capacity", {}], ["excess capacity", {}]], "R": [["lnmo/lto full-cells", {}]]}]]}

@@ -1,0 +1,15 @@
+[{"A": [["were added", {"PR": [["electronic-conducting precursor", {"P": ["different amounts"]}]], "I": [["sucrose (c12h22o11)", {}], ["water-based hno3 solution (+) lithium carbonate (+) iron oxalate (+) ammonium di-hydrogen phosphate", {"P": ["li:fe:p in the stoichiometric ratio = 1:1:1"]}]]}]]}, {"A": [["was added", {"P": [["carbon content 15 or 20 wt.%", {}]], "R": [["sucrose solution", {}], ["mixture", {}]]}]]}, {"A": [["was sprayed", {"R": [["solution", {}]], "E": [["heat reactor", {"P": ["450 c"]}]]}]]}, {"A": [["was (+) sintered", {"P": [["700 c (+) 4 h)", {}]], "R": [["obtained precursor", {}]]}]]}, {"A": [["were analyzed", {"R": [["materials", {}]], "E": [["x-ray diffraction analysis (xrd) (+) scanning electron microscopy (sem)", {}], ["gas sorption technique", {"P": ["specific surface area"]}], ["bet method", {}]]}]]}, {"A": [["were assembled", {"PR": [["li-ion cells", {}]], "I": [["graphite powder", {}]], "R": [["carbon-containing lfp materials", {}]]}]]}, {"A": [["was used", {"I": [["lipf6", {"P": ["one mole"]}], ["ethylene carbonate (+) dimethyl carbonate", {"P": ["1:1 mixture"]}]]}]]}]
+Step 1: 
+{"A": [["were added", {"PR": [["electronic-conducting precursor", {"P": ["different amounts"]}]], "I": [["sucrose (c12h22o11)", {}], ["water-based hno3 solution (+) lithium carbonate (+) iron oxalate (+) ammonium di-hydrogen phosphate", {"P": ["li:fe:p in the stoichiometric ratio = 1:1:1"]}]]}]]}
+Step 2: 
+{"A": [["was added", {"P": [["carbon content 15 or 20 wt.%", {}]], "R": [["sucrose solution", {}], ["mixture", {}]]}]]}
+Step 3: 
+{"A": [["was sprayed", {"R": [["solution", {}]], "E": [["heat reactor", {"P": ["450 c"]}]]}]]}
+Step 4: 
+{"A": [["was (+) sintered", {"P": [["700 c (+) 4 h)", {}]], "R": [["obtained precursor", {}]]}]]}
+Step 5: 
+{"A": [["were analyzed", {"R": [["materials", {}]], "E": [["x-ray diffraction analysis (xrd) (+) scanning electron microscopy (sem)", {}], ["gas sorption technique", {"P": ["specific surface area"]}], ["bet method", {}]]}]]}
+Step 6: 
+{"A": [["were assembled", {"PR": [["li-ion cells", {}]], "I": [["graphite powder", {}]], "R": [["carbon-containing lfp materials", {}]]}]]}
+Step 7: 
+{"A": [["was used", {"I": [["lipf6", {"P": ["one mole"]}], ["ethylene carbonate (+) dimethyl carbonate", {"P": ["1:1 mixture"]}]]}]]}

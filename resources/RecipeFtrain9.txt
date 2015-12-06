@@ -1,0 +1,79 @@
+[{"A": [["were synthesized", {"PR": [["lfp nanoparticles", {}]], "E": [["hydrothermal method", {}]]}]]}, {"A": [["was added", {"I": [["l1h3po4 aqueous solution", {"P": ["150 ml (+) 1 mol"]}], ["polyethylene glycol 400", {"P": ["600 ml"]}]], "P": [["stirring", {}]], "E": [["beaker", {}]]}]]}, {"A": [["was dropped", {"I": [["l1lioh aqueous solution", {"P": ["450 ml (+) 1 mol"]}]], "R": [["this mixture", {}]]}]]}, {"A": [["formed", {"PR": [["white suspension", {}]], "P": [["300 ml (+) 0.5 mol", {}]], "E": [["neutralization reaction", {}]]}]]}, {"A": [["was poured", {"I": [["l1feso4 solution", {}]], "P": [["generating", {}]], "R": [["beaker", {}]], "PR": [["green colored suspension", {}]]}]]}, {"A": [["was (+) transferred", {"R": [["mixture", {}]], "E": [["2 l magnetic propelled autoclave", {}]]}]]}, {"A": [["heated", {"P": [["180 c", {}], ["rate of 3 c min1 (+) sealing", {}]]}]]}, {"A": [["maintained", {"P": [["same temperature", {}], ["stirring (+) 9 h", {}]]}]]}, {"A": [["cooling", {"P": [["room temperature", {}]]}]]}, {"A": [["was collected", {"R": [["off-white product", {}]], "E": [["centrifugation", {}]]}]]}, {"A": [["washed", {"I": [["water", {}]], "P": [["three times", {}]]}]]}, {"A": [["were dispersed", {"I": [["di water", {}]], "P": [["50 wt%", {}]], "R": [["resulting lfp nanoparticles", {}]]}]]}, {"A": [["was prepared", {"I": [["graphene oxide (go)", {}]], "E": [["procedure", {}]]}]]}, {"A": [["were added", {"I": [["kno3", {"P": ["6.0 g"]}], ["natural graphite", {"P": ["5.0 g", "(300 mesh)"]}], ["concentrated h2so4", {"P": ["230 ml"]}]], "P": [["(98%) (+) room temperature", {}]]}]]}, {"A": [["was stirred", {"P": [["10 min", {}]], "R": [["mixture", {}]]}]]}, {"A": [["slow addition", {"I": [["kmno4", {}]], "P": [["30 g", {}]]}]]}, {"A": [["was heated", {"P": [["35 c", {}]], "R": [["mixture", {}]]}]]}, {"A": [["stirred", {"P": [["6 h", {}]]}]]}, {"A": [["was added", {"I": [["water", {"P": ["80 ml"]}]], "P": [["dropwise (+) vigorous stirring", {}], ["90 c", {}]]}]]}, {"A": [["was stirred", {"P": [["this temperature", {}], ["30 min", {}]], "R": [["slurry", {}]]}]]}, {"A": [["were added", {"I": [["water", {"P": ["200 ml"]}], ["h2o2 solution", {"P": ["6 ml", "(30 wt%)"]}]], "P": [["sequentially", {}]]}]]}, {"A": [["was washed", {"I": [["water", {}]], "P": [["repeatedly", {}], ["ph reached a constant value of 5.0", {}]], "R": [["resulting graphite oxide suspension", {}]]}]]}, {"A": [["was achieved", {"PR": [["go", {}]], "R": [["graphite oxide", {}]], "E": [["ultrasonic treatment", {}]]}]]}, {"A": [["was concentrated", {"P": [["12 wt%", {}]], "R": [["final suspension of go", {}]]}]]}, {"A": [["were vigorously stirred", {"PR": [["slurry", {}]], "P": [["lfp[thin space (1/6-em)]:[thin space (1/6-em)]go = 10[thin space (1/6-em)]:[thin space (1/6-em)]1 (wt.)", {}]], "R": [["aqueous suspensions of lfp (+) go", {}], ["together", {}]]}]]}, {"A": [["was added", {"I": [["di water", {}]], "P": [["adjust", {}], ["10 wt%", {}]], "R": [["mixture", {}]]}]]}, {"A": [["was stirred", {"R": [["slurry", {}]]}]]}, {"A": [["ultrasonically exposed", {"P": [["5 min", {}]]}]]}, {"A": [["spray dried", {"PR": [["solid lfp/go composite", {}]], "P": [["200 c", {}]]}]]}, {"A": [["were heated", {"P": [["600 c", {}], ["rate of 5 c min1", {}]], "R": [["composites", {}]]}]]}, {"A": [["annealed", {"PR": [["active lfp/graphene", {}], ["lfp/g)", {}]], "P": [["that temperature (+) 5 h (+) ar", {}]]}]]}, {"A": [["was used", {"PR": [["conventional carbon-coated lfp", {"PR": ["lfp/c)"]}]], "I": [["glucose monohydrate", {}]], "P": [["5[thin space (1/6-em)]:[thin space (1/6-em)]1 weight ratio of lfp to glucose monohydrate)", {}], ["other conditions constant", {}]]}]]}, {"A": [["was employed", {"PR": [["lfp cathode materials", {}], ["lfp/(g", {"I": ["carbon additives"]}]], "P": [["prepare", {}]], "R": [["mixture of go and glucose monohydrate", {"P": ["(lfp[thin space (1/6-em)]:[thin space (1/6-em)]go[thin space (1/6-em)]:[thin space (1/6-em)]glucose monohydrate = 20[thin space (1/6-em)]:[thin space (1/6-em)]1[thin space (1/6-em)]:[thin space (1/6-em)]2 (wt.))"]}]]}]]}, {"A": [["were mixed", {"PR": [["electrodes", {}]], "I": [["super p (15 wt%) (+) poly(vinylidene fluoride)", {"P": ["(5 wt%)"]}], ["n-methyl-2-pyrrolidone", {}]], "R": [["active materials", {"P": ["(80 wt%)"]}]], "P": [["stirred (+) 10 h", {}]]}]]}, {"A": [["pasted", {"I": [["al foil", {}]], "P": [["slurry", {}]], "R": [["resultant", {}]]}]]}, {"A": [["was dried", {"P": [["80 c (+) vacuum (+) 6 h", {}]]}]]}, {"A": [["is", {"PR": [["loading density", {}]], "P": [["34 mg cm2", {}]]}]]}, {"A": [["were assembled", {"PR": [["coin cells", {}]], "I": [["lithium metal", {}], ["celgard 2600", {}], ["1 m lipf6 (+) in ethylene carbonate and dimethyl carbonate", {"P": ["1[thin space (1/6-em)]:[thin space (1/6-em)]1 volume ratio)"]}]], "E": [["argon-filled glove box", {}]]}]]}, {"A": [["were tested", {"P": [["room temperature", {}], ["voltage range of 2.04.2 v (vs.li+/li)", {}]], "R": [["cells", {}]], "E": [["land-ct2001a battery cycler", {}]]}]]}]
+Step 1: 
+{"A": [["were synthesized", {"PR": [["lfp nanoparticles", {}]], "E": [["hydrothermal method", {}]]}]]}
+Step 2: 
+{"A": [["was added", {"I": [["l1h3po4 aqueous solution", {"P": ["150 ml (+) 1 mol"]}], ["polyethylene glycol 400", {"P": ["600 ml"]}]], "P": [["stirring", {}]], "E": [["beaker", {}]]}]]}
+Step 3: 
+{"A": [["was dropped", {"I": [["l1lioh aqueous solution", {"P": ["450 ml (+) 1 mol"]}]], "R": [["this mixture", {}]]}]]}
+Step 4: 
+{"A": [["formed", {"PR": [["white suspension", {}]], "P": [["300 ml (+) 0.5 mol", {}]], "E": [["neutralization reaction", {}]]}]]}
+Step 5: 
+{"A": [["was poured", {"I": [["l1feso4 solution", {}]], "P": [["generating", {}]], "R": [["beaker", {}]], "PR": [["green colored suspension", {}]]}]]}
+Step 6: 
+{"A": [["was (+) transferred", {"R": [["mixture", {}]], "E": [["2 l magnetic propelled autoclave", {}]]}]]}
+Step 7: 
+{"A": [["heated", {"P": [["180 c", {}], ["rate of 3 c min1 (+) sealing", {}]]}]]}
+Step 8: 
+{"A": [["maintained", {"P": [["same temperature", {}], ["stirring (+) 9 h", {}]]}]]}
+Step 9: 
+{"A": [["cooling", {"P": [["room temperature", {}]]}]]}
+Step 10: 
+{"A": [["was collected", {"R": [["off-white product", {}]], "E": [["centrifugation", {}]]}]]}
+Step 11: 
+{"A": [["washed", {"I": [["water", {}]], "P": [["three times", {}]]}]]}
+Step 12: 
+{"A": [["were dispersed", {"I": [["di water", {}]], "P": [["50 wt%", {}]], "R": [["resulting lfp nanoparticles", {}]]}]]}
+Step 13: 
+{"A": [["was prepared", {"I": [["graphene oxide (go)", {}]], "E": [["procedure", {}]]}]]}
+Step 14: 
+{"A": [["were added", {"I": [["kno3", {"P": ["6.0 g"]}], ["natural graphite", {"P": ["5.0 g", "(300 mesh)"]}], ["concentrated h2so4", {"P": ["230 ml"]}]], "P": [["(98%) (+) room temperature", {}]]}]]}
+Step 15: 
+{"A": [["was stirred", {"P": [["10 min", {}]], "R": [["mixture", {}]]}]]}
+Step 16: 
+{"A": [["slow addition", {"I": [["kmno4", {}]], "P": [["30 g", {}]]}]]}
+Step 17: 
+{"A": [["was heated", {"P": [["35 c", {}]], "R": [["mixture", {}]]}]]}
+Step 18: 
+{"A": [["stirred", {"P": [["6 h", {}]]}]]}
+Step 19: 
+{"A": [["was added", {"I": [["water", {"P": ["80 ml"]}]], "P": [["dropwise (+) vigorous stirring", {}], ["90 c", {}]]}]]}
+Step 20: 
+{"A": [["was stirred", {"P": [["this temperature", {}], ["30 min", {}]], "R": [["slurry", {}]]}]]}
+Step 21: 
+{"A": [["were added", {"I": [["water", {"P": ["200 ml"]}], ["h2o2 solution", {"P": ["6 ml", "(30 wt%)"]}]], "P": [["sequentially", {}]]}]]}
+Step 22: 
+{"A": [["was washed", {"I": [["water", {}]], "P": [["repeatedly", {}], ["ph reached a constant value of 5.0", {}]], "R": [["resulting graphite oxide suspension", {}]]}]]}
+Step 23: 
+{"A": [["was achieved", {"PR": [["go", {}]], "R": [["graphite oxide", {}]], "E": [["ultrasonic treatment", {}]]}]]}
+Step 24: 
+{"A": [["was concentrated", {"P": [["12 wt%", {}]], "R": [["final suspension of go", {}]]}]]}
+Step 25: 
+{"A": [["were vigorously stirred", {"PR": [["slurry", {}]], "P": [["lfp[thin space (1/6-em)]:[thin space (1/6-em)]go = 10[thin space (1/6-em)]:[thin space (1/6-em)]1 (wt.)", {}]], "R": [["aqueous suspensions of lfp (+) go", {}], ["together", {}]]}]]}
+Step 26: 
+{"A": [["was added", {"I": [["di water", {}]], "P": [["adjust", {}], ["10 wt%", {}]], "R": [["mixture", {}]]}]]}
+Step 27: 
+{"A": [["was stirred", {"R": [["slurry", {}]]}]]}
+Step 28: 
+{"A": [["ultrasonically exposed", {"P": [["5 min", {}]]}]]}
+Step 29: 
+{"A": [["spray dried", {"PR": [["solid lfp/go composite", {}]], "P": [["200 c", {}]]}]]}
+Step 30: 
+{"A": [["were heated", {"P": [["600 c", {}], ["rate of 5 c min1", {}]], "R": [["composites", {}]]}]]}
+Step 31: 
+{"A": [["annealed", {"PR": [["active lfp/graphene", {}], ["lfp/g)", {}]], "P": [["that temperature (+) 5 h (+) ar", {}]]}]]}
+Step 32: 
+{"A": [["was used", {"PR": [["conventional carbon-coated lfp", {"PR": ["lfp/c)"]}]], "I": [["glucose monohydrate", {}]], "P": [["5[thin space (1/6-em)]:[thin space (1/6-em)]1 weight ratio of lfp to glucose monohydrate)", {}], ["other conditions constant", {}]]}]]}
+Step 33: 
+{"A": [["was employed", {"PR": [["lfp cathode materials", {}], ["lfp/(g", {"I": ["carbon additives"]}]], "P": [["prepare", {}]], "R": [["mixture of go and glucose monohydrate", {"P": ["(lfp[thin space (1/6-em)]:[thin space (1/6-em)]go[thin space (1/6-em)]:[thin space (1/6-em)]glucose monohydrate = 20[thin space (1/6-em)]:[thin space (1/6-em)]1[thin space (1/6-em)]:[thin space (1/6-em)]2 (wt.))"]}]]}]]}
+Step 34: 
+{"A": [["were mixed", {"PR": [["electrodes", {}]], "I": [["super p (15 wt%) (+) poly(vinylidene fluoride)", {"P": ["(5 wt%)"]}], ["n-methyl-2-pyrrolidone", {}]], "R": [["active materials", {"P": ["(80 wt%)"]}]], "P": [["stirred (+) 10 h", {}]]}]]}
+Step 35: 
+{"A": [["pasted", {"I": [["al foil", {}]], "P": [["slurry", {}]], "R": [["resultant", {}]]}]]}
+Step 36: 
+{"A": [["was dried", {"P": [["80 c (+) vacuum (+) 6 h", {}]]}]]}
+Step 37: 
+{"A": [["is", {"PR": [["loading density", {}]], "P": [["34 mg cm2", {}]]}]]}
+Step 38: 
+{"A": [["were assembled", {"PR": [["coin cells", {}]], "I": [["lithium metal", {}], ["celgard 2600", {}], ["1 m lipf6 (+) in ethylene carbonate and dimethyl carbonate", {"P": ["1[thin space (1/6-em)]:[thin space (1/6-em)]1 volume ratio)"]}]], "E": [["argon-filled glove box", {}]]}]]}
+Step 39: 
+{"A": [["were tested", {"P": [["room temperature", {}], ["voltage range of 2.04.2 v (vs.li+/li)", {}]], "R": [["cells", {}]], "E": [["land-ct2001a battery cycler", {}]]}]]}

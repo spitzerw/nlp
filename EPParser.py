@@ -17,9 +17,10 @@ class EPParser():
         self.labels = ['N', 'I', 'E', 'A', 'P', 'PR', 'R']
         self.model = EPModel(self.labels)
         self.totalfiles = [filename for filename in listdir('samples') if 'Ftrain' in filename]
-        self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,len(self.totalfiles) + 1)]
+        #self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,len(self.totalfiles) + 1)]
+        self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,12)]
         
-        self.split = 0.5
+        self.split = 0.9
         self.trainSentences = []
         self.testSentences = []
         self.Docs = []
@@ -484,8 +485,8 @@ class EPDependencyParser():
             wordlist = sentencelist[s]
             moves = moveslist[s]
             words, EPtags, postags = self.getWordsTags(wordlist)
-            print words
-            print moves
+            #print words
+            #print moves
             headslist.append(self.train_single(words, EPtags, moves))
         return headslist
 
@@ -505,7 +506,7 @@ class EPDependencyParser():
             i = 0
             stack = [-1]
             parse = DependencyParser(n)
-            print words
+            #print words
             while stack and (i + 1) <= n:
                 features = self._get_features(words, EPtags, i, n, stack, parse)
                 scores = self.model.predict(features)
@@ -514,9 +515,9 @@ class EPDependencyParser():
                 #print guess, i, stack
                 i = self.transition(guess, i, stack, parse)
                 movelist.append(guess)
-            print parse.heads
+            #print parse.heads
             movelist.pop()
-            print movelist
+            #print movelist
             if headslist is not None:
                 for j in range(len(parse.heads)):
                     if parse.heads[j] == heads[j]:
@@ -735,7 +736,10 @@ class Recipe():
         if -1 in heads:
             top = heads.index(-1)
         else:
-            top = heads.index(None)
+            try:
+                top = heads.index(None)
+            except:
+                top = 1
         w, EPt = words[top]
         nextlevel = [i for i in range(len(heads)) if heads[i] == top]
         leveldict = {}
@@ -757,6 +761,7 @@ class Recipe():
         return outputdict
 
     def createTrueRecipes(self):
+        print 'Creating True Recipes'
         #f = self.parser.trainFilenames + self.parser.testFilenames
         f = self.parser.trainFilenames
         s = []
@@ -771,7 +776,7 @@ class Recipe():
         for doc in s:
             groupDoc = []
             for ss in doc:
-                gs, a, os = groupWords(ss)
+                gs, a, osV = groupWords(ss)
                 for g in gs:
                     groupDoc.append(g)
             groupedDocs.append(groupDoc)
@@ -796,3 +801,6 @@ class Recipe():
                 f1.write(json.dumps(recipe[i], ensure_ascii=False))
                 f1.write('\n')
             f1.close()
+
+x = Recipe()
+x.createTrueRecipes()
