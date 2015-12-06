@@ -20,7 +20,7 @@ class EPParser():
         #self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,len(self.totalfiles) + 1)]
         self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,12)]
         
-        self.split = 0.9
+        self.split = 1
         self.trainSentences = []
         self.testSentences = []
         self.Docs = []
@@ -349,6 +349,11 @@ class EPDependencyParser():
                 return '', '', ''
      
         def get_buffer_context(i, n, data):
+            if n != len(data):
+                print n
+                print len(data)
+            if i == n:
+                print data
             if i + 1 >= n:
                 return data[i], '', ''
             elif i + 2 >= n:

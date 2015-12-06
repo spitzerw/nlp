@@ -1,0 +1,25 @@
+[{"A": [["was used", {"I": [["tubular csz", {}]], "PR": [["electrolyte", {}]]}]]}, {"A": [["was painted", {"I": [["platinum paste", {}]], "R": [["csz", {"P": ["inside and outside", "tube"]}]]}]]}, {"A": [["followed", {"P": [["calcination (+) 1273 k (+) 30 min (electrode surface area: 13 cm2)", {}]]}]]}, {"A": [["was inserted", {"I": [["lithium foil", {"P": ["(20 mg)"]}]], "E": [["mgo tube", {}]]}]]}, {"A": [["was placed and fixed", {"R": [["csz electrolyte tube", {}]]}]]}, {"A": [["was sealed", {"I": [["epoxy resin", {}]], "R": [["csz tube", {}]], "E": [["argon-filled glove box", {}]]}]]}, {"A": [["was filled", {"I": [["ar (+) li", {}]], "E": [["anodic chamber", {}]]}]]}, {"R": [["entire cell", {"A": [["was heated", {}]]}]]}, {"A": [["were performed", {"P": [["0.077 ma cm2 (+) constant-current", {}]], "E": [["discharge measurements", {}], ["two probes method", {}]]}]]}, {"A": [["was fed", {"I": [["air", {}]], "P": [["cathode side", {}], ["flow rate of 100 mlmin1", {}]]}]]}, {"A": [["was undertaken", {"P": [["open-circuit conditions", {}], ["frequency range of 0.1100 000 hz (+) 10 mv alternating current (ac) amplitude", {}]], "E": [["impedance analysis", {}], ["sorlartron 1260/ 1287 impedance analyzer", {}]]}]]}, {"A": [["were performed", {"I": [["li powder", {}]], "E": [["morphology and elementary analysis studies", {}], ["sem-edx instrument", {}], ["7980)", {}]]}]]}]
+Step 1: 
+{"A": [["was used", {"I": [["tubular csz", {}]], "PR": [["electrolyte", {}]]}]]}
+Step 2: 
+{"A": [["was painted", {"I": [["platinum paste", {}]], "R": [["csz", {"P": ["inside and outside", "tube"]}]]}]]}
+Step 3: 
+{"A": [["followed", {"P": [["calcination (+) 1273 k (+) 30 min (electrode surface area: 13 cm2)", {}]]}]]}
+Step 4: 
+{"A": [["was inserted", {"I": [["lithium foil", {"P": ["(20 mg)"]}]], "E": [["mgo tube", {}]]}]]}
+Step 5: 
+{"A": [["was placed and fixed", {"R": [["csz electrolyte tube", {}]]}]]}
+Step 6: 
+{"A": [["was sealed", {"I": [["epoxy resin", {}]], "R": [["csz tube", {}]], "E": [["argon-filled glove box", {}]]}]]}
+Step 7: 
+{"A": [["was filled", {"I": [["ar (+) li", {}]], "E": [["anodic chamber", {}]]}]]}
+Step 8: 
+{"R": [["entire cell", {"A": [["was heated", {}]]}]]}
+Step 9: 
+{"A": [["were performed", {"P": [["0.077 ma cm2 (+) constant-current", {}]], "E": [["discharge measurements", {}], ["two probes method", {}]]}]]}
+Step 10: 
+{"A": [["was fed", {"I": [["air", {}]], "P": [["cathode side", {}], ["flow rate of 100 mlmin1", {}]]}]]}
+Step 11: 
+{"A": [["was undertaken", {"P": [["open-circuit conditions", {}], ["frequency range of 0.1100 000 hz (+) 10 mv alternating current (ac) amplitude", {}]], "E": [["impedance analysis", {}], ["sorlartron 1260/ 1287 impedance analyzer", {}]]}]]}
+Step 12: 
+{"A": [["were performed", {"I": [["li powder", {}]], "E": [["morphology and elementary analysis studies", {}], ["sem-edx instrument", {}], ["7980)", {}]]}]]}

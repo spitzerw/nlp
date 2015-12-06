@@ -1,0 +1,49 @@
+[{"A": [["was used", {"I": [["sigraphene composite", {}]]}]]}, {"A": [["was composed", {"PR": [["active material", {}]], "I": [["si particles", {"P": ["nano"]}], ["graphene", {"P": ["nano-sized plate-like multi-layer"]}]]}]]}, {"A": [["was combined", {"PR": [["slurry", {}]], "I": [["polyacrylic acid (paa)", {"P": ["450,000 g mol1)"]}], ["carbon black", {}], ["graphene", {"P": ["micro-sized multi-layer granular", "high conductivity of 107 s m1"]}], ["pgme solvent (propyleneglycol monomethyl ether)", {}]], "R": [["nano-sized active material", {}]]}]]}, {"A": [["mixing", {"P": [["sonication", {}]], "R": [["slurry", {}]]}]]}, {"A": [["stirring", {"E": [["magnetic bar", {}], ["jar", {}]]}]]}, {"A": [["was coated", {"I": [["cu foil", {"P": ["10 m"]}]], "R": [["slurry", {}]], "E": [["doctor blade", {}]]}]]}, {"A": [["was dried", {"P": [["1 h", {}], ["room temperature", {}], ["80 c (+) overnight", {"E": ["vacuum oven"]}]], "R": [["slurry coated on cu foil", {}]]}]]}, {"A": [["was", {"PR": [["active loading", {}]], "P": [["between 1.64 and 1.66 mg cm2", {}]]}]]}, {"A": [["was calculated", {"PR": [["theoretical capacity", {}]], "P": [["2968 mah g1 based", {}], ["individual theoretical capacities of si and carbon (+) (si: 4200 mah g1 (+) carbon: 372 mah g1)", {}]]}]]}, {"A": [["was used", {"I": [["active material (+) nca", {}], ["graphitic carbon", {}], ["polyvinylidenefluoride (pvdf)", {}]]}]]}, {"A": [["were assembled", {"PR": [["half cells", {}]], "E": [["2032 coin cells", {}]]}]]}, {"A": [["were fabricated", {"PR": [["full cells", {}]], "P": [["active area of 9 cm2", {}]], "E": [["pouch-type cells", {}]]}]]}, {"A": [["was", {"PR": [["electrolyte", {}]], "I": [["ec: dec", {"P": ["1:1 (w/w) (+) 1 m"]}], ["lipf6", {}], ["fec", {"P": ["10 wt.%"]}]]}]]}, {"A": [["were", {"PR": [["loadings", {}]], "P": [["(anode:cathode)", {}], ["0.00263 g:0.0230 g (+) 0.0141 g:0.131 g", {}]], "R": [["active material", {}]]}]]}, {"A": [["was designed", {"PR": [["capacity ratio", {}]], "P": [["anode: cathode", {}], ["1:1", {}]]}]]}, {"A": [["were performed", {"PR": [["electrochemical properties", {}]], "P": [["various c-rates (c/15 for 1st 5 cycles (+) c/5 for 2nd 5 cycles (+) and c/2 for subsequent cycle)", {}]], "R": [["full cells", {}]], "E": [["capacityvoltage (cv) tests", {}]]}]]}, {"A": [["were conducted", {"P": [["room temperature (20 c)", {}]], "E": [["cycling tests", {}], ["an arbin battery cycler", {}]]}]]}, {"A": [["were charged", {"P": [["4.2 v (+) constant current (cc)", {}]], "R": [["full cells", {}]]}]]}, {"A": [["held", {"P": [["constant voltage (cv)", {}], ["current was half of applied c-rate (c/30 (+) c/10", {}]]}]]}, {"A": [["were done", {"P": [["cc", {}], ["cut-off potential of 2.75 v", {}]], "E": [["discharges", {}]]}]]}, {"A": [["were normalized", {"P": [["capacities", {}], ["weight of nca", {}]], "R": [["full cells", {}]]}]]}, {"A": [["were cycled", {"R": [["half cells", {}], ["(si/graphene)", {"P": ["between 0.05 and 1.0 vli+/li"]}], ["(nca)", {"P": ["and 2.754.20 vli+/li"]}]]}]]}, {"A": [["was conducted", {"P": [["frequency range of 1 mhz pm 0.01 hz", {}], ["amplitude of 5 mv (+) full state of charge (soc) of 4.094.12 v", {}]], "R": [["full cells", {}]], "E": [["electrochemical impedance spectroscopy (eis)", {}], ["potentiostat", {}]]}]]}, {"A": [["were determined", {"PR": [["values for resistances", {"P": ["individual components"]}]], "E": [["fitting program", {}]]}]]}]
+Step 1: 
+{"A": [["was used", {"I": [["sigraphene composite", {}]]}]]}
+Step 2: 
+{"A": [["was composed", {"PR": [["active material", {}]], "I": [["si particles", {"P": ["nano"]}], ["graphene", {"P": ["nano-sized plate-like multi-layer"]}]]}]]}
+Step 3: 
+{"A": [["was combined", {"PR": [["slurry", {}]], "I": [["polyacrylic acid (paa)", {"P": ["450,000 g mol1)"]}], ["carbon black", {}], ["graphene", {"P": ["micro-sized multi-layer granular", "high conductivity of 107 s m1"]}], ["pgme solvent (propyleneglycol monomethyl ether)", {}]], "R": [["nano-sized active material", {}]]}]]}
+Step 4: 
+{"A": [["mixing", {"P": [["sonication", {}]], "R": [["slurry", {}]]}]]}
+Step 5: 
+{"A": [["stirring", {"E": [["magnetic bar", {}], ["jar", {}]]}]]}
+Step 6: 
+{"A": [["was coated", {"I": [["cu foil", {"P": ["10 m"]}]], "R": [["slurry", {}]], "E": [["doctor blade", {}]]}]]}
+Step 7: 
+{"A": [["was dried", {"P": [["1 h", {}], ["room temperature", {}], ["80 c (+) overnight", {"E": ["vacuum oven"]}]], "R": [["slurry coated on cu foil", {}]]}]]}
+Step 8: 
+{"A": [["was", {"PR": [["active loading", {}]], "P": [["between 1.64 and 1.66 mg cm2", {}]]}]]}
+Step 9: 
+{"A": [["was calculated", {"PR": [["theoretical capacity", {}]], "P": [["2968 mah g1 based", {}], ["individual theoretical capacities of si and carbon (+) (si: 4200 mah g1 (+) carbon: 372 mah g1)", {}]]}]]}
+Step 10: 
+{"A": [["was used", {"I": [["active material (+) nca", {}], ["graphitic carbon", {}], ["polyvinylidenefluoride (pvdf)", {}]]}]]}
+Step 11: 
+{"A": [["were assembled", {"PR": [["half cells", {}]], "E": [["2032 coin cells", {}]]}]]}
+Step 12: 
+{"A": [["were fabricated", {"PR": [["full cells", {}]], "P": [["active area of 9 cm2", {}]], "E": [["pouch-type cells", {}]]}]]}
+Step 13: 
+{"A": [["was", {"PR": [["electrolyte", {}]], "I": [["ec: dec", {"P": ["1:1 (w/w) (+) 1 m"]}], ["lipf6", {}], ["fec", {"P": ["10 wt.%"]}]]}]]}
+Step 14: 
+{"A": [["were", {"PR": [["loadings", {}]], "P": [["(anode:cathode)", {}], ["0.00263 g:0.0230 g (+) 0.0141 g:0.131 g", {}]], "R": [["active material", {}]]}]]}
+Step 15: 
+{"A": [["was designed", {"PR": [["capacity ratio", {}]], "P": [["anode: cathode", {}], ["1:1", {}]]}]]}
+Step 16: 
+{"A": [["were performed", {"PR": [["electrochemical properties", {}]], "P": [["various c-rates (c/15 for 1st 5 cycles (+) c/5 for 2nd 5 cycles (+) and c/2 for subsequent cycle)", {}]], "R": [["full cells", {}]], "E": [["capacityvoltage (cv) tests", {}]]}]]}
+Step 17: 
+{"A": [["were conducted", {"P": [["room temperature (20 c)", {}]], "E": [["cycling tests", {}], ["an arbin battery cycler", {}]]}]]}
+Step 18: 
+{"A": [["were charged", {"P": [["4.2 v (+) constant current (cc)", {}]], "R": [["full cells", {}]]}]]}
+Step 19: 
+{"A": [["held", {"P": [["constant voltage (cv)", {}], ["current was half of applied c-rate (c/30 (+) c/10", {}]]}]]}
+Step 20: 
+{"A": [["were done", {"P": [["cc", {}], ["cut-off potential of 2.75 v", {}]], "E": [["discharges", {}]]}]]}
+Step 21: 
+{"A": [["were normalized", {"P": [["capacities", {}], ["weight of nca", {}]], "R": [["full cells", {}]]}]]}
+Step 22: 
+{"A": [["were cycled", {"R": [["half cells", {}], ["(si/graphene)", {"P": ["between 0.05 and 1.0 vli+/li"]}], ["(nca)", {"P": ["and 2.754.20 vli+/li"]}]]}]]}
+Step 23: 
+{"A": [["was conducted", {"P": [["frequency range of 1 mhz pm 0.01 hz", {}], ["amplitude of 5 mv (+) full state of charge (soc) of 4.094.12 v", {}]], "R": [["full cells", {}]], "E": [["electrochemical impedance spectroscopy (eis)", {}], ["potentiostat", {}]]}]]}
+Step 24: 
+{"A": [["were determined", {"PR": [["values for resistances", {"P": ["individual components"]}]], "E": [["fitting program", {}]]}]]}
