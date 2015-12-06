@@ -557,7 +557,7 @@ def groupWords(s):
     orderOutput = []
     containsA = False
     currentOutput = []
-    currentOrderOutput = []
+    currentOrderOutput = ''
     orderWords = ['first', 'second', 'third', 'fourth', 'fifth', 'next', 'then', 'after', 'before', 'last', 'lastly', 'finally']
     for idx in range(len(s)):
         w, EPt, post = s[idx]
@@ -566,14 +566,14 @@ def groupWords(s):
             if idx + 1 < len(s):
                 w1, EPt1, post1 = s[idx + 1]
                 if EPt1 != 'A':            
-                    currentOrderOutput.append(w)
+                    currentOrderOutput = currentOrderOutput + w
                 else:
                     if EPt1 == previoustag:
-                        currentOrderOutput.append(w)
+                        currentOrderOutput = currentOrderOutput + w
                     else:
                         storedOrderWord = w
             else:
-                currentOrderOutput.append(w)
+                currentOrderOutput = currentOrderOutput + w
         if w == ',':
             if idx + 1 < len(s):
                 w1, EPt1, post1 = s[idx + 1]
@@ -598,20 +598,16 @@ def groupWords(s):
                         if previoustag != 'N':
                             output.append(currentOutput)
                             currentOutput = [[currentGroup, previoustag]]
-                            if not currentOrderOutput:
-                                currentOrderOutput = ['']
-                            orderOutput.append(currentOrderOutput)
+                            orderOutput.append([currentOrderOutput])
                         else:
                             output.append(currentOutput)
                             currentOutput = []
-                            if not currentOrderOutput:
-                                currentOrderOutput = ['']
                             orderOutput.append(currentOrderOutput)
                         if storedOrderWord is not None:
-                            currentOrderOutput = [storedOrderWord]
+                            currentOrderOutput = storedOrderWord
                             storedOrderWord = None
                         else:
-                            currentOrderOutput = []
+                            currentOrderOutput = ''
                         containsA = True
                         currentGroup = w
                         previoustag = 'A'
@@ -643,9 +639,7 @@ def groupWords(s):
     if currentGroup != '':
         currentOutput.append([currentGroup, previoustag])
     output.append(currentOutput)
-    if not currentOrderOutput:
-        currentOrderOutput = ['']
-    orderOutput.append(currentOrderOutput)
+    orderOutput.append([currentOrderOutput])
     return output, containsA, orderOutput     
 
 class Recipe():
@@ -659,20 +653,26 @@ class Recipe():
         for doc in self.originalDocs:
             groupDoc = []
             orderDoc = []
+            As = []
             for s in doc:
                 gs, a, order = groupWords(s)
                 for g in range(len(gs)):
                     groupDoc.append(gs[g])
-                    orderDoc.append(order[g])
+                    if a:
+                        orderDoc.append(order[g])
+                As.append(a)
+            counter = 0
             for idx1 in range(len(groupDoc)):
-                gs = groupDoc[idx1]
-                order = orderDoc[idx1]
-                currR = 'F'
-                for g in gs:
-                    if g[1] == 'R':
-                        currR = 'T'
-                order.append(currR)
-                orderDoc[idx1] = order
+                if As[idx1]:
+                    gs = groupDoc[idx1]
+                    order = orderDoc[counter]
+                    currR = 'F'
+                    for g in gs:
+                        if g[1] == 'R':
+                            currR = 'T'
+                    order.append(currR)
+                    orderDoc[idx1] = order
+                    counter = counter + 1
             print orderDoc
             self.groupedDocs.append(groupDoc)
             self.orderedDocs.append(orderDoc)
@@ -710,14 +710,23 @@ class Recipe():
                     if containsA:
                         steps.append(groups[g])
                         orderSteps.append(order[g])
-
+            for idx1 in range(len(steps)):
+                gs = steps[idx1]
+                order = orderSteps[idx1]
+                currR = 'F'
+                for g in gs:
+                    if g[1] == 'R':
+                        currR = 'T'
+                order.append(currR)
+                orderSteps[idx1] = order
             heads = self.DPparser.evaluate(steps)
-
+            headsOrder = self.Oparser.evaluate(orderSteps)
+            trueOrder = getOrder(headsOrder)
             print 'Recipe: '
             #print recipe
             recipe = []
-            for i in range(len(heads)):
-                recipe.append(self.convertHeadsToRecipe(steps[i], heads[i]))
+            for i in range(len(trueOrder)):
+                recipe.append(self.convertHeadsToRecipe(steps[trueOrder[i]], heads[trueOrder[i]]))
             print recipe
             for i in range(len(recipe)):
                 print 'Step ' + str(i+1) + ':'
@@ -752,14 +761,26 @@ class Recipe():
         except:
             return []
 
+    def getOrder(self,heads):
+        if -l in heads:
+            top = heads.index(-1)
+        else:
+            top = 0
+
+        order = [top]
+        level = [i for i in range(len(heads)) if heads[i] == top]
+        while level:
+            l = level.pop(0)
+            order.append(l)
+            newlevel = [i for i in range(len(heads)) if heads[i] == l]
+            level = newlevel + level
+        return order
+        
     def convertHeadsToRecipe(self, words, heads):
         if -1 in heads:
             top = heads.index(-1)
         else:
-            try:
-                top = heads.index(None)
-            except:
-                top = 1
+            top = 0
         w, EPt = words[top]
         nextlevel = [i for i in range(len(heads)) if heads[i] == top]
         leveldict = {}
