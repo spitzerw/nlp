@@ -598,10 +598,14 @@ def groupWords(s):
                         if previoustag != 'N':
                             output.append(currentOutput)
                             currentOutput = [[currentGroup, previoustag]]
+                            if not currentOrderOutput:
+                                currentOrderOutput = ['']
                             orderOutput.append(currentOrderOutput)
                         else:
                             output.append(currentOutput)
                             currentOutput = []
+                            if not currentOrderOutput:
+                                currentOrderOutput = ['']
                             orderOutput.append(currentOrderOutput)
                         if storedOrderWord is not None:
                             currentOrderOutput = [storedOrderWord]
@@ -639,6 +643,8 @@ def groupWords(s):
     if currentGroup != '':
         currentOutput.append([currentGroup, previoustag])
     output.append(currentOutput)
+    if not currentOrderOutput:
+        currentOrderOutput = ['']
     orderOutput.append(currentOrderOutput)
     return output, containsA, orderOutput     
 
@@ -658,7 +664,16 @@ class Recipe():
                 for g in range(len(gs)):
                     groupDoc.append(gs[g])
                     orderDoc.append(order[g])
-            #print orderDoc
+            for idx1 in range(len(groupDoc)):
+                gs = groupDoc[idx1]
+                order = orderDoc[idx1]
+                currR = 'F'
+                for g in gs:
+                    if g[1] == 'R':
+                        currR = 'T'
+                order.append(currR)
+                orderDoc[idx1] = order
+            print orderDoc
             self.groupedDocs.append(groupDoc)
             self.orderedDocs.append(orderDoc)
 ##        for gd in self.groupedDocs:
@@ -808,4 +823,4 @@ class Recipe():
             f1.close()
 
 x = Recipe()
-x.createTrueRecipes()
+#x.createTrueRecipes()
