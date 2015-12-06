@@ -2445,13 +2445,13 @@ p1291
 aa(lp1292
 S'graphite'
 p1293
-aS'N'
+aS'R'
 p1294
 ag1283
 aa(lp1295
 S'oxide'
 p1296
-aS'N'
+aS'R'
 p1297
 ag1287
 aa(lp1298
@@ -2464,7 +2464,7 @@ p1301
 aa(lp1302
 S'GO'
 p1303
-aS'N'
+aS'PR'
 p1304
 aS'NNP'
 p1305

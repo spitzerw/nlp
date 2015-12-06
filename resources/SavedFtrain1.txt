@@ -1381,7 +1381,7 @@ ag705
 aa(lp720
 S'is'
 p721
-aS'N'
+aS'A'
 p722
 aS'VBZ'
 p723

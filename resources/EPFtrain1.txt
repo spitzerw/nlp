@@ -380,7 +380,7 @@ aS'N'
 p194
 aS'R'
 p195
-aS'N'
+aS'A'
 p196
 aS'P'
 p197

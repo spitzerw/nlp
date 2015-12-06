@@ -19,7 +19,7 @@ class EPParser():
         self.totalfiles = [filename for filename in listdir('samples') if 'Ftrain' in filename]
         self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,len(self.totalfiles) + 1)]
         
-        self.split = .5
+        self.split = 0.5
         self.trainSentences = []
         self.testSentences = []
         self.Docs = []
@@ -671,9 +671,9 @@ class Recipe():
         self.DPparser = EPDependencyParser()
         for idx in range(len(self.groupedDocs)):
             self.DPparser.train(self.groupedDocs[idx], self.originalmoves[idx])
-        self.Oparser = EPDependencyParser()
-        for idx in range(len(self.groupedDocs)):
-            self.Oparser.train(self.orderedDocs[idx], self.ordermoves[idx])
+##        self.Oparser = EPDependencyParser()
+##        for idx in range(len(self.groupedDocs)):
+##            self.Oparser.train(self.orderedDocs[idx], self.ordermoves[idx])
 
         self.createRecipe()
         
@@ -771,7 +771,7 @@ class Recipe():
         for doc in s:
             groupDoc = []
             for ss in doc:
-                gs, a = groupWords(ss)
+                gs, a, os = groupWords(ss)
                 for g in gs:
                     groupDoc.append(g)
             groupedDocs.append(groupDoc)

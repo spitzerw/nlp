@@ -9,8 +9,8 @@ After_N this_N step_N ,_N cells_R were_A transferred_A into_N an_N argon-filled_
 After_N degassing_N ,_N the_N cells_R were_A charged_A to_N 4.5_P V_P at_N C/20_P followed_N by_N a_N C/20_P discharge_A to_N 3.8_P V_P ._N
 The_N temperature_N boxes_N used_N for_N the_N measurements_N presented_N in_N this_N work_N are_N stable_N to_N plus/minus_N 0.1◦C_N ,_N and_N are_N within_N one_N degree_N centigrade_N of_N the_N set_N temperature_N ._N
 After_N formation_N ,_N these_N cells_R were_A placed_A in_N a_N 40._P plus/minus_P 0.1◦C_P temperature_E box_E connected_N to_N one_N of_N two_N systems_N capable_N of_N electrochemical_N impedance_N spectroscopy_N measurements_N coupled_N with_N cycling_N capabilities_N ._N
-The_N first_PR system_PR consists_N of_N a_N Maccor_E series_E 4000_E connected_N to_N a_N Maccor_E FRA_E model_E 0356_E ._E
-The_N second_PR system_PR ,_N built_N in-house_N by_N Greg_N d’Eon_N from_N Dalhousie_N University_N ,_N consists_N of_N Neware_E (Shenzhen_N ,_N China)_N cyclers_E connected_N to_N computers_N with_N Gamry_E frequency_E response_E analyzer_E (FRA)_E cards_E via_N appropriate_N computer_N controlled_N relays_N ._N
+The_N first_PR system_PR consists_A of_N a_N Maccor_E series_E 4000_E connected_N to_N a_N Maccor_E FRA_E model_E 0356_E ._E
+The_N second_PR system_PR ,_N built_A in-house_N by_N Greg_N d’Eon_N from_N Dalhousie_N University_N ,_N consists_N of_N Neware_E (Shenzhen_N ,_N China)_N cyclers_E connected_N to_N computers_N with_N Gamry_E frequency_E response_E analyzer_E (FRA)_E cards_E via_N appropriate_N computer_N controlled_N relays_N ._N
 The_N relay_R switching_R was_A controlled_A to_N connect_P the_N cells_R to_N the_N Neware_E charger_E or_N to_N the_N Gamry_E FRA_E cards_E as_N required_N ._N
 Cells_R underwent_A charge-discharge_E cycling_E by_N one_N of_N two_N methods_N ,_N as_N shown_N in_N Figure_N 3_N ._N
 The_N time_N axis_N is_N simply_N provided_N as_N a_N scale_N ,_N not_N as_N the_N specific_N time_N cycles_N occurred_N in_N the_N experimental_N method_N ._N

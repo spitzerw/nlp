@@ -7,8 +7,7 @@ The_N GPE_PR was_A formed_A by_N trapping_P LiPF6_I dissolved_N in_N a_N mixture
 LiFePO4_PR was_A generously_N provided_A by_N Dr._N Margret_N WohlfahrtMehrens_N of_N ZSW_N in_N Ulm_N ,_N Germany_N ._N
 The_N nickel_PR manganese_PR spinel_PR ,_N LiNi0.5Mn1.5O4_PR ,_N was_A obtained_A by_N a_E wet-chemistry_E route_E starting_N from_N LiNO3_I ,_N Ni(NO3)2·H2O_I and_I Mn(NO3)2·H2O_I ._N
 The_N synthesis_N procedures_N and_N characterization_N of_N both_N cathode_N materials_N have_N been_N described_N previously_N ._N
-Composite_PR electrodes_PR were_A fabricated_A in_N the_N form_P of_P films_P by_N dispersing_P the_N active_R materials_R (i.e._N ,_N TiO2(B)_I ,_N LiFePO4_I ,_N or_N LiNi0.5-_I Mn1.5O4)_I in_N N-methylpyrrolidinone_I (NMP)_I with_N 8_P or_P 10_P wt%_P of_N
-Super_I P_I (M.M.M._N Carbon_N Belgium)_N and_N 10_P wt%_P PVdF_I (Solvay_N Solef_N UHMW_N 6020)_N ._N
+Composite_PR electrodes_PR were_A fabricated_A in_N the_N form_P of_P films_P by_N dispersing_P the_N active_R materials_R (i.e._N ,_N TiO2(B)_I ,_N LiFePO4_I ,_N or_N LiNi0.5-_I Mn1.5O4)_I in_N N-methylpyrrolidinone_I (NMP)_I with_N 8_P or_P 10_P wt%_P of_N Super_I P_I (M.M.M._N Carbon_N Belgium)_N and_N 10_P wt%_P PVdF_I (Solvay_N Solef_N UHMW_N 6020)_N ._N
 This_N slurry_R was_A then_N cast_A onto_N aluminum_I (LiFePO4_R or_N LiNi0.5Mn1.5O4)_R or_N copper_I (TiO2(B))_R foils_N ._N
 Disks_PR of_N 10_P mm_P diameter_P were_A cut_A and_N vacuum-dried_A for_N 5_P h_P at_N 110_P °C_P to_N completely_N eliminate_N traces_N of_N moisture_N and_N NMP_N ._N
 The_N complete_N lithium-ion_PR cell_PR was_A assembled_A by_N sandwiching_P a_N GPE_I membrane_I between_N a_N TiO2(B)_R electrode_R and_N either_N a_N LiFePO4_R or_N LiNi0.5Mn1.5O4_R disk_R ._N

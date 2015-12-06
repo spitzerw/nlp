@@ -75,13 +75,13 @@ p37
 aa(lp38
 S'N'
 p39
-aS'N'
+aS'R'
 p40
-aS'N'
+aS'R'
 p41
-aS'N'
+aS'A'
 p42
-aS'N'
+aS'A'
 p43
 aS'N'
 p44

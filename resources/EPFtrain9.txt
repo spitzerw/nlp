@@ -659,13 +659,13 @@ aS'N'
 p337
 aS'N'
 p338
-aS'N'
+aS'R'
 p339
-aS'N'
+aS'R'
 p340
 aS'N'
 p341
-aS'N'
+aS'PR'
 p342
 aS'A'
 p343

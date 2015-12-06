@@ -13,7 +13,7 @@ Subsequently_N ,_N 80_P ml_P of_N water_I was_A added_A dropwise_P under_N vigor
 The_N slurry_R was_A stirred_A at_N this_P temperature_P for_N another_N 30_P min_P ._N
 Afterwards_N ,_N 200_P ml_P of_N water_I and_N 6_P ml_P of_N H2O2_I solution_I (30_P wt%)_P were_A added_A sequentially_P to_N dissolve_N insoluble_N manganese_N species_N ._N
 The_N resulting_R graphite_R oxide_R suspension_R was_A washed_A repeatedly_P in_N water_I until_N the_N solution_N pH_P reached_P a_P constant_P value_P of_P ∼5.0_P ._N
-The_N complete_N delamination_N of_N graphite_N oxide_N into_N GO_N was_A achieved_A by_N ultrasonic_E treatment_E ._N
+The_N complete_N delamination_N of_N graphite_R oxide_R into_N GO_PR was_A achieved_A by_N ultrasonic_E treatment_E ._N
 The_N final_R suspension_R of_R GO_R was_A concentrated_A to_N a_N content_N of_N 1–2_P wt%_P ._N
 Aqueous_R suspensions_R of_R LFP_R and_N GO_R then_N were_A vigorously_A stirred_A together_R to_N form_N a_N slurry_PR with_N LFP[thin_P space_P (1/6-em)]:[thin_P space_P (1/6-em)]GO_P =_P 10[thin_P space_P (1/6-em)]:[thin_P space_P (1/6-em)]1_P (wt.)_P ._N
 DI_I water_I was_A added_A to_N the_N mixture_R to_N adjust_P the_N solid_N content_N to_N 10_P wt%_P ._N

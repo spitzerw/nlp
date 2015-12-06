@@ -1,0 +1,12 @@
+Groups for Ftrain10.txt
+Saved resource file for Ftrain10.txt found.
+[['electronic-conducting precursor', 'PR'], ['different amounts', 'P'], ['sucrose (C12H22O11)', 'I'], ['were added', 'A'], ['water-based HNO3 solution (+) lithium carbonate (+) iron oxalate (+) ammonium di-hydrogen phosphate', 'I'], ['Li:Fe:P in the stoichiometric ratio = 1:1:1', 'P']]
+[['carbon content 15 or 20 wt.%', 'P'], ['mixture', 'R']]
+[]
+[['solution', 'R'], ['was sprayed', 'A'], ['heat reactor', 'E'], ['450 C', 'P'], ['obtained precursor', 'R']]
+[['was (+) sintered', 'A'], ['700 C (+) 4 h)', 'P']]
+[]
+[]
+[['materials', 'R'], ['were analyzed', 'A'], ['X-ray diffraction analysis (XRD) (+) scanning electron microscopy (SEM)', 'E'], ['gas sorption technique', 'E'], ['specific surface area', 'P'], ['BET method', 'E']]
+[['Li-ion cells', 'PR'], ['were assembled', 'A'], ['carbon-containing LFP materials', 'R'], ['graphite powder', 'I']]
+[['One mole', 'P'], ['LiPF6', 'I'], ['1:1 mixture', 'P'], ['ethylene carbonate (+) dimethyl carbonate', 'I'], ['was used', 'A']]

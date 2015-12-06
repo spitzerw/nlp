@@ -1,0 +1,14 @@
+Groups for Ftrain6.txt
+Saved resource file for Ftrain6.txt found.
+[['LTO', 'PR'], ['was purchased', 'A'], ['BTR Energy Materials Co., Ltd', 'E']]
+[['LNMO', 'PR'], ['was prepared', 'A'], ['radiated polymer gel (RPG) method', 'E']]
+[['Composite electrodes', 'PR'], ['LTO (+) LNMO', 'R'], ['(80 wt.%)', 'P'], ['acetylene black', 'I'], ['(10 wt.%)', 'P'], ['poly(vinylidene fluoride) (PVDF)', 'I'], ['(10 wt.%)', 'P'], ['were made', 'A'], ['tape-casting process', 'E']]
+[['electrolytes', 'PR'], ['were', 'A'], ['1 M', 'P'], ['LiPF6', 'I'], ['ethylene carbonate (EC) (+) PC (+) dimethyl carbonate (DMC) (+) diethyl carbonate (DEC)', 'I']]
+[]
+[['CR2032 coin cells', 'PR'], ['were assembled', 'A'], ['argon-filled glove box', 'E']]
+[['galvanostatically cycled', 'A'], ['multi-channel battery cycler', 'E']]
+[['accelerated cycle tests', 'E'], ['were designed (+) carried out', 'A'], ['evaluate', 'P'], ['cycle lifetime', 'PR']]
+[['cells', 'R'], ['were cycled', 'A'], ['constant voltage (+) 3.5 V (charge)', 'P']]
+[['Cyclic voltammetry (CV)', 'E'], ['was carried out', 'A'], ['CHI 604 Electrochemical Workstation', 'E'], ['examine', 'P'], ['high voltage retention', 'PR'], ['cell systems', 'R']]
+[['ac impedance', 'E'], ['was (+) measured', 'A'], ['Electrochemical Workstation', 'E'], ['frequency range (+) voltage amplitude', 'P']]
+[['limited capacity', 'PR'], ['excess capacity', 'PR'], ['LNMO/LTO full-cells', 'R'], ['were', 'A']]
