@@ -490,20 +490,19 @@ class EPDependencyParser():
             wordlist = sentencelist[s]
             moves = moveslist[s]
             words, EPtags, postags = self.getWordsTags(wordlist)
-            #print words
-            #print moves
             headslist.append(self.train_single(words, EPtags, moves))
         return headslist
 
-    def evaluate(self, sentencelist, headslist = None):
-        totalheads = 0
+    def evaluate(self, sentencelist, trueMoveslist = None):
         correct = 0
+        incorrect = 0
         outputHeads = []
         for s in range(len(sentencelist)):
             wordlist = sentencelist[s]
             movelist = []
-            if headslist is not None:
-                heads = headslist[s]
+            if trueMoveslist is not None:
+                if len(trueMoveslist) > s:
+                    trueMoves = trueMoveslist[s]
             words, EPtags, postags = self.getWordsTags(wordlist)
             words.append('**STOP**')
             EPtags.append('None') 
@@ -523,14 +522,27 @@ class EPDependencyParser():
             #print parse.heads
             movelist.pop()
             #print movelist
-            if headslist is not None:
-                for j in range(len(parse.heads)):
-                    if parse.heads[j] == heads[j]:
-                        correct = correct + 1
-            totalheads = totalheads + len(parse.heads)
+            if trueMoveslist is not None:
+                if len(trueMoveslist) > s:
+                    if len(movelist) > len(trueMoves):
+                        incorrect = incorrect + len(movelist) - len(trueMoves)
+                    for j in range(len(trueMoves)):
+                        if len(movelist) <= j:
+                            incorrect = incorrect + len(trueMoves) - len(movelist)
+                            break
+                        if int(trueMoves[j]) == int(movelist[j]):
+                            correct = correct + 1
+                        else:
+                            incorrect = incorrect + 1
+                else:
+                    incorrect = incorrect + len(movelist)
             outputHeads.append(parse.heads)
-        if headslist is not None:
-            print 'Score: ' + str(float(correct)/totalheads)
+        if trueMoveslist is not None:
+            totalMoveS = correct + incorrect
+            print 'Evaluation of Dependency Parser'
+            print 'Correct: ' + str(correct)
+            print 'Incorrect: ' + str(incorrect)
+            print 'Score: ' + str(float(correct)/(correct + incorrect))
         return outputHeads
         
 class DependencyParser():
@@ -685,9 +697,16 @@ class Recipe():
         self.originalmoves = []
         for fn in self.parser.trainFilenames:
             self.originalmoves.append(self.getMoves(fn))
+        self.originalmovestest = []
+        for fn in self.parser.testFilenames:
+            self.originalmovestest.append(self.getMoves(fn))
+            
         self.ordermoves = []
         for fn in self.parser.trainFilenames:
             self.ordermoves.append(self.getOrderMoves(fn))
+        self.ordermovestest = []
+        for fn in self.parser.testFilenames:
+            self.ordermovestest.append(self.getOrderMoves(fn))
         #self.parser.shuffle()
         self.parser.train(10)
         self.taggedDocs = self.parser.evaluate()
@@ -722,7 +741,7 @@ class Recipe():
                         currR = 'T'
                 order.append(currR)
                 orderSteps[idx1] = order
-            heads = self.DPparser.evaluate(steps)
+            heads = self.DPparser.evaluate(steps, self.originalmovestest[counter-1])
             headsOrder = self.Oparser.evaluate([orderSteps])
             trueOrder = self.getOrder(headsOrder[0])
             print 'Recipe: ' + str(counter)
@@ -816,8 +835,8 @@ class Recipe():
 
     def createTrueRecipes(self):
         print 'Creating True Recipes'
-        #f = self.parser.trainFilenames + self.parser.testFilenames
-        f = self.parser.trainFilenames
+        f = self.parser.trainFilenames + self.parser.testFilenames
+        #f = self.parser.trainFilenames
         s = []
         for fn in f:
             if os.path.exists('resources/Saved' + fn):
@@ -837,7 +856,7 @@ class Recipe():
         allmoves = []
         for fn in f:
             allmoves.append(self.getMoves(fn))
-        
+
         for idx in range(len(groupedDocs)):
             wordslist = groupedDocs[idx]
             headslist = self.DPparser.train(wordslist, allmoves[idx])
@@ -856,5 +875,16 @@ class Recipe():
                 f1.write('\n')
             f1.close()
 
+        allmoves = []
+        for fn in f:
+            allmoves.append(self.getMoves(fn))
+
+        #Test Evaluation
+        for idx in range(len(groupedDocs)):
+            wordslist = groupedDocs[idx]
+            headslist = self.DPparser.evaluate(wordslist, allmoves[idx])
+
+            
+
 x = Recipe()
-#x.createTrueRecipes()
+x.createTrueRecipes()
