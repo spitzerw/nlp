@@ -18,9 +18,9 @@ class EPParser():
         self.model = EPModel(self.labels)
         self.totalfiles = [filename for filename in listdir('samples') if 'Ftrain' in filename]
         #self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,len(self.totalfiles) + 1)]
-        self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,12)]
+        self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,11)]
         
-        self.split = 1
+        self.split = .3
         self.trainSentences = []
         self.testSentences = []
         self.Docs = []
@@ -92,10 +92,10 @@ class EPParser():
         self.Docs = tempDocs
         self.samplefiles = tempfiles
 
-        self.trainDocs = self.Docs[:int(math.floor(len(self.Docs) * .85))]
-        self.testDocs = self.Docs[int(math.floor(len(self.Docs) * .85)):]
-        self.trainFilenames = self.samplefiles[:int(math.floor(len(self.Docs) * .85))]
-        self.testFilenames = self.samplefiles[int(math.floor(len(self.Docs) * .85)):]
+        self.trainDocs = self.Docs[:int(math.floor(len(self.Docs) * self.split))]
+        self.testDocs = self.Docs[int(math.floor(len(self.Docs) * self.split)):]
+        self.trainFilenames = self.samplefiles[:int(math.floor(len(self.Docs) * self.split))]
+        self.testFilenames = self.samplefiles[int(math.floor(len(self.Docs) * self.split)):]
         
     #https://github.com/sloria/textblob-aptagger/blob/master/textblob_aptagger/taggers.py
     def _get_features(self, i, word, context, EPtag, EPtag2, postag0, postag1, postag2):
@@ -602,7 +602,7 @@ def groupWords(s):
                         else:
                             output.append(currentOutput)
                             currentOutput = []
-                            orderOutput.append(currentOrderOutput)
+                            orderOutput.append([currentOrderOutput])
                         if storedOrderWord is not None:
                             currentOrderOutput = storedOrderWord
                             storedOrderWord = None
@@ -661,6 +661,9 @@ class Recipe():
                     if a:
                         orderDoc.append(order[g])
                 As.append(a)
+                if len(gs) > 1:
+                    for i in range(1, len(gs)):
+                        As.append(a)
             counter = 0
             for idx1 in range(len(groupDoc)):
                 if As[idx1]:
@@ -671,9 +674,8 @@ class Recipe():
                         if g[1] == 'R':
                             currR = 'T'
                     order.append(currR)
-                    orderDoc[idx1] = order
+                    orderDoc[counter] = order
                     counter = counter + 1
-            print orderDoc
             self.groupedDocs.append(groupDoc)
             self.orderedDocs.append(orderDoc)
 ##        for gd in self.groupedDocs:
@@ -686,20 +688,21 @@ class Recipe():
         self.ordermoves = []
         for fn in self.parser.trainFilenames:
             self.ordermoves.append(self.getOrderMoves(fn))
-        self.parser.shuffle()
+        #self.parser.shuffle()
         self.parser.train(10)
         self.taggedDocs = self.parser.evaluate()
         self.DPparser = EPDependencyParser()
         for idx in range(len(self.groupedDocs)):
             self.DPparser.train(self.groupedDocs[idx], self.originalmoves[idx])
-##        self.Oparser = EPDependencyParser()
-##        for idx in range(len(self.groupedDocs)):
-##            self.Oparser.train(self.orderedDocs[idx], self.ordermoves[idx])
-
+        self.Oparser = EPDependencyParser()
+        for idx in range(len(self.groupedDocs)):
+            self.Oparser.train([self.orderedDocs[idx]], self.ordermoves[idx])
         self.createRecipe()
         
     def createRecipe(self):
+        counter = 0
         for doc in self.taggedDocs:
+            counter = counter+1
             steps = []
             orderSteps = []
             for s in doc: 
@@ -720,17 +723,22 @@ class Recipe():
                 order.append(currR)
                 orderSteps[idx1] = order
             heads = self.DPparser.evaluate(steps)
-            headsOrder = self.Oparser.evaluate(orderSteps)
-            trueOrder = getOrder(headsOrder)
-            print 'Recipe: '
+            headsOrder = self.Oparser.evaluate([orderSteps])
+            trueOrder = self.getOrder(headsOrder[0])
+            print 'Recipe: ' + str(counter)
+            print headsOrder
+            print trueOrder
             #print recipe
             recipe = []
-            for i in range(len(trueOrder)):
-                recipe.append(self.convertHeadsToRecipe(steps[trueOrder[i]], heads[trueOrder[i]]))
-            print recipe
-            for i in range(len(recipe)):
-                print 'Step ' + str(i+1) + ':'
-                print recipe[i]
+            if len(steps) != 0:
+                for i in range(len(trueOrder)):
+                    recipe.append(self.convertHeadsToRecipe(steps[trueOrder[i]], heads[trueOrder[i]]))
+                #print recipe
+                for i in range(len(recipe)):
+                    print 'Step ' + str(i+1) + ':'
+                    print recipe[i]
+            else:
+                print 'Failed to find steps'
 
     def getTrain(self):
         s1 = self.parser.trainDocs
@@ -762,7 +770,7 @@ class Recipe():
             return []
 
     def getOrder(self,heads):
-        if -l in heads:
+        if -1 in heads:
             top = heads.index(-1)
         else:
             top = 0
@@ -779,6 +787,11 @@ class Recipe():
     def convertHeadsToRecipe(self, words, heads):
         if -1 in heads:
             top = heads.index(-1)
+            for i in range(len(words)):
+                h = heads[i]
+                w = words[i][1]
+                if w == 'A' and h == -1:
+                    top = i
         else:
             top = 0
         w, EPt = words[top]
