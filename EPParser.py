@@ -20,7 +20,7 @@ class EPParser():
         #self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,len(self.totalfiles) + 1)]
         self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,11)]
         
-        self.split = .3
+        self.split = .8
         self.trainSentences = []
         self.testSentences = []
         self.Docs = []
@@ -658,6 +658,7 @@ class Recipe():
 
     def __init__(self):
         self.parser = EPParser()
+        self.parser.shuffle()
         self.originalDocs = self.getTrain()
         #self.originalDocs = self.getTrain() + self.getTest()
         self.groupedDocs = []
@@ -707,7 +708,7 @@ class Recipe():
         self.ordermovestest = []
         for fn in self.parser.testFilenames:
             self.ordermovestest.append(self.getOrderMoves(fn))
-        #self.parser.shuffle()
+        
         self.parser.train(10)
         self.taggedDocs = self.parser.evaluate()
         self.DPparser = EPDependencyParser()
@@ -742,7 +743,7 @@ class Recipe():
                 order.append(currR)
                 orderSteps[idx1] = order
             heads = self.DPparser.evaluate(steps, self.originalmovestest[counter-1])
-            headsOrder = self.Oparser.evaluate([orderSteps])
+            headsOrder = self.Oparser.evaluate([orderSteps], self.ordermovestest[counter-1])
             trueOrder = self.getOrder(headsOrder[0])
             print 'Recipe: ' + str(counter)
             print headsOrder
@@ -835,9 +836,10 @@ class Recipe():
 
     def createTrueRecipes(self):
         print 'Creating True Recipes'
-        f = self.parser.trainFilenames + self.parser.testFilenames
+        f = self.parser.trainFilenames
         #f = self.parser.trainFilenames
         s = []
+        ords = []
         for fn in f:
             if os.path.exists('resources/Saved' + fn):
                 with open('resources/Saved' + fn, 'r') as f1:
@@ -875,15 +877,56 @@ class Recipe():
                 f1.write('\n')
             f1.close()
 
+        f = self.parser.testFilenames
+        
         allmoves = []
         for fn in f:
             allmoves.append(self.getMoves(fn))
 
+        s = []
+        for fn in f:
+            if os.path.exists('resources/Saved' + fn):
+                with open('resources/Saved' + fn, 'r') as f1:
+                    sentences = pickle.load(f1)
+                with open('resources/EP' + fn, 'r') as f1:
+                    allEPtags = pickle.load(f1)
+            s.append(sentences)
+        groupedDocs = []
+        orderedDocs = []
+        for doc in s:
+            groupDoc = []
+            orderDoc = []
+            As = []
+            for ss in doc:
+                gs, a, osV = groupWords(ss)
+                for g in range(len(gs)):
+                    groupDoc.append(gs[g])
+                    if a:
+                        orderDoc.append(osV[g])
+                As.append(a)
+                if len(gs) > 1:
+                    for i in range(1, len(gs)):
+                        As.append(a)
+            counter = 0
+            for idx1 in range(len(groupDoc)):
+                if As[idx1]:
+                    gs = groupDoc[idx1]
+                    order = orderDoc[counter]
+                    currR = 'F'
+                    for g in gs:
+                        if g[1] == 'R':
+                            currR = 'T'
+                    order.append(currR)
+                    orderDoc[counter] = order
+                    counter = counter + 1
+            groupedDocs.append(groupDoc)
+            orderedDocs.append(orderDoc)
         #Test Evaluation
         for idx in range(len(groupedDocs)):
             wordslist = groupedDocs[idx]
+            orderlist = orderedDocs[idx]
             headslist = self.DPparser.evaluate(wordslist, allmoves[idx])
-
+            trueheads = self.Oparser.evaluate([orderlist], self.ordermovestest[idx])
             
 
 x = Recipe()
