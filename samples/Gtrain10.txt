@@ -1,0 +1,9 @@
+﻿As_N an_N electronic-conducting_R precursor_R ,_N different_P amounts_P of_N sucrose_R (C12H22O11)_R were_A added_A to_N a_N water-based_R HNO3_R solution_R of_N lithium_R carbonate_R ,_N iron_R oxalate_R and_N ammonium_R di-hydrogen_R phosphate_R containing_N Li:Fe:P_P in_P the_P stoichiometric_P ratio_P =_P 1:1:1_P ._N
+The_N sucrose_R solution_R was_A added_A to_N ensure_N nominal_N carbon_P content_P 15_P or_P 20_P wt.%_P in_N the_N mixture_R ._N
+These_N values_N are_N close_N to_N the_N amount_N of_N carbon_N black_N mixed_N with_N electrode_N material_N in_N the_N battery_N industry_N ._N
+The_N solution_R was_A sprayed_A in_N a_N heat_R reactor_R at_N 450_P °C_P and_N the_N obtained_R precursor_R was_A briefly_N sintered_A at_N 700_P °C_P (for_N 4_P h)_P ._N
+This_N regime_N was_N found_N to_N be_N most_N appropriate_N to_N produce_N the_N finest_N powder_N and_N therefore_N to_N promote_N Li_N diffusion_N ,_N which_N is_N a_N limiting_N factor_N in_N LFP_N materials_N ._N
+In_N some_N cases_N ,_N the_N powder_N was_N slightly_N compacted_N before_N the_N final_N sintering_N ._N
+The_N materials_R were_A analyzed_A by_N X-ray_R diffraction_R analysis_R (XRD)_R ,_N scanning_R electron_R microscopy_R (SEM)_R and_N a_N gas_R sorption_R technique_R to_N evaluate_N the_N specific_P surface_P area_P by_N the_N BET_R method_R ._N
+For_N electrochemical_N characterization_N ,_N Li-ion_R cells_R were_A assembled_A in_N which_N the_N carbon-containing_R LFP_R materials_R were_N used_N as_N a_N cathode_N material_N and_N graphite_R powder_R was_N used_N as_N an_N anode_N material_N ._N
+One_P mole_P LiPF6_R in_N a_N 1:1_P mixture_P with_N ethylene_R carbonate_R and_N dimethyl_R carbonate_R was_A used_A as_N the_N electrolyte_N ._N

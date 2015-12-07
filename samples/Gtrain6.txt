@@ -1,0 +1,11 @@
+﻿LTO_R was_A purchased_A from_N BTR_R Energy_R Materials_R Co.,_R Ltd_R ._N
+As_N previously_N disclosed_N ,_N LNMO_R was_A prepared_A by_N a_N radiated_R polymer_R gel_R (RPG)_R method_R ._N
+Composite_R electrodes_R consisting_N of_N LTO_R or_N LNMO_R (80_P wt.%)_P ,_N acetylene_R black_R (10_P wt.%)_P and_N poly(vinylidene_R fluoride)_R (PVDF)_R (10_P wt.%)_P were_A made_A by_N a_N tape-casting_R process_R on_N aluminum_R and_N copper_R foils_R ,_N respectively_N ._N
+The_N electrolytes_R were_A 1_P M_P LiPF6_R dissolved_N in_N carbonate_N solvent_N mixtures_N including_N ethylene_R carbonate_R (EC)_R ,_N PC_R ,_N dimethyl_R carbonate_R (DMC)_R and_N diethyl_R carbonate_R (DEC)_R ._N
+All_N solvent_N ratios_N indicated_N later_N in_N this_N paper_N were_N in_N weight_N ratios_N ._N
+CR2032_R coin_R cells_R were_A assembled_A in_N an_N argon-filled_R glove_R box_R (MBrumn_N Labmaster_N 130)_N and_N then_N galvanostatically_A cycled_A on_N a_N multi-channel_R battery_R cycler_R (Neware_N BTS2300_N ,_N Shenzhen)_N ._N
+In_N order_N to_N simulate_N the_N real_N load_N pattern_N of_N HEV_N batteries_N ,_N accelerated_R cycle_R tests_R were_A designed_A and_N carried_A out_A to_N evaluate_P the_N cycle_R lifetime_R ._N
+In_N these_N tests_N ,_N all_N of_N the_N cells_R were_A cycled_A alternately_N at_N the_N constant_P voltage_P at_N 3.5_P V_P (charge)_P and_N at_N 2.0_P V_P (discharge)_P for_N 2_P min_P ,_N respectively_N ._N
+Cyclic_R voltammetry_R (CV)_R was_A carried_A out_A at_N a_N CHI_R 604_R Electrochemical_R Workstation_R to_N examine_P the_N high_R voltage_R retention_R of_N the_N cell_R systems_R ._N
+The_N ac_R impedance_R was_A also_N measured_A with_N the_N Electrochemical_R Workstation_R above_N ,_N with_N the_N frequency_P range_P and_N voltage_P amplitude_P set_N as_N 100_P kHz_P to_P 0.01_P Hz_P and_N 8_P mV_P ,_N respectively_N ._N
+For_N most_N of_N the_N tests_N ,_N the_N limited_R capacity_R and_N the_N excess_R capacity_R of_N the_N two_N electrodes_N in_N the_N LNMO/LTO_R full-cells_R were_A about_N 1.0_P and_P 1.2_P mAh_P ,_N respectively_N ,_N whether_N the_N cell_N capacity_N was_N determined_N by_N the_N LNMO_N cathode_N or_N the_N LTO_N anode_N (hereinafter_N designated_N as_N the_N LNMO-limited_N cell_N and_N the_N LTO-limited_N cell)_N ._N

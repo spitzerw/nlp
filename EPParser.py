@@ -18,7 +18,8 @@ class EPParser():
         self.model = EPModel(self.labels)
         self.totalfiles = [filename for filename in listdir('samples') if 'Ftrain' in filename]
         #self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,len(self.totalfiles) + 1)]
-        self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,11)]
+        #self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,11)]
+        self.samplefiles = ['Gtrain' + str(c) + '.txt' for c in range(1,11)]
         
         self.split = .8
         self.trainSentences = []

@@ -1,0 +1,29 @@
+﻿LFP_R nanoparticles_R were_A synthesized_A using_N a_N hydrothermal_R method_R reported_N in_N our_N previous_N paper_N ._N
+Typically_N ,_N 150_P ml_P of_N 1_P mol_P L−1H3PO4_R aqueous_R solution_R was_A added_A to_N a_N beaker_R containing_N 600_P ml_P of_N polyethylene_R glycol_R 400_R whilst_N stirring_P it_N mechanically_N ._N
+Then_N ,_N 450_P ml_P of_N 1_P mol_P L−1LiOH_R aqueous_R solution_R was_A dropped_A into_N this_R mixture_R ._N
+When_N a_N milk_N white_R suspension_R formed_A via_N the_N neutralization_R reaction_R ,_N 300_P ml_P of_N 0.5_P mol_P L−1FeSO4_R solution_R was_A poured_A into_N the_N beaker_R ,_N generating_P a_N green_R colored_R suspension_R ._N
+The_N mixture_R was_A then_N transferred_A into_N a_N 2_R L_R magnetic_R propelled_R autoclave_R ,_N heated_A up_N to_N 180_P °C_P at_N a_N rate_P of_P 3_P °C_P min−1_P after_N sealing_P ,_N and_N maintained_A at_N the_N same_P temperature_P under_N mechanical_N stirring_P for_N 9_P h_P ._N
+After_N cooling_A down_N to_N room_P temperature_P ,_N the_N off-white_R product_R was_A collected_A by_N centrifugation_R and_N washed_A three_P times_P in_N water_R ._N
+Finally_N ,_N the_N resulting_R LFP_R nanoparticles_R were_A dispersed_A in_N DI_R water_R at_N a_N content_N of_N 50_P wt%_P ._N
+Graphene_R oxide_R (GO)_R was_A prepared_A following_N the_N procedure_R described_N in_N our_N previous_N report_N ._N
+Typically_N ,_N 6.0_P g_P of_N KNO3_R and_N 5.0_P g_P of_N natural_R graphite_R (300_P mesh)_P were_A added_A to_N 230_P ml_P of_N concentrated_R H2SO4_R (98%)_P at_N room_P temperature_P ._N
+The_N mixture_R was_A stirred_A for_N 10_P min_P before_N slow_A addition_A of_N 30_P g_P of_N KMnO4_R ._N
+Then_N ,_N the_N mixture_R was_A heated_A to_N 35_P °C_P and_N stirred_A for_N 6_P h_P ._N
+Subsequently_N ,_N 80_P ml_P of_N water_R was_A added_A dropwise_P under_N vigorous_P stirring_P ,_N causing_N a_N quick_N rise_N in_N temperature_N to_N ∼90_P °C_P ._N
+The_N slurry_R was_A stirred_A at_N this_P temperature_P for_N another_N 30_P min_P ._N
+Afterwards_N ,_N 200_P ml_P of_N water_R and_N 6_P ml_P of_N H2O2_R solution_R (30_P wt%)_P were_A added_A sequentially_P to_N dissolve_N insoluble_N manganese_N species_N ._N
+The_N resulting_R graphite_R oxide_R suspension_R was_A washed_A repeatedly_P in_N water_R until_N the_N solution_N pH_P reached_P a_P constant_P value_P of_P ∼5.0_P ._N
+The_N complete_N delamination_N of_N graphite_R oxide_R into_N GO_R was_A achieved_A by_N ultrasonic_R treatment_R ._N
+The_N final_R suspension_R of_R GO_R was_A concentrated_A to_N a_N content_N of_N 1–2_P wt%_P ._N
+Aqueous_R suspensions_R of_R LFP_R and_N GO_R then_N were_A vigorously_A stirred_A together_R to_N form_N a_N slurry_R with_N LFP[thin_P space_P (1/6-em)]:[thin_P space_P (1/6-em)]GO_P =_P 10[thin_P space_P (1/6-em)]:[thin_P space_P (1/6-em)]1_P (wt.)_P ._N
+DI_R water_R was_A added_A to_N the_N mixture_R to_N adjust_P the_N solid_N content_N to_N 10_P wt%_P ._N
+Thereafter_N ,_N the_N slurry_R was_A stirred_A ,_N and_N ultrasonically_A exposed_A for_N 5_P min_P ,_N and_N then_N spray_A dried_A at_N 200_P °C_P to_N form_N a_N solid_R LFP/GO_R composite_R ._N
+The_N composites_R were_A heated_A to_N 600_P °C_P at_N a_N rate_P of_P 5_P °C_P min−1_P and_N annealed_A at_N that_P temperature_P for_N 5_P h_P under_N Ar_P to_N form_N the_N active_R LFP/graphene_R (denoted_N by_N LFP/G)_R cathode_N materials_N ._N
+For_N the_N preparation_N of_N conventional_R carbon-coated_R LFP_R (denoted_N by_N LFP/C)_R ,_N glucose_R monohydrate_R was_A used_A instead_N of_N GO_N (with_N a_N 5[thin_P space_P (1/6-em)]:[thin_P space_P (1/6-em)]1_P weight_P ratio_P of_P LFP_P to_P glucose_P monohydrate)_P while_N keeping_N other_P conditions_P constant_P ._N
+Similarly_N ,_N a_N mixture_R of_R GO_R and_R glucose_R monohydrate_R (LFP[thin_P space_P (1/6-em)]:[thin_P space_P (1/6-em)]GO[thin_P space_P (1/6-em)]:[thin_P space_P (1/6-em)]glucose_P monohydrate_P =_P 20[thin_P space_P (1/6-em)]:[thin_P space_P (1/6-em)]1[thin_P space_P (1/6-em)]:[thin_P space_P (1/6-em)]2_P (wt.))_P was_A employed_A to_N prepare_P LFP_R cathode_R materials_R with_N mixed_N carbon_R additives_R (denoted_N by_N LFP/(G_R +_N C))+PR._N
+In_N all_N three_N cases_N ,_N the_N carbon_N contents_N in_N the_N final_N cathode_N materials_N were_N ∼5_N wt%_N ._N
+For_N the_N preparation_N of_N the_N electrodes_R ,_N the_N active_R materials_R (80_P wt%)_P ,_N Super_R P_R (15_R wt%)_R and_N poly(vinylidene_R fluoride)_R (5_P wt%)_P were_A mixed_A in_N N-methyl-2-pyrrolidone_R and_N stirred_P for_N 10_P h_P ._N
+The_N resultant_R slurry_P ,_N pasted_A on_N Al_R foil_R ,_N was_A dried_A at_N 80_P °C_P under_N vacuum_P for_N 6_P h_P ._N
+The_N loading_R density_R of_N the_N electrode_N is_A 3–4_P mg_P cm−2_P ._N
+The_N coin_R cells_R (2032)_N then_N were_A assembled_A in_N an_N argon-filled_R glove_R box_R using_N lithium_R metal_R as_N the_N anode_N ,_N Celgard_R 2600_R as_N the_N separator_N ,_N and_N 1_R M_R LiPF6_R (dissolved_N in_R ethylene_R carbonate_R and_R dimethyl_R carbonate_R with_N a_N 1[thin_P space_P (1/6-em)]:[thin_P space_P (1/6-em)]1_P volume_P ratio)_P as_N the_N electrolyte_N ._N
+Cells_R were_A tested_A at_N room_P temperature_P using_N a_N LAND-CT2001A_R battery_R cycler_R (Wuhan_N ,_N China)_N within_N the_N voltage_P range_P of_P 2.0–4.2_P V_P (vs.Li+/Li)_P ._N
