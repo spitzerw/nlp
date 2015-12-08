@@ -1,6 +1,6 @@
-﻿The_N Li10GeP2S12_N and_N Li3.25Ge0.25P0.75S4_N solid_N electrolytes_N were_N prepared_N by_N mechanical_N milling_N using_N a_N jar_N mill_N apparatus_N and_N subsequent_N heat-treatment_N ._N 
-The_N reagent_N grade_N Li2S_N (99.9%,_N Alfa_N Aesar),_N GeS2_N (99.999%,_N Alfa_N Aesar)_N and_N P2S5_N (99%,_N Aladdin_N Chemistry._N Co.,_N Ltd.)_N were_N used_N as_N the_N starting_N materials_N ._N 
-Firstly,_N these_N materials_N were_N mixed_N thoroughly_N in_N molar_N ratio_N of_N Li2S:GeS2:P2S5_N to_N 5:1:1_N and_N 13:2:3_N in_N order_N to_N synthesize_N Li10GeP2S12_N and_N Li3.25Ge0.25P0.75S4_N solid_N electrolytes,_N respectively_N ._N 
+﻿The_N Li10GeP2S12_PR and_PR Li3.25Ge0.25P0.75S4_PR solid_PR electrolytes_PR were_A prepared_A by_N mechanical_E milling_E using_N a_N jar_E mill_E apparatus_E and_N subsequent_E heat-treatment_E ._N 
+The_N reagent_N grade_N Li2S_I (99.9%_P ,_N Alfa_N Aesar)_N ,_N GeS2_I (99.999%_P ,_N Alfa_N Aesar)_N and_N P2S5_I (99%_P ,_N Aladdin_N Chemistry._N Co.,_N Ltd.)_N were_A used_A as_N the_N starting_N materials_N ._N 
+Firstly,_N these_N materials_R were_A mixed_A thoroughly_N in_N molar_P ratio_P of_P Li2S:GeS2:P2S5_P to_N 5:1:1_P and_N 13:2:3_P in_N order_N to_N synthesize_N Li10GeP2S12_PR and_N Li3.25Ge0.25P0.75S4_PR solid_PR electrolytes_ PR ,_N respectively_N ._N 
 Then,_N the_N above_N mixtures_N were_N mechanically_N milled_N at_N 200_N rpm_N for_N 12_N h_N using_N a_N jar_N mill_N apparatus_N (GSM-1-2,_N Changsha_N Mitr_N Instrument_N and_N Equipment_N Co.,_N Ltd.)_N ._N 
 The_N obtained_N precursors_N of_N the_N Li10GeP2S12_N and_N Li3.25Ge0.25P0.75S4_N were_N pressed_N into_N pellets_N under_N 200_N MPa,_N sealed_N into_N a_N carbon-coated_N quartz_N tube_N and_N heat-treated_N at_N 680_N °C_N and_N 500_N °C_N for_N 8_N h,_N respectively_N ._N 
 After_N that,_N the_N samples_N were_N slowly_N cooled_N to_N room_N temperature_N ._N 
