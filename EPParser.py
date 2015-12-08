@@ -748,11 +748,23 @@ class Recipe():
             print 'Recipe: ' + str(counter)
             print headsOrder
             print trueOrder
-            #print recipe
             recipe = []
+            preProduct = None
             if len(steps) != 0:
                 for i in range(len(trueOrder)):
-                    recipe.append(self.convertHeadsToRecipe(steps[trueOrder[i]], heads[trueOrder[i]]))
+                    convertedRecipe = self.convertHeadsToRecipe(steps[trueOrder[i]], heads[trueOrder[i]])
+                    recipe.append(convertedRecipe)
+                    if "A" in convertedRecipe:
+                        action = convertedRecipe["A"][0][1]
+                        #set (R)eference to previous (PR)oduct
+                        if 'R' not in action and preProduct:
+                            convertedRecipe["A"][0][1]['R'] = preProduct
+                        #find product to pass next step
+                        if 'PR' not in action:
+                            convertedRecipe["A"][0][1]['PR'] = 'step ' + str(i+1) + "'s PR"
+                        preProduct = convertedRecipe["A"][0][1]['PR']
+                    else:
+                        preProduct = None
                 #print recipe
                 for i in range(len(recipe)):
                     print 'Step ' + str(i+1) + ':'
