@@ -204,9 +204,112 @@ class EPParser():
             labels.append(label)
         return output, labels 
 
+    def Viterbi(self, wordlist, postags):
+        output = []
+        prev = "None"
+        prev2 = "None"
+        context = self.START + wordlist + self.END
+        labels = []
+        labelINDX = [j for j in range(len(self.labels))]
+  
+        #Matrix format: [ index ][ prelabel ][ label ]
+        scoreMatrix = np.empty((len(wordlist), len(labelINDX) , len(labelINDX)))
+        parentMatrix = np.empty((len(wordlist), len(labelINDX) , len(labelINDX)))
+        for i in range(len(wordlist)):         
+            tags = []
+            for j in range(3):
+                if i- j >= 0:
+                    tags.append(postags[i-j])
+                else:
+                    tags.append("None")
+
+            #find max prediced scores 
+            predictedScoreMatrix = defaultdict(lambda:defaultdict(lambda: False)) # [label at i-1][label at i-2] ={label at i: score}
+            for preLabel in labelINDX:
+                for pre2Label in labelINDX:
+                    features = self._get_features(i, wordlist[i], context, self.labels[preLabel], self.labels[pre2Label], tags[0], tags[1], tags[2])
+                    predictedScoreMatrix[pre2Label][preLabel] = self.model.predict(features)
+
+            for label in labelINDX:
+                for preLabel in labelINDX:
+                    parentMatrix[i][preLabel][label] = None
+                    scoreMatrix[i][preLabel][label] = float("-inf")
+                    maxScore = float("-inf") 
+                    for pre2Label in labelINDX:
+                        cumulativeScore = predictedScoreMatrix[pre2Label][preLabel][self.labels[label]]
+                        if i > 0:
+                            cumulativeScore += scoreMatrix[i-1][pre2Label][preLabel]           
+                        if maxScore < cumulativeScore:
+                            maxScore = cumulativeScore
+                            parentMatrix[i][preLabel][label] = pre2Label
+                    scoreMatrix[i][preLabel][label] = maxScore
+
+        #Find the max label sequence
+        max_preLabel = None
+        max_label = None
+
+        lastIndx = len(wordlist)-1
+        maxScore = float("-inf")
+        for label in labelINDX:
+            for preLabel in labelINDX:
+                if scoreMatrix[lastIndx][preLabel][label] > maxScore:
+                    max_preLabel = preLabel
+                    max_label = label
+                    maxScore = scoreMatrix[lastIndx][preLabel][label]
+ 
+        for i in range(len(wordlist)): 
+            labels.insert(0, max_label)
+            temp = parentMatrix[i][max_preLabel][max_label]
+            max_label = max_preLabel
+            max_preLabel = temp
+
+        labels = [self.labels[int(i)] for i in labels]
+        output = [ [wordlist[i], labels[i], postags[i]] for i in range(len(wordlist))]
+
+        return output, labels
+
+
+    def evaluateWithViterbi(self):
+        print 'Evaluating VITERBI _______________________________'
+        correct = 0
+        misclassify = 0
+        fp = 0
+        fn = 0
+        counter = 0
+        outputDoc = []
+        for doc in self.testDocs:
+            sentences = doc
+            outputSentences = []
+            for s in sentences:
+                output = []
+                wordlist = [w[0] for w in s[2:-2]]
+                EPtags = [w[1] for w in s[2:-2]]
+                postags = [w[2] for w in s[2:-2]]
+                output, labels = self.Viterbi(wordlist, postags)
+                for i in range(len(wordlist)):
+                    label = labels[i]
+                    if label == EPtags[i] and EPtags[i] != 'N':
+                        correct = correct + 1
+                    elif label == 'N' and EPtags[i] != 'N':
+                        fn = fn + 1
+                    elif label != 'N' and label != EPtags[i]:
+                        fp = fp + 1
+                    counter = counter + 1
+                outputSentences.append(output)
+            outputDoc.append(outputSentences)
+        print "correct: " + str(correct)
+        print "fp: " + str(fp)
+        print "fn: " + str(fn)
+        precision = float(correct)/(correct + fp)
+        recall = float(correct)/(correct + fn)
+        print 'Precision: ' + str(precision)
+        print 'Recall: ' + str(recall)
+        print 'F1: ' + str(2.0/((1.0/recall) + (1.0/precision)))
+        return outputDoc
+
 
     def evaluate(self):
-        print 'Evaluating'
+        print 'Evaluating NON viterbi _______________________________'
         correct = 0
         misclassify = 0
         fp = 0
@@ -714,6 +817,7 @@ class Recipe():
             self.ordermovestest.append(self.getOrderMoves(fn))
         
         self.parser.train(10)
+        self.taggedDocs = self.parser.evaluateWithViterbi()
         self.taggedDocs = self.parser.evaluate()
         self.DPparser = EPDependencyParser()
         for idx in range(len(self.groupedDocs)):
