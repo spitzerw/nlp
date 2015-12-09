@@ -1,0 +1,45 @@
+[{"A": [["were used", {"I": [["li4ti5o12 powders", {}]], "PR": [["active materials", {}]]}]]}, {"A": [["labeled", {"PR": [["lto-sp (+) lto-lp", {}]]}]]}, {"A": [["have been synthesized", {"P": [["size results from different milling processes", {}]], "R": [["materials", {}]], "E": [["pilot scale method", {}]]}]]}, {"A": [["was observed", {"PR": [["morphology", {}]], "R": [["particles", {}]], "E": [["scanning electron microscopy (sem", {}]]}]]}, {"A": [["were calculated", {"PR": [["particle sizes", {}]], "R": [["lto-sp", {"P": ["212"]}], ["lto-lp particles", {"P": ["455"]}]], "E": [["sem images measuring", {}]]}]]}, {"A": [["were done", {"E": [["bet measurements", {}], ["nova 3200 surface area analyzer", {}]]}]]}, {"A": [["were prepared", {"PR": [["electrode slurries", {}], ["carbon containing electrodes", {"P": ["weight ratios 92:3:5"]}], ["carbon free electrodes", {"P": ["95:0:5"]}]], "P": [["mixing", {}]], "R": [["lto", {}]], "I": [["carbon black (c65", {}], ["pvdf (polyvinylidene fluoride) (+) n-methyl-2-pyrrolidone", {}]]}]]}, {"A": [["were (+) coated", {"I": [["aluminum foil", {}]], "R": [["electrode slurries", {}]]}]]}, {"A": [["dried", {"P": [["80 c overnight", {}]]}]]}, {"A": [["were cut", {"PR": [["electrodes", {"P": ["14 mm"]}]], "R": [["dried electrode foils", {}]]}]]}, {"A": [["calendered", {"P": [["pressure of 3300 kg cm2", {}]]}]]}, {"A": [["were dried", {"P": [["overnight (+) 110 c (+) vacuum", {}]], "R": [["electrodes", {}]]}]]}, {"A": [["assembling", {"E": [["2016 coin cells", {}], ["argon filled glove box", {"P": ["(oxygen and water vapor levels below 1 ppm)"]}]]}]]}, {"A": [["was used", {"I": [["lithium metal foil", {"P": ["(0.38 mm in thickness"]}], ["lipf6 (+) ethylene carbonate:dimethyl carbonate", {"P": ["1 m", "1:1 w/w"]}]]}]]}, {"A": [["was used", {"E": [["glass microfiber filter (gf/a", {"P": ["260 m thick"]}]]}]]}, {"A": [["were conducted", {"E": [["charging/discharging experiments", {}], ["neware battery cycler", {}]]}]]}, {"A": [["was done", {"P": [["1.1 and 2.5 v vs. li/li+ (+) c-rates from 0.1c to 10c", {}]], "E": [["galvanostatic charging and discharging", {}]]}]]}, {"A": [["were calculated", {"PR": [["c-rates", {}]], "I": [["li4ti5o12", {"P": ["theoretical capacity of", "(175 mah g1)"]}]]}]]}, {"A": [["were done", {"P": [["0 c (+) 20 c", {}]], "E": [["low temperature measurements", {}], ["temperature chamber", {}]]}]]}, {"A": [["was let", {"P": [["temperature", {}], ["stabilize (+) 1 h", {}]]}]]}, {"A": [["was conducted", {"I": [["lithium metal", {}], ["reference electrode", {}]], "E": [["electrochemical impedance spectroscopy (eis)", {}], ["autolab potentiostat (pgstat302n) (+) 3-electrode set up", {}]]}]]}, {"A": [["were used", {"P": [["frequency range of 100 khz0.01 hz (+) voltage amplitude of 10 mv", {}]]}]]}]
+Step 1: 
+{"A": [["were used", {"I": [["li4ti5o12 powders", {}]], "PR": [["active materials", {}]]}]]}
+Step 2: 
+{"A": [["labeled", {"PR": [["lto-sp (+) lto-lp", {}]]}]]}
+Step 3: 
+{"A": [["have been synthesized", {"P": [["size results from different milling processes", {}]], "R": [["materials", {}]], "E": [["pilot scale method", {}]]}]]}
+Step 4: 
+{"A": [["was observed", {"PR": [["morphology", {}]], "R": [["particles", {}]], "E": [["scanning electron microscopy (sem", {}]]}]]}
+Step 5: 
+{"A": [["were calculated", {"PR": [["particle sizes", {}]], "R": [["lto-sp", {"P": ["212"]}], ["lto-lp particles", {"P": ["455"]}]], "E": [["sem images measuring", {}]]}]]}
+Step 6: 
+{"A": [["were done", {"E": [["bet measurements", {}], ["nova 3200 surface area analyzer", {}]]}]]}
+Step 7: 
+{"A": [["were prepared", {"PR": [["electrode slurries", {}], ["carbon containing electrodes", {"P": ["weight ratios 92:3:5"]}], ["carbon free electrodes", {"P": ["95:0:5"]}]], "P": [["mixing", {}]], "R": [["lto", {}]], "I": [["carbon black (c65", {}], ["pvdf (polyvinylidene fluoride) (+) n-methyl-2-pyrrolidone", {}]]}]]}
+Step 8: 
+{"A": [["were (+) coated", {"I": [["aluminum foil", {}]], "R": [["electrode slurries", {}]]}]]}
+Step 9: 
+{"A": [["dried", {"P": [["80 c overnight", {}]]}]]}
+Step 10: 
+{"A": [["were cut", {"PR": [["electrodes", {"P": ["14 mm"]}]], "R": [["dried electrode foils", {}]]}]]}
+Step 11: 
+{"A": [["calendered", {"P": [["pressure of 3300 kg cm2", {}]]}]]}
+Step 12: 
+{"A": [["were dried", {"P": [["overnight (+) 110 c (+) vacuum", {}]], "R": [["electrodes", {}]]}]]}
+Step 13: 
+{"A": [["assembling", {"E": [["2016 coin cells", {}], ["argon filled glove box", {"P": ["(oxygen and water vapor levels below 1 ppm)"]}]]}]]}
+Step 14: 
+{"A": [["was used", {"I": [["lithium metal foil", {"P": ["(0.38 mm in thickness"]}], ["lipf6 (+) ethylene carbonate:dimethyl carbonate", {"P": ["1 m", "1:1 w/w"]}]]}]]}
+Step 15: 
+{"A": [["was used", {"E": [["glass microfiber filter (gf/a", {"P": ["260 m thick"]}]]}]]}
+Step 16: 
+{"A": [["were conducted", {"E": [["charging/discharging experiments", {}], ["neware battery cycler", {}]]}]]}
+Step 17: 
+{"A": [["was done", {"P": [["1.1 and 2.5 v vs. li/li+ (+) c-rates from 0.1c to 10c", {}]], "E": [["galvanostatic charging and discharging", {}]]}]]}
+Step 18: 
+{"A": [["were calculated", {"PR": [["c-rates", {}]], "I": [["li4ti5o12", {"P": ["theoretical capacity of", "(175 mah g1)"]}]]}]]}
+Step 19: 
+{"A": [["were done", {"P": [["0 c (+) 20 c", {}]], "E": [["low temperature measurements", {}], ["temperature chamber", {}]]}]]}
+Step 20: 
+{"A": [["was let", {"P": [["temperature", {}], ["stabilize (+) 1 h", {}]]}]]}
+Step 21: 
+{"A": [["was conducted", {"I": [["lithium metal", {}], ["reference electrode", {}]], "E": [["electrochemical impedance spectroscopy (eis)", {}], ["autolab potentiostat (pgstat302n) (+) 3-electrode set up", {}]]}]]}
+Step 22: 
+{"A": [["were used", {"P": [["frequency range of 100 khz0.01 hz (+) voltage amplitude of 10 mv", {}]]}]]}

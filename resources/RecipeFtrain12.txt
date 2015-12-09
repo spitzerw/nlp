@@ -1,0 +1,63 @@
+[{"A": [["was synthesized", {"PR": [["-mno2 catalyst", {}]], "E": [["hydrothermal route", {}]]}]]}, {"A": [["were mixed (+) stirred", {"I": [["kmno4 (+) mnso4", {"P": ["aqueous solutions", "(molecular ratio = 2:1)"]}]], "P": [["30 min", {}]]}]]}, {"A": [["was loaded", {"R": [["solution", {}]], "E": [["teflon-lined stainless steel vessel", {}]]}]]}, {"A": [["heated", {"P": [["180 c (+) 12 h", {}]]}]]}, {"A": [["were cooled", {"P": [["room temperature", {}]], "R": [["brownish black precipitates", {}]]}]]}, {"A": [["was separated", {"R": [["precipitate", {}]], "E": [["vacuum filtration", {}]]}]]}, {"A": [["washed", {}]]}, {"A": [["dried", {"P": [["vacuum (+) 100 c (+) 6 h", {}]]}]]}, {"A": [["was dispersed", {"R": [["precipitate", {}]], "E": [["ball milling", {}]]}]]}, {"A": [["dried", {"PR": [["final products", {}]], "P": [["vacuum (+) 80 c (+) 6 h", {}]]}]]}, {"A": [["was conducted", {"PR": [["phase identification", {}]], "R": [["prepared -mno2", {}]], "E": [["xrd analysis (dx2700", {}]]}]]}, {"A": [["was observed", {"PR": [["morphology", {}]], "R": [["resulting -mno2 particles", {}]], "E": [["scanning electron microscope (sem", {}]]}]]}, {"A": [["was studied", {"PR": [["surface area", {}]], "R": [["synthesized materials", {}]], "E": [["bet measurements (3h-2000ps1", {}]]}]]}, {"A": [["was prepared", {"PR": [["air cathode", {}]], "I": [["nickel foam", {}]]}]]}, {"A": [["was mixed", {"I": [["n-methyl-2-pyrrolidone (nmp) slurry", {"P": ["pvdf"]}], ["graphite", {}]], "R": [["prepared -mno2", {}]]}]]}, {"A": [["was deposited", {"I": [["nickel foam", {}]], "R": [["slurry", {}]], "E": [["doctor blade", {}]]}]]}, {"A": [["was dried", {"P": [["120 c (+) 2 h", {}]], "R": [["coated nickel foam", {}]], "E": [["vacuum oven", {}]]}]]}, {"A": [["were combined", {"I": [["-mno2 (+) graphite (+) pvdf", {}], ["-mno2 (+) super p (+) pvdf", {"P": ["weight ratio of 9:27:6.6"]}]], "P": [["weight ratio of 9:18:5", {}]], "E": [["method described above", {}]]}]]}, {"A": [["were carried out", {"E": [["electrochemical characterizations", {}], ["coin type cell", {}], ["ar-filled dry glove box", {}]]}]]}, {"A": [["was used", {"I": [["lithium foil", {}], ["celgard 2300", {}], ["lipf6 + ec + dmc", {"P": ["1 m", "(volume ratio of l:l:1)"]}]]}]]}, {"A": [["were sealed", {"PR": [["cells", {}]], "I": [["waterproof membranes", {}]], "E": [["bag", {}]], "P": [["12 h", {}]]}]]}, {"A": [["were conducted", {"P": [["ambient atmosphere", {}]], "R": [["cell", {}]], "E": [["electrochemical investigation (+) characterization", {}]]}]]}, {"A": [["were carried out", {"E": [["linear scanning voltammetry tests", {}], ["three electrodes system", {}], ["electrochemistry workstation (chi660", {}]]}]]}, {"A": [["was", {"I": [["pt film", {}]], "P": [["saturated", {}]], "R": [["as-prepared electrode", {"P": ["(0.5 cm 0.5 cm)"]}]]}]]}, {"A": [["was", {"I": [["calomel electrode", {}], ["naoh solution", {"P": ["0.1 mol/l"]}]]}]]}, {"A": [["was", {"P": [["potential of the scan range", {}], ["ocp to1.0 v", {}]]}]]}, {"A": [["is", {"P": [["scan rate", {}], ["10 mv/s", {}]]}]]}, {"A": [["was conducted", {"P": [["voltage range of 2.04.2 v", {}]], "E": [["charge and discharge performance", {}], ["cell test system (ct2001a", {}]]}]]}, {"A": [["was employed", {"PR": [["cyclic voltammetry results", {}]], "P": [["collect", {}], ["2.04.2 v", {}], ["scanning rate of 0.1 mv/s", {}]], "R": [["cell", {}]], "E": [["chi660 electrochemistry workstation", {}]]}]]}, {"A": [["was measured", {"PR": [["conductivity", {}]], "P": [["range of 0.01100 khz", {}]], "E": [["ac impedance method", {}], ["frequency impedance analyzer (im6e", {}]]}]]}, {"A": [["was fixed", {"P": [["amplitude of the ac potential signal", {}], ["5 mv", {}]]}]]}]
+Step 1: 
+{"A": [["was synthesized", {"PR": [["-mno2 catalyst", {}]], "E": [["hydrothermal route", {}]]}]]}
+Step 2: 
+{"A": [["were mixed (+) stirred", {"I": [["kmno4 (+) mnso4", {"P": ["aqueous solutions", "(molecular ratio = 2:1)"]}]], "P": [["30 min", {}]]}]]}
+Step 3: 
+{"A": [["was loaded", {"R": [["solution", {}]], "E": [["teflon-lined stainless steel vessel", {}]]}]]}
+Step 4: 
+{"A": [["heated", {"P": [["180 c (+) 12 h", {}]]}]]}
+Step 5: 
+{"A": [["were cooled", {"P": [["room temperature", {}]], "R": [["brownish black precipitates", {}]]}]]}
+Step 6: 
+{"A": [["was separated", {"R": [["precipitate", {}]], "E": [["vacuum filtration", {}]]}]]}
+Step 7: 
+{"A": [["washed", {}]]}
+Step 8: 
+{"A": [["dried", {"P": [["vacuum (+) 100 c (+) 6 h", {}]]}]]}
+Step 9: 
+{"A": [["was dispersed", {"R": [["precipitate", {}]], "E": [["ball milling", {}]]}]]}
+Step 10: 
+{"A": [["dried", {"PR": [["final products", {}]], "P": [["vacuum (+) 80 c (+) 6 h", {}]]}]]}
+Step 11: 
+{"A": [["was conducted", {"PR": [["phase identification", {}]], "R": [["prepared -mno2", {}]], "E": [["xrd analysis (dx2700", {}]]}]]}
+Step 12: 
+{"A": [["was observed", {"PR": [["morphology", {}]], "R": [["resulting -mno2 particles", {}]], "E": [["scanning electron microscope (sem", {}]]}]]}
+Step 13: 
+{"A": [["was studied", {"PR": [["surface area", {}]], "R": [["synthesized materials", {}]], "E": [["bet measurements (3h-2000ps1", {}]]}]]}
+Step 14: 
+{"A": [["was prepared", {"PR": [["air cathode", {}]], "I": [["nickel foam", {}]]}]]}
+Step 15: 
+{"A": [["was mixed", {"I": [["n-methyl-2-pyrrolidone (nmp) slurry", {"P": ["pvdf"]}], ["graphite", {}]], "R": [["prepared -mno2", {}]]}]]}
+Step 16: 
+{"A": [["was deposited", {"I": [["nickel foam", {}]], "R": [["slurry", {}]], "E": [["doctor blade", {}]]}]]}
+Step 17: 
+{"A": [["was dried", {"P": [["120 c (+) 2 h", {}]], "R": [["coated nickel foam", {}]], "E": [["vacuum oven", {}]]}]]}
+Step 18: 
+{"A": [["were combined", {"I": [["-mno2 (+) graphite (+) pvdf", {}], ["-mno2 (+) super p (+) pvdf", {"P": ["weight ratio of 9:27:6.6"]}]], "P": [["weight ratio of 9:18:5", {}]], "E": [["method described above", {}]]}]]}
+Step 19: 
+{"A": [["were carried out", {"E": [["electrochemical characterizations", {}], ["coin type cell", {}], ["ar-filled dry glove box", {}]]}]]}
+Step 20: 
+{"A": [["was used", {"I": [["lithium foil", {}], ["celgard 2300", {}], ["lipf6 + ec + dmc", {"P": ["1 m", "(volume ratio of l:l:1)"]}]]}]]}
+Step 21: 
+{"A": [["were sealed", {"PR": [["cells", {}]], "I": [["waterproof membranes", {}]], "E": [["bag", {}]], "P": [["12 h", {}]]}]]}
+Step 22: 
+{"A": [["were conducted", {"P": [["ambient atmosphere", {}]], "R": [["cell", {}]], "E": [["electrochemical investigation (+) characterization", {}]]}]]}
+Step 23: 
+{"A": [["were carried out", {"E": [["linear scanning voltammetry tests", {}], ["three electrodes system", {}], ["electrochemistry workstation (chi660", {}]]}]]}
+Step 24: 
+{"A": [["was", {"I": [["pt film", {}]], "P": [["saturated", {}]], "R": [["as-prepared electrode", {"P": ["(0.5 cm 0.5 cm)"]}]]}]]}
+Step 25: 
+{"A": [["was", {"I": [["calomel electrode", {}], ["naoh solution", {"P": ["0.1 mol/l"]}]]}]]}
+Step 26: 
+{"A": [["was", {"P": [["potential of the scan range", {}], ["ocp to1.0 v", {}]]}]]}
+Step 27: 
+{"A": [["is", {"P": [["scan rate", {}], ["10 mv/s", {}]]}]]}
+Step 28: 
+{"A": [["was conducted", {"P": [["voltage range of 2.04.2 v", {}]], "E": [["charge and discharge performance", {}], ["cell test system (ct2001a", {}]]}]]}
+Step 29: 
+{"A": [["was employed", {"PR": [["cyclic voltammetry results", {}]], "P": [["collect", {}], ["2.04.2 v", {}], ["scanning rate of 0.1 mv/s", {}]], "R": [["cell", {}]], "E": [["chi660 electrochemistry workstation", {}]]}]]}
+Step 30: 
+{"A": [["was measured", {"PR": [["conductivity", {}]], "P": [["range of 0.01100 khz", {}]], "E": [["ac impedance method", {}], ["frequency impedance analyzer (im6e", {}]]}]]}
+Step 31: 
+{"A": [["was fixed", {"P": [["amplitude of the ac potential signal", {}], ["5 mv", {}]]}]]}

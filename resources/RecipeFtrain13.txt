@@ -1,0 +1,41 @@
+[{"A": [["was prepared", {"PR": [["powder ltap", {}]], "I": [["lithium chloride (licl) (+) titanium butoxide (ti(och2(ch2)2ch3)4) (+) aluminum nitrate (al(no3)39h2o)", {"P": ["stoichiometric mixture"]}]], "E": [["wet-chemical process", {}]]}]]}, {"A": [["were dissolved", {"I": [["precursors", {}], ["distilled water", {}]]}]]}, {"A": [["was added", {"I": [["titanium butoxide solution", {}]], "P": [["constant stirring", {}]], "R": [["prepared solution", {"P": ["dropwise"]}]]}]]}, {"A": [["was ball-milled", {"P": [["24 h", {}]], "R": [["resultant solution", {}]]}]]}, {"A": [["was dried", {"P": [["80 8c", {}]], "R": [["mixture", {}]]}]]}, {"A": [["was heated", {"P": [["10008c (+) 4 h (+) air", {}]], "R": [["the obtained powder", {}]]}]]}, {"A": [["was used", {"I": [["pvdf polymer", {}]]}]]}, {"A": [["was prepared", {"I": [["pvdf", {}], ["dimethylacetamide (dmac)/acetone", {"P": ["(1:2 (+) ratio)"]}]], "PR": [["solution", {}]]}]]}, {"A": [["was added", {"R": [["prepared ltap powder", {}], ["polymer solution", {}]]}]]}, {"A": [["mixed", {"PR": [["slurry", {}]], "P": [["prepare", {}]]}]]}, {"A": [["was cast", {"I": [["glass plate", {}]], "P": [["flow of distilled water", {}]], "R": [["prepared slurry", {}]], "E": [["doctor blade", {}]]}]]}, {"A": [["floated", {"P": [["the distilled water layer", {}]], "R": [["ltpa-based composite solid membrane", {}]]}]]}, {"A": [["was pressed", {"I": [["composite membrane", {}]], "E": [["2-tonne press", {}]]}]]}, {"A": [["dried", {"P": [["(808c (+) 24 h)", {}]], "E": [["vacuum oven", {}]]}]]}, {"A": [["was prepared", {"I": [["solid membrane", {"P": ["soaking"]}], ["lipf6 (+) ec/dmc", {"P": ["1m"]}]], "P": [["20 min", {}]], "R": [["ltap-based composite solid electrolyte", {}]]}]]}, {"A": [["was calculated", {"PR": [["ionic conductivity", {}]], "E": [["a) equation", {}]]}]]}, {"PR": [["electrode", {}]]}, {"A": [["was rolled (+) pressed", {"P": [["thin sheets", {}]], "R": [["complete mixture", {}]]}]]}, {"A": [["was stacked", {"PR": [["flexible solid cell", {}]], "P": [["prepared cathode sheet/ltap-based composite solid electrolyte/anode sheet", {}]]}]]}, {"A": [["was performed", {"P": [["0.1 and 1.5 v", {}], ["0.1 ma current density", {}]], "E": [["electrochemical cell test", {}], ["automatic galvanostatic chargedischarge unit", {}], ["2032 coin-type cell", {}]]}]]}]
+Step 1: 
+{"A": [["was prepared", {"PR": [["powder ltap", {}]], "I": [["lithium chloride (licl) (+) titanium butoxide (ti(och2(ch2)2ch3)4) (+) aluminum nitrate (al(no3)39h2o)", {"P": ["stoichiometric mixture"]}]], "E": [["wet-chemical process", {}]]}]]}
+Step 2: 
+{"A": [["were dissolved", {"I": [["precursors", {}], ["distilled water", {}]]}]]}
+Step 3: 
+{"A": [["was added", {"I": [["titanium butoxide solution", {}]], "P": [["constant stirring", {}]], "R": [["prepared solution", {"P": ["dropwise"]}]]}]]}
+Step 4: 
+{"A": [["was ball-milled", {"P": [["24 h", {}]], "R": [["resultant solution", {}]]}]]}
+Step 5: 
+{"A": [["was dried", {"P": [["80 8c", {}]], "R": [["mixture", {}]]}]]}
+Step 6: 
+{"A": [["was heated", {"P": [["10008c (+) 4 h (+) air", {}]], "R": [["the obtained powder", {}]]}]]}
+Step 7: 
+{"A": [["was used", {"I": [["pvdf polymer", {}]]}]]}
+Step 8: 
+{"A": [["was prepared", {"I": [["pvdf", {}], ["dimethylacetamide (dmac)/acetone", {"P": ["(1:2 (+) ratio)"]}]], "PR": [["solution", {}]]}]]}
+Step 9: 
+{"A": [["was added", {"R": [["prepared ltap powder", {}], ["polymer solution", {}]]}]]}
+Step 10: 
+{"A": [["mixed", {"PR": [["slurry", {}]], "P": [["prepare", {}]]}]]}
+Step 11: 
+{"A": [["was cast", {"I": [["glass plate", {}]], "P": [["flow of distilled water", {}]], "R": [["prepared slurry", {}]], "E": [["doctor blade", {}]]}]]}
+Step 12: 
+{"A": [["floated", {"P": [["the distilled water layer", {}]], "R": [["ltpa-based composite solid membrane", {}]]}]]}
+Step 13: 
+{"A": [["was pressed", {"I": [["composite membrane", {}]], "E": [["2-tonne press", {}]]}]]}
+Step 14: 
+{"A": [["dried", {"P": [["(808c (+) 24 h)", {}]], "E": [["vacuum oven", {}]]}]]}
+Step 15: 
+{"A": [["was prepared", {"I": [["solid membrane", {"P": ["soaking"]}], ["lipf6 (+) ec/dmc", {"P": ["1m"]}]], "P": [["20 min", {}]], "R": [["ltap-based composite solid electrolyte", {}]]}]]}
+Step 16: 
+{"A": [["was calculated", {"PR": [["ionic conductivity", {}]], "E": [["a) equation", {}]]}]]}
+Step 17: 
+{"PR": [["electrode", {}]]}
+Step 18: 
+{"A": [["was rolled (+) pressed", {"P": [["thin sheets", {}]], "R": [["complete mixture", {}]]}]]}
+Step 19: 
+{"A": [["was stacked", {"PR": [["flexible solid cell", {}]], "P": [["prepared cathode sheet/ltap-based composite solid electrolyte/anode sheet", {}]]}]]}
+Step 20: 
+{"A": [["was performed", {"P": [["0.1 and 1.5 v", {}], ["0.1 ma current density", {}]], "E": [["electrochemical cell test", {}], ["automatic galvanostatic chargedischarge unit", {}], ["2032 coin-type cell", {}]]}]]}

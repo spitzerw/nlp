@@ -18,9 +18,9 @@ class EPParser():
         self.model = EPModel(self.labels)
         self.totalfiles = [filename for filename in listdir('samples') if 'Ftrain' in filename]
         #self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,len(self.totalfiles) + 1)]
-        self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,11)]
+        self.samplefiles = ['Ftrain' + str(c) + '.txt' for c in range(1,16)]
         
-        self.split = .8
+        self.split = 0.8
         self.trainSentences = []
         self.testSentences = []
         self.Docs = []
@@ -745,9 +745,9 @@ class Recipe():
             heads = self.DPparser.evaluate(steps, self.originalmovestest[counter-1])
             headsOrder = self.Oparser.evaluate([orderSteps], self.ordermovestest[counter-1])
             trueOrder = self.getOrder(headsOrder[0])
-            print 'Recipe: ' + str(counter)
-            print headsOrder
-            print trueOrder
+            #print 'Recipe: ' + str(counter)
+            #print headsOrder
+            #print trueOrder
             recipe = []
             preProduct = None
             if len(steps) != 0:

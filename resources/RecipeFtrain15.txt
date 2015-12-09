@@ -1,0 +1,43 @@
+[{"A": [["was obtained", {"PR": [["pristine ni0.8co0.15al0.05(oh)2 precursor", {}]]}]]}, {"A": [["was implemented", {"E": [["in situ oxidizing-coating process", {}]]}]]}, {"A": [["was dissolved", {"I": [["kmno4 powder", {}], ["deionized water", {}]], "PR": [["solution", {"P": ["0.1 mol l1"]}]]}]]}, {"A": [["was dispersed", {"I": [["deionized water", {}]], "R": [["ni0.8co0.15al0.05(oh)2 precursor", {"P": ["10 g"]}]]}]]}, {"A": [["dripping", {"P": [["magnetic stirring", {}]], "R": [["as-prepared kmno4 solution", {"P": ["20 ml"]}]]}]]}, {"A": [["was recovered", {"PR": [["dark brown powder", {}]], "E": [["filtration", {}]]}]]}, {"A": [["washed", {"I": [["deionized water", {}]], "P": [["three times", {}]]}]]}, {"A": [["dried", {"P": [["110 c overnight", {}]]}]]}, {"A": [["were thoroughly mixed with", {"I": [["liohh2o", {}]], "P": [["ratio of 1:1.05", {}]], "R": [["mno2-coated ni0.8co0.15al0.05(oh)2", {}]]}]]}, {"A": [["sintered", {"P": [["750 c (+) 15 h (+) flowing oxygen", {}]]}]]}, {"A": [["was obtained", {"PR": [["pristine sample", {}]], "P": [["annealing", {}], ["same molar ratio (+) sintering process", {}]], "I": [["pristine ni0.8co0.15al0.05(oh)2 (+) liohh2o", {}]]}]]}, {"A": [["were measured", {"PR": [["x-ray diffraction (xrd) patterns", {}]], "P": [["cu-k radiation (1.54056 )", {"E": ["rigaku rint-2000 diffractometer"]}]]}]]}, {"A": [["were observed", {"PR": [["morphologies", {}]], "R": [["as-prepared samples", {}]], "E": [["scanning electron microscope (sem", {"E": ["jsm-5612lv)"]}]]}]]}, {"A": [["is detected", {"PR": [["amount of mn attached", {}]], "R": [["material particles", {}]], "E": [["inductively coupled plasma optical emission spectrometer (icp-oes", {}]]}]]}, {"A": [["were performed", {"PR": [["information on the surface", {}]], "R": [["materials", {}]], "E": [["x-ray photoelectron spectroscopy (xps", {}], ["measurements", {}]]}]]}, {"A": [["were assembled", {"PR": [["cells", {}]], "I": [["lithium anodes", {}]], "E": [["cr 2025 coin-type", {}], ["electrochemistry studies", {}]]}]]}, {"A": [["were fabricated", {"PR": [["positive electrodes", {}]], "P": [["casting (+) slurry", {}]], "R": [["as-prepared sample", {"I": ["super p carbon black"], "P": ["(80 wt%)"]}]], "I": [["n-methyl-2-pyrrolidone (nmp)", {}], ["aluminum foil", {}]], "E": [["doctor blade", {}]]}]]}, {"A": [["followed", {"P": [["drying (+) 120 c (+) vacuum (+) 12 h", {}]]}]]}, {"A": [["was used", {"I": [["lipf6", {"P": ["1 m"]}], ["ethylene carbonate/ethyl methyl carbonate/dimethyl carbonate", {"P": ["1:1:1"]}]]}]]}, {"A": [["were assembled", {"P": [["o2 and h2o lower than 0.5 ppm", {}]], "R": [["cells", {}]], "E": [["ar-filled glove box", {}]]}]]}, {"A": [["cycled", {"P": [["galvanostatically between 2.8 and 4.3 v (vs. li/li+) (+) between 2.8 and 4.5 v", {}], ["desired current density", {}]]}]]}]
+Step 1: 
+{"A": [["was obtained", {"PR": [["pristine ni0.8co0.15al0.05(oh)2 precursor", {}]]}]]}
+Step 2: 
+{"A": [["was implemented", {"E": [["in situ oxidizing-coating process", {}]]}]]}
+Step 3: 
+{"A": [["was dissolved", {"I": [["kmno4 powder", {}], ["deionized water", {}]], "PR": [["solution", {"P": ["0.1 mol l1"]}]]}]]}
+Step 4: 
+{"A": [["was dispersed", {"I": [["deionized water", {}]], "R": [["ni0.8co0.15al0.05(oh)2 precursor", {"P": ["10 g"]}]]}]]}
+Step 5: 
+{"A": [["dripping", {"P": [["magnetic stirring", {}]], "R": [["as-prepared kmno4 solution", {"P": ["20 ml"]}]]}]]}
+Step 6: 
+{"A": [["was recovered", {"PR": [["dark brown powder", {}]], "E": [["filtration", {}]]}]]}
+Step 7: 
+{"A": [["washed", {"I": [["deionized water", {}]], "P": [["three times", {}]]}]]}
+Step 8: 
+{"A": [["dried", {"P": [["110 c overnight", {}]]}]]}
+Step 9: 
+{"A": [["were thoroughly mixed with", {"I": [["liohh2o", {}]], "P": [["ratio of 1:1.05", {}]], "R": [["mno2-coated ni0.8co0.15al0.05(oh)2", {}]]}]]}
+Step 10: 
+{"A": [["sintered", {"P": [["750 c (+) 15 h (+) flowing oxygen", {}]]}]]}
+Step 11: 
+{"A": [["was obtained", {"PR": [["pristine sample", {}]], "P": [["annealing", {}], ["same molar ratio (+) sintering process", {}]], "I": [["pristine ni0.8co0.15al0.05(oh)2 (+) liohh2o", {}]]}]]}
+Step 12: 
+{"A": [["were measured", {"PR": [["x-ray diffraction (xrd) patterns", {}]], "P": [["cu-k radiation (1.54056 )", {"E": ["rigaku rint-2000 diffractometer"]}]]}]]}
+Step 13: 
+{"A": [["were observed", {"PR": [["morphologies", {}]], "R": [["as-prepared samples", {}]], "E": [["scanning electron microscope (sem", {"E": ["jsm-5612lv)"]}]]}]]}
+Step 14: 
+{"A": [["is detected", {"PR": [["amount of mn attached", {}]], "R": [["material particles", {}]], "E": [["inductively coupled plasma optical emission spectrometer (icp-oes", {}]]}]]}
+Step 15: 
+{"A": [["were performed", {"PR": [["information on the surface", {}]], "R": [["materials", {}]], "E": [["x-ray photoelectron spectroscopy (xps", {}], ["measurements", {}]]}]]}
+Step 16: 
+{"A": [["were assembled", {"PR": [["cells", {}]], "I": [["lithium anodes", {}]], "E": [["cr 2025 coin-type", {}], ["electrochemistry studies", {}]]}]]}
+Step 17: 
+{"A": [["were fabricated", {"PR": [["positive electrodes", {}]], "P": [["casting (+) slurry", {}]], "R": [["as-prepared sample", {"I": ["super p carbon black"], "P": ["(80 wt%)"]}]], "I": [["n-methyl-2-pyrrolidone (nmp)", {}], ["aluminum foil", {}]], "E": [["doctor blade", {}]]}]]}
+Step 18: 
+{"A": [["followed", {"P": [["drying (+) 120 c (+) vacuum (+) 12 h", {}]]}]]}
+Step 19: 
+{"A": [["was used", {"I": [["lipf6", {"P": ["1 m"]}], ["ethylene carbonate/ethyl methyl carbonate/dimethyl carbonate", {"P": ["1:1:1"]}]]}]]}
+Step 20: 
+{"A": [["were assembled", {"P": [["o2 and h2o lower than 0.5 ppm", {}]], "R": [["cells", {}]], "E": [["ar-filled glove box", {}]]}]]}
+Step 21: 
+{"A": [["cycled", {"P": [["galvanostatically between 2.8 and 4.3 v (vs. li/li+) (+) between 2.8 and 4.5 v", {}], ["desired current density", {}]]}]]}
