@@ -177,6 +177,34 @@ class EPParser():
         return features
         #TODO
 
+    def nonViterbi(self, wordlist, postags):
+        output = []
+        prev = "None"
+        prev2 = "None"
+        context = self.START + wordlist + self.END
+        labels = []
+        for i in range(len(wordlist)):         
+            tags = []
+            for j in range(3):
+                if i- j >= 0:
+                    tags.append(postags[i-j])
+                else:
+                    tags.append("None")
+            features = self._get_features(i, wordlist[i], context, prev, prev2, tags[0], tags[1], tags[2])
+            scores = self.model.predict(features)
+            maxval = -1000000
+            label = 'N'
+            for l in scores.keys():
+                if scores[l] > maxval:
+                    maxval = scores[l]
+                    label = l
+            prev2 = prev
+            prev = label
+            output.append([wordlist[i], label, postags[i]])
+            labels.append(label)
+        return output, labels 
+
+
     def evaluate(self):
         print 'Evaluating'
         correct = 0
@@ -193,33 +221,9 @@ class EPParser():
                 wordlist = [w[0] for w in s[2:-2]]
                 EPtags = [w[1] for w in s[2:-2]]
                 postags = [w[2] for w in s[2:-2]]
-                prev = "None"
-                prev2 = "None"
-                context = self.START + wordlist + self.END
-                #print 'New Sentence:'
+                output, labels = self.nonViterbi(wordlist, postags)
                 for i in range(len(wordlist)):
-                    tags = []
-                    for j in range(3):
-                        if i- j >= 0:
-                            tags.append(postags[i-j])
-                        else:
-                            tags.append("None")
-                    features = self._get_features(i, wordlist[i], context, prev, prev2, tags[0], tags[1], tags[2])
-                    #print features
-                    scores = self.model.predict(features)
-                    #print scores
-                    maxval = -1000000
-                    label = 'N'
-                    for l in scores.keys():
-                        if scores[l] > maxval:
-                            maxval = scores[l]
-                            label = l
-                    prev2 = prev
-                    prev = label
-                    output.append([wordlist[i], label, postags[i]])
-
-                    #if label != 'N' or EPtags[i] != 'N':
-                    #    print 'Word: ' + wordlist[i] + '-' + 'Predicted/Expected: ' + label + '/' + EPtags[i]
+                    label = labels[i]
                     if label == EPtags[i] and EPtags[i] != 'N':
                         correct = correct + 1
                     elif label == 'N' and EPtags[i] != 'N':
