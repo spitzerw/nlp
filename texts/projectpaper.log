@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  10 DEC 2015 04:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  10 DEC 2015 12:44
 entering extended mode
 **projectpaper.tex
 (projectpaper.tex
@@ -445,7 +445,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 93.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<process.png, id=63, 747.9945pt x 239.6955pt>
+<process.png, id=95, 747.9945pt x 239.6955pt>
 File: process.png Graphic file (type png)
  <use process.png>
 Package pdftex.def Info: process.png used on input line 101.
@@ -456,9 +456,10 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 101--102
  []
 
 [1{C:/Users/William/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./proce
-ss.png>] <recipediag.png, id=73, 223.43475pt x 127.677pt>
+ss.png>] <recipediag.png, id=105, 223.43475pt x 127.677pt>
 File: recipediag.png Graphic file (type png)
- <use recipediag.png>
+
+<use recipediag.png>
 Package pdftex.def Info: recipediag.png used on input line 109.
 (pdftex.def)             Requested size: 255.0pt x 145.72083pt.
 
@@ -466,7 +467,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 109--110
  [][] 
  []
 
-<sampleout.png, id=74, 417.9615pt x 37.94176pt>
+<sampleout.png, id=106, 417.9615pt x 37.94176pt>
 File: sampleout.png Graphic file (type png)
  <use sampleout.png>
 Package pdftex.def Info: sampleout.png used on input line 117.
@@ -488,7 +489,7 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-<tagger.png, id=76, 753.41475pt x 272.217pt>
+<tagger.png, id=108, 753.41475pt x 272.217pt>
 File: tagger.png Graphic file (type png)
  <use tagger.png>
 Package pdftex.def Info: tagger.png used on input line 134.
@@ -499,46 +500,91 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 134--135
  []
 
 [2 <./recipediag.png> <./sampleout.png> <./tagger.png>]
-Underfull \hbox (badness 1147) in paragraph at lines 166--168
+<taggerout.png, id=120, 510.10574pt x 92.7465pt>
+File: taggerout.png Graphic file (type png)
+ <use taggerout.png>
+Package pdftex.def Info: taggerout.png used on input line 150.
+(pdftex.def)             Requested size: 255.0pt x 46.36322pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 150--151
+ [][] 
+ []
+
+<grouperout.png, id=121, 436.029pt x 54.2025pt>
+File: grouperout.png Graphic file (type png)
+ <use grouperout.png>
+Package pdftex.def Info: grouperout.png used on input line 160.
+(pdftex.def)             Requested size: 255.0pt x 31.69965pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 160--161
+ [][] 
+ []
+
+<parser1.png, id=124, 430.60875pt x 215.00325pt>
+File: parser1.png Graphic file (type png)
+ <use parser1.png>
+Package pdftex.def Info: parser1.png used on input line 175.
+(pdftex.def)             Requested size: 255.0pt x 127.32323pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 175--176
+ [][] 
+ []
+
+[3 <./taggerout.png> <./grouperout.png> <./parser1.png>]
+<dep1out.png, id=137, 422.7795pt x 89.133pt>
+File: dep1out.png Graphic file (type png)
+ <use dep1out.png>
+Package pdftex.def Info: dep1out.png used on input line 185.
+(pdftex.def)             Requested size: 255.0pt x 53.76173pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 185--186
+ [][] 
+ []
+
+[4 <./dep1out.png>]
+Underfull \hbox (badness 1147) in paragraph at lines 227--229
  []\OT1/cmr/m/n/9 Honnibal, Matthew. Pars-ing En-glish in 500 lines of
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+ []\OT1/cmr/m/n/9 6.864 Lec-ture Notes 11. [][]https://learning-
+ []
+
+
+Overfull \hbox (36.61269pt too wide) in paragraph at lines 235--237
+ \OT1/cmr/m/n/9 modules.mit.edu/service/materials/groups/105785/files/4a9be378-
+
+ []
+
 No file projectpaper.bbl.
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
  (projectpaper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
-
-
-Package rerunfilecheck Warning: File `projectpaper.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `projectpaper.out':
-(rerunfilecheck)             Before: D6CE47182A7D862ABB60C009E414D6C4;1041
-(rerunfilecheck)             After:  369CCA66675B53947DB4231E085DD90E;1100.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
+Package rerunfilecheck Info: File `projectpaper.out' has not changed.
+(rerunfilecheck)             Checksum: 5CFD5F925C89952D1221B1F313C6F0AF;1525.
  ) 
 Here is how much of TeX's memory you used:
- 8011 strings out of 493673
- 112308 string characters out of 3141524
- 216876 words of memory out of 3000000
- 11246 multiletter control sequences out of 15000+200000
+ 8059 strings out of 493673
+ 112923 string characters out of 3141524
+ 217891 words of memory out of 3000000
+ 11276 multiletter control sequences out of 15000+200000
  9653 words of font info for 36 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 34i,6n,28p,1556b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,6n,30p,1556b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on projectpaper.pdf (3 pages, 167421 bytes).
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on projectpaper.pdf (5 pages, 303298 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 192 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 

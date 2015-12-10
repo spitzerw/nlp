@@ -471,7 +471,7 @@ class EPDependencyParser():
         i = 0
         stack = [-1]
         parse = DependencyParser(n)
-        #print words
+        print words
         #print truemoves
         while truemoves:
             features = self._get_features(words, tags, i, n, stack, parse)
@@ -486,6 +486,7 @@ class EPDependencyParser():
                 self.model.update(true, guess, features)
             #print true, i, stack
             i = self.transition(true, i, stack, parse)
+        print parse.heads
         return parse.heads
 
     def train(self, sentencelist, moveslist):
@@ -826,8 +827,8 @@ class Recipe():
             for i in range(len(words)):
                 h = heads[i]
                 w = words[i][1]
-                if w == 'A' and h == -1:
-                    top = i
+                if w == 'A':
+                    top = i                
         else:
             top = 0
         w, EPt = words[top]
@@ -853,6 +854,7 @@ class Recipe():
     def createTrueRecipes(self):
         print 'Creating True Recipes'
         f = self.parser.trainFilenames
+        print f
         #f = self.parser.trainFilenames
         s = []
         ords = []
@@ -938,6 +940,7 @@ class Recipe():
             groupedDocs.append(groupDoc)
             orderedDocs.append(orderDoc)
         #Test Evaluation
+        print len(groupedDocs)
         for idx in range(len(groupedDocs)):
             wordslist = groupedDocs[idx]
             orderlist = orderedDocs[idx]
