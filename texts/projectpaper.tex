@@ -215,6 +215,29 @@ Our final result is a list of dictionary representing the steps of the recipe in
 
 \section{Result and Evaluation}
 
+As our model is a pipeline process of three steps, we score each of these steps independently and combine their results for evaluating our model. For our data set, we annotated 6271 words, covering various 15 electrochemistry procedures and total 442 procedure steps.  In each experiment, we shuffled the data set and used 80$\%$ of them for model training, another 10$\%$ for parameter tuning and feature selection, and the final 10$\%$ for testing.  
+
+\begin{figure}
+  \centering
+ 	 \begin{tabular}{ |p{2.2cm}||p{2cm}|p{2cm}|p{2cm}|  }
+	 \hline
+	 Evaluation & EL Tagger & Step Level Dependency Parser & Recipe Level Dependency Parser\\
+	 \hline
+	Independently   & 0.4744 & 0.8441 &  0.8807\\
+ 	\hline
+	Pipeline &  0.474  & 0.4287 & 0.2322\\
+ 	\hline
+	\end{tabular}
+	
+  \caption{Model evaluation}
+\end{figure}
+For evaluating our pipelined model, we employed simple metric system, estimating what percentage of data correctly labeled or ordered. Specifically, for annotating experimental label tag, we estimated what percentage of words was correctly labeled and for dependency parsers, we found what percentage of dependency relations was correct. We averaged over 10 shuffled runs of our data corpus and found the scores in FIG.9. When we evaluated each pipeline process separately, step and recipe level dependency parsers performed very well, scoring respectively 0.8441 and 0.8807. However, EL tagger performed poorly, scoring 0.4744. When our model takes in a raw experimental procedure and produces its final output, machine-readable steps, the overall score of the model results 0.2333. As we had small data set, we examined how size of our data corpus affects EL tagging, which became bottleneck of the model. For each size of data corpus, we found average precision, recall and F1 score. As we see in FIG 10, there are a lot of fluctuations; but as size of the corpus increases, scores become more stable and increase. 
+\begin{figure}
+  \centering
+    \includegraphics[width=.5\textwidth]{ELtagger.png}
+  \caption{Learning curve of EL tagger}
+\end{figure}
+
 \section{Discussion and Future Work}
 
 There are a number of natural language process techniques that can potentially help the performance of our model. More specifically, a lot of interesting methods have been developed to improve the tagging problem, and it happens to be the weakest part of our model. For instance, using the begin/end tags discussed in class might have better tokenizing power then the currently used post-tagging grouper. One drawback of this tagging method in this project is the size of the training data, and more tags will result in even less training samples for each individual tags. At the same time, some sort of post-tagging process cannot be avoid as the text needs to be truncated, chopped into separated steps, and extract the sequential key words. 
