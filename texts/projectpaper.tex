@@ -217,7 +217,11 @@ Our final result is a list of dictionary representing the steps of the recipe in
 
 \section{Discussion and Future Work}
 
+There are a number of natural language process techniques that can potentially help the performance of our model. More specifically, a lot of interesting methods have been developed to improve the tagging problem, and it happens to be the weakest part of our model. For instance, using the begin/end tags discussed in class might have better tokenizing power then the currently used post-tagging grouper. One drawback of this tagging method in this project is the size of the training data, and more tags will result in even less training samples for each individual tags. At the same time, some sort of post-tagging process cannot be avoid as the text needs to be truncated, chopped into separated steps, and extract the sequential key words. 
 
+Another possible technique is using a list of commonly used chemicals and equipment to help the maximum entropy parser in batteries experiments. This part of work is avoid simply because we wanted to focus on making more training samples rather than divert our focus to other labor intensive manual processing of raw text. Annotating 15 experimental procedures already takes more than 60 hours since each simple has gone through initial tagging and 2 rounds of modification. 
+
+In terms of improving the sequencing of steps, we had the idea of linking the products and references of various steps. This can directly result in some of the sequence; however, this will require even more annotation of the training sample. As a result, the sequencing is done purely using the dependency parser which cannot capture some of the more complex out of order procedures. 
 
 
 \begin{thebibliography}{8}
