@@ -121,8 +121,9 @@ Finally, the steps in the experimental procedure are ordered chronologically via
 The structure of our dictionary is as follows: The action is at the top. It contains a list of tuples of the form (“action string”, dict of modifiers). The dict of modifiers contain each possible modifier as shown in the recipe diagram below. Each modifier is again a list of tuples of the form (“modifier string”, dict of property modifiers). The dict of property modifiers is a list of properties that modify the modifier.
 
 \subsection{Experimental Label Tagging and Move Training Set}
+(A, I, E, PR, E, R, N). These tags are (A)ctions, (I)ngredients, (E)quipment, (PR)oducts, (P)roperties, (R)eferences, or (N)one. Tag selection is made to be generalizable to any experimental procedures; therefore, the categories are mostly common laboratory supplies and step-to-step links. Actions represent the executions that the machine needs to undergo to perform the experiment. In our model, the steps are organized by one action per step. Products are the resulting materials or data of a step. The ingredients, equipment, and references label the physical components associated with an action. The first two are straightforward, and references links the input of a step to the product of earlier step(s). Notice that when the step are written sequentially, the product and reference are sometimes implied, not explicitly written. This made the task of identification much more difficult. Lastly, the properties are effectively any other relevant information such as the amount of chemical to use, the environment conditions, time required to perform the step, and etc. With these tags chosen, we then annotated 15 electrochemistry experimental procedures taken from published journal articles. 
 
-(A, I, E, PR, E, R, N). These tags are (A)ctions, (I)ngredients, (E)quipment, (PR)oducts, (P)roperties, (R)eferences, or (N)one. An Action is described as **TO DO** 
+For the shift based dependency parser (step-level and recipe-level), the correct moves are also annotated as the training samples. In the step-level moves, we noticed a lot of similar sequences of move as journal articles sentences often follow a set of predefined sentence structures. In the recipe-level moves, majority of the steps are in sequential order since chronological ordering is a very reasonable way to present a procedure. These repeating characteristics of the procedures help the performance of the model even with small number of training data, especially the recipe-level dependency parser. 
 
 \subsection{Max Entropy Tagging Classifier}
 
@@ -216,10 +217,7 @@ Our final result is a list of dictionary representing the steps of the recipe in
 
 \section{Discussion and Future Work}
 
-Stuff to talk about: 
 
-
-The primary reason that we tag individual words and group later instead of tagging phrases as entities is due to several factors that we do not have a large number of 
 
 
 \begin{thebibliography}{8}
